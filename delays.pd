@@ -1,0 +1,5 @@
+#N canvas 727 295 450 250 12;
+#X obj 26 11 catch~ mic-in;
+#X obj 26 35 throw~ delay-out;
+#X text 103 100 wie cpu freundlich mehrere delays on/off?;
+#X connect 0 0 1 0;

@@ -1,0 +1,17 @@
+#N canvas 167 175 1920 976 12;
+#X obj 8 6 inputs;
+#X obj 125 6 trigger-parts;
+#X obj 7 273 outputs;
+#N canvas 96 96 450 300 init 0;
+#X obj 9 9 loadbang;
+#X obj 9 30 s init;
+#X obj 123 53 s init-fader;
+#X msg 123 28 0.5;
+#X connect 0 0 1 0;
+#X connect 0 0 3 0;
+#X connect 3 0 2 0;
+#X restore 444 29 pd init;
+#X obj 138 153 rauschen;
+#X obj 320 149 delays;
+#X obj 364 193 analyse;
+#X obj 557 68 vocoder;
