@@ -1,3 +1,4 @@
 #N canvas 479 100 1097 754 12;
-#X obj 101 190 throw~ rauschen;
 #X obj 14 14 noise~;
+#X obj 101 190 s~ rauschen;
+#X connect 0 0 1 0;

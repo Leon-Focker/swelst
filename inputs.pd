@@ -1,4 +1,4 @@
-#N canvas 64 64 913 472 12;
+#N canvas 882 338 913 472 12;
 #X obj 18 12 adc~;
 #X obj 159 13 midiin;
 #X obj 159 37 s midi-in;
@@ -11,6 +11,9 @@
 #X obj 19 167 s mic-in-true;
 #X obj 321 52 tgl 19 0 empty mic-in-true empty 0 -10 0 12 #fcfcfc #000000 #000000 0 1;
 #X obj 18 66 s~ mic-in;
+#X obj 215 118 r~ mic-in;
+#X obj 215 177 s~ audio-in;
+#X obj 236 149 r~ feedback-patch-out;
 #X connect 0 0 6 0;
 #X connect 0 0 11 0;
 #X connect 0 1 6 0;
@@ -19,4 +22,6 @@
 #X connect 6 0 7 0;
 #X connect 7 0 8 0;
 #X connect 8 0 9 0;
+#X connect 12 0 13 0;
+#X connect 14 0 13 0;
 #X coords 0 -1 1 1 115 70 1 300 10;

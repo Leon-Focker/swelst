@@ -1,4 +1,4 @@
-#N canvas 118 273 1920 976 12;
+#N canvas 107 188 1083 537 12;
 #X obj 37 212 *~;
 #X obj 12 39 vsl 15 128 0 1 0 0 empty empty empty 0 -9 0 10 #fcfcfc #000000 #000000 0 1;
 #X obj 37 268 env~;
@@ -25,6 +25,7 @@
 #X obj 142 264 outlet~;
 #X obj 12 10 r fader-\$1;
 #X obj 37 344 s meter-\$1;
+#X obj 82 207 s~ volume-\$1;
 #X connect 0 0 14 0;
 #X connect 1 0 8 0;
 #X connect 2 0 4 0;
@@ -51,6 +52,7 @@
 #X connect 19 0 18 0;
 #X connect 20 0 21 0;
 #X connect 21 0 0 1;
+#X connect 21 0 26 0;
 #X connect 22 0 15 0;
 #X connect 22 1 16 0;
 #X connect 24 0 1 0;
