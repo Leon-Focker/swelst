@@ -14,6 +14,7 @@
 #X obj 215 118 r~ mic-in;
 #X obj 215 177 s~ audio-in;
 #X obj 236 149 r~ feedback-patch-out;
+#X obj 335 176 s~ patch-in;
 #X connect 0 0 6 0;
 #X connect 0 0 11 0;
 #X connect 0 1 6 0;
@@ -24,4 +25,5 @@
 #X connect 8 0 9 0;
 #X connect 12 0 13 0;
 #X connect 14 0 13 0;
+#X connect 14 0 15 0;
 #X coords 0 -1 1 1 115 70 1 300 10;
