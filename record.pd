@@ -1,10 +1,11 @@
-#N canvas 986 420 668 393 12;
+#N canvas 648 345 668 393 12;
 #X msg 341 99 set \$1;
 #X obj 341 283 writesf~ 1;
 #X msg 341 231 stop;
 #X msg 341 208 start;
-#X msg 341 144 0;
-#X obj 162 84 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc #000000 #000000;
+#X msg 341 144 2;
+#X obj 162 84 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#000000;
 #X obj 215 148 r rec-length;
 #X msg 341 177 open -bytes 4 buffer\$1.wav;
 #X obj 162 212 del 2000;
@@ -20,8 +21,10 @@
 #X obj 215 190 int;
 #X msg 101 113 0;
 #X msg 101 141 1;
-#X obj 101 46 tgl 19 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000 0 1;
+#X obj 101 46 tgl 19 0 empty empty empty 0 -10 0 12 #fcfcfc #000000
+#000000 0 1;
 #X text 16 46 recording:;
+#X text 331 14 comment;
 #X connect 0 0 4 0;
 #X connect 2 0 1 0;
 #X connect 3 0 1 0;

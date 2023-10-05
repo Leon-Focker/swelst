@@ -1,4 +1,4 @@
-#N canvas -74 -13 1920 976 12;
+#N canvas 19 -18 1920 997 12;
 #X obj 133 40 inlet;
 #X obj 42 148 inlet~;
 #X obj 114 199 *~;
@@ -19,7 +19,8 @@
 #X obj 759 220 throw~ delay-in;
 #X obj 870 220 throw~ swelling-in-1;
 #X obj 1016 220 throw~ swelling-in-2;
-#X obj 133 64 route master mixer-1 mixer-2 mixer-3 mixer-4 vocoder-in delay-in swelling-in-1 swelling-in-2, f 112;
+#X obj 133 64 route master mixer-1 mixer-2 mixer-3 mixer-4 vocoder-in
+delay-in swelling-in-1 swelling-in-2, f 112;
 #X msg 133 109 \$1 10;
 #X obj 133 133 line~;
 #X msg 236 109 \$1 10;
