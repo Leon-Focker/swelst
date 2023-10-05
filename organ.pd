@@ -1,8 +1,8 @@
-#N canvas -16 -24 1920 997 12;
+#N canvas -1 -27 1920 997 12;
 #X obj 8 6 inputs;
 #X obj 125 6 trigger-parts;
 #X obj 7 266 outputs;
-#N canvas -134 86 1920 997 init 0;
+#N canvas 110 -18 1920 997 init 0;
 #X obj 110 18 s init;
 #X msg 215 60 0;
 #X obj 9 153 samplerate~;

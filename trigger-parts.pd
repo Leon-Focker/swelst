@@ -1,4 +1,4 @@
-#N canvas 177 -16 1920 997 12;
+#N canvas 452 83 1920 997 12;
 #X obj 37 237 f 0;
 #X obj 233 242 r next-trigger;
 #X obj 233 266 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc
@@ -13,8 +13,8 @@
 #X obj 120 237 - 1;
 #X msg 120 261 set \$1;
 #X msg 66 261 set \$1;
-#X msg 66 285 2;
-#X msg 120 285 0;
+#X msg 66 285 1;
+#X msg 120 285 -1;
 #X obj 356 266 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc
 #000000 #000000;
 #X obj 188 181 r reset-trigger;
@@ -41,6 +41,8 @@
 #000000 0 1;
 #X text 252 29 key-ctl;
 #X floatatom 162 55 5 0 0 0 - - - 0;
+#X obj 37 181 loadbang;
+#X msg 37 205 0;
 #X connect 0 0 3 0;
 #X connect 0 0 4 0;
 #X connect 0 0 9 0;
@@ -65,4 +67,6 @@
 #X connect 30 0 28 0;
 #X connect 31 0 30 1;
 #X connect 34 0 24 0;
+#X connect 35 0 36 0;
+#X connect 36 0 0 0;
 #X coords 0 -1 1 1 300 70 1 10 10;
