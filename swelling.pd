@@ -1,8 +1,8 @@
-#N canvas -57 -15 1920 976 12;
-#X obj 27 94 *~;
-#X obj 27 25 catch~ swelling-in-\$1;
-#X obj 27 119 s~ swelling-out-\$1;
-#X obj 85 55 inlet~;
+#N canvas 432 328 415 293 12;
+#X obj 49 86 *~;
+#X obj 49 17 catch~ swelling-in-\$1;
+#X obj 49 111 s~ swelling-out-\$1;
+#X obj 107 47 inlet~;
 #X connect 0 0 2 0;
 #X connect 1 0 0 0;
 #X connect 3 0 0 1;
