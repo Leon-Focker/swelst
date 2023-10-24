@@ -1,4 +1,4 @@
-#N canvas -247 -13 1920 997 12;
+#N canvas 276 155 916 488 12;
 #X text 14 41 Master;
 #X obj 44 71 vu 15 120 meter-0 empty -1 -8 0 10 #404040 #000000 1 0
 ;
@@ -31,16 +31,16 @@
 #X obj 370 200 tgl 15 0 mute-4 init empty 17 7 0 10 #fcfcfc #000000
 #000000 0 1;
 #X obj 9 230 catch~ master;
-#X obj 9 412 dac~;
+#X obj 9 457 dac~;
 #X obj 9 322 mixer 0;
-#X obj 274 305 throw~ master;
-#X obj 385 305 throw~ master;
-#X obj 489 305 throw~ master;
-#X obj 593 304 throw~ master;
-#X obj 274 281 mixer 1;
-#X obj 385 281 mixer 2;
-#X obj 489 281 mixer 3;
-#X obj 593 280 mixer 4;
+#X obj 363 305 throw~ master;
+#X obj 474 305 throw~ master;
+#X obj 578 305 throw~ master;
+#X obj 682 304 throw~ master;
+#X obj 363 281 mixer 1;
+#X obj 474 281 mixer 2;
+#X obj 578 281 mixer 3;
+#X obj 682 280 mixer 4;
 #N canvas 276 183 1055 665 stabilize 0;
 #X obj 39 37 inlet~;
 #X obj 39 256 outlet~;
@@ -81,21 +81,21 @@
 #X connect 15 0 16 0;
 #X connect 17 0 12 0;
 #X connect 18 0 9 0;
-#X restore 9 282 pd stabilize;
-#X obj 385 229 catch~ mixer-2;
-#X obj 274 229 catch~ mixer-1;
+#X restore 149 267 pd stabilize;
+#X obj 474 229 catch~ mixer-2;
+#X obj 363 229 catch~ mixer-1;
 #X text 99 40 mixer-1;
 #X text 193 40 mixer-2;
 #X text 283 40 mixer-3;
-#X obj 489 229 catch~ mixer-3;
+#X obj 578 229 catch~ mixer-3;
 #X obj 194 18 hsl 230 15 0 1 0 0 stable empty empty -2 -10 0 12 #fcfcfc
 #000000 #000000 0 1;
 #X text 121 14 stablizer;
-#X obj 71 322 throw~ feedback-patch-in;
+#X obj 148 297 throw~ feedback-patch-in;
 #X obj 100 16 tgl 19 0 enable-stablizer enable-stablizer empty 0 -10
 0 12 #fcfcfc #000000 #000000 0 1;
 #X obj 9 385 expr~ max(min($v1 \, 1) \, -1);
-#X obj 593 229 catch~ mixer-4;
+#X obj 682 229 catch~ mixer-4;
 #N canvas 332 264 880 349 leveling 0;
 #X obj 20 16 inlet~;
 #X obj 20 162 outlet~;
@@ -117,14 +117,15 @@
 #X coords 0 -1 1 1 150 20 1 100 100;
 #X restore 9 354 pd leveling;
 #X text 370 40 griz;
-#X connect 16 0 27 0;
+#X obj 150 231 catch~ feedback-out;
+#X connect 16 0 18 0;
 #X connect 18 0 40 0;
 #X connect 23 0 19 0;
 #X connect 24 0 20 0;
 #X connect 25 0 21 0;
 #X connect 26 0 22 0;
-#X connect 27 0 18 0;
 #X connect 27 0 36 0;
+#X connect 27 0 18 0;
 #X connect 28 0 24 0;
 #X connect 29 0 23 0;
 #X connect 33 0 25 0;
@@ -132,4 +133,5 @@
 #X connect 38 0 17 0;
 #X connect 39 0 26 0;
 #X connect 40 0 38 0;
+#X connect 42 0 27 0;
 #X coords 0 -1 1 1 500 210 1 10 10;
