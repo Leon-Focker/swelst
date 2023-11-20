@@ -1,0 +1,24 @@
+#N canvas 743 437 540 389 12;
+#X obj 181 87 table pink;
+#X obj 267 88 soundfiler;
+#X msg 267 66 read -resize ./pink_IR.wav pink;
+#X obj 103 116 drywet~;
+#X obj 126 65 convolve~ 8192 pink;
+#X obj 8 7 catch~ blur-in;
+#X obj 126 87 *~ 0.02;
+#X obj 267 44 loadbang;
+#X obj 169 198 hsl 70 15 0 1 0 0 empty blur-mix empty -2 -8 0 10 #fcfcfc
+#000000 #000000 0 1;
+#X text 189 178 Mix;
+#X obj 103 140 s~ blur-out;
+#X obj 40 171 dac~;
+#X connect 2 0 1 0;
+#X connect 3 0 10 0;
+#X connect 3 0 11 0;
+#X connect 4 0 6 0;
+#X connect 5 0 3 0;
+#X connect 5 0 4 0;
+#X connect 6 0 3 1;
+#X connect 7 0 2 0;
+#X connect 8 0 3 2;
+#X coords 0 -1 1 1 110 70 1 150 150;
