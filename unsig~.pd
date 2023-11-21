@@ -6,7 +6,8 @@
 #X obj 7 180 outlet;
 #X obj 72 91 f \$1;
 #X obj 72 113 sel 0;
-#X obj 105 40 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
+#X obj 105 40 bng 19 250 50 0 empty empty empty 0 -10 0 12 #fcfcfc
+#000000 #000000;
 #X obj 36 135 metro 300;
 #X connect 0 0 1 0;
 #X connect 1 0 4 0;

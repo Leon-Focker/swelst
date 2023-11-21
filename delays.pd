@@ -7,8 +7,10 @@
 #X msg 200 118 0;
 #X text 25 36 0;
 #X text 67 35 1000;
-#X obj 23 55 bng 19 250 50 0 delay-time-1-0 empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
-#X obj 75 56 bng 19 250 50 0 delay-time-1-1000 empty empty 0 -10 0 12 #fcfcfc #000000 #000000;
+#X obj 23 55 bng 19 250 50 0 delay-time-1-0 empty empty 0 -10 0 12
+#fcfcfc #000000 #000000;
+#X obj 75 56 bng 19 250 50 0 delay-time-1-1000 empty empty 0 -10 0
+12 #fcfcfc #000000 #000000;
 #X obj 200 95 r delay-time-1-0;
 #X obj 250 119 r delay-time-1-1000;
 #X obj 405 270 delread4~ delay-1 1000;
@@ -28,7 +30,7 @@
 #X obj 577 236 *~ 2;
 #X obj 740 237 *~ 3;
 #X obj 404 242 *~ 1;
-#X obj 902 100 s fdbpitch;
+#X obj 803 80 s fdbpitch;
 #X connect 1 0 14 0;
 #X connect 2 0 0 0;
 #X connect 3 0 4 0;
