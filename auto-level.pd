@@ -15,7 +15,7 @@
 #X msg 403 389 0.25;
 #X obj 327 408 f 0.25;
 #X msg 215 247 set \$1;
-#X msg 295 340 18.5481;
+#X msg 295 340 289.253;
 #X obj 295 303 delay 600;
 #X obj 295 408 *;
 #X obj 215 223 expr pow(10 \, (($f2 - $f1) / 20));
@@ -35,7 +35,7 @@
 #X obj 91 408 f 1;
 #X obj 91 462 s auto-mic-level;
 #X msg 156 389 1;
-#X msg 59 340 18.5481;
+#X msg 59 340 289.253;
 #X obj 59 304 delay 600;
 #X connect 2 0 11 0;
 #X connect 4 0 5 0;
@@ -70,4 +70,4 @@
 #X connect 32 0 30 0;
 #X connect 33 0 28 0;
 #X connect 34 0 33 0;
-#X coords 0 -1 1 1 115 140 1 10 10;
+#X coords 0 -1 1 1 115 142 1 10 10;
