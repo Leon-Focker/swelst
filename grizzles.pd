@@ -1,8 +1,8 @@
-#N canvas 2056 276 963 510 12;
+#N canvas 659 281 963 510 12;
 #X obj 6 38 grizzle_slim 1;
 #X obj 408 38 grizzle_slim 2;
 #X obj 7 5 catch~ grizzle-in;
-#X obj 272 370 s~ grizzle-out;
+#X obj 288 374 s~ grizzle-out;
 #X connect 0 0 3 0;
 #X connect 1 0 3 0;
 #X connect 2 0 0 0;
