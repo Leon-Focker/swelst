@@ -1,4 +1,4 @@
-#N canvas 222 120 680 586 12;
+#N canvas 459 263 680 586 12;
 #X text 23 127 reset:;
 #X obj 84 130 bng 15 250 50 0 reset-auto-level empty empty 17 7 0 10
 #fcfcfc #000000 #000000;
@@ -15,11 +15,11 @@
 #X msg 403 389 0.25;
 #X obj 327 408 f 0.25;
 #X msg 215 247 set \$1;
-#X msg 295 340 120.489;
+#X msg 295 340 8.22508;
 #X obj 295 303 delay 600;
 #X obj 295 408 *;
 #X obj 215 223 expr pow(10 \, (($f2 - $f1) / 20));
-#X floatatom 86 94 5 0 0 0 - - - 0;
+#X floatatom 86 94 5 0 0 0 - auto-out-level - 0;
 #X obj 159 339 s speaker-test;
 #X floatatom 237 193 5 0 0 0 - - - 0;
 #X obj 327 463 s auto-out-level;
@@ -31,11 +31,11 @@
 #X obj 156 365 r reset-auto-level;
 #X obj 91 438 expr min(5 \, max(0 \, $f1));
 #X obj 59 408 *;
-#X floatatom 86 41 5 0 0 0 - - - 0;
+#X floatatom 86 41 5 0 0 0 - auto-mic-level - 0;
 #X obj 91 408 f 1;
 #X obj 91 462 s auto-mic-level;
 #X msg 156 389 1;
-#X msg 59 340 120.489;
+#X msg 59 340 8.22508;
 #X obj 59 304 delay 600;
 #X obj 469 390 loadbang;
 #X msg 200 395 4.5;
@@ -48,13 +48,14 @@
 #X connect 6 0 19 0;
 #X connect 7 0 17 1;
 #X connect 8 0 21 0;
+#X connect 8 0 12 1;
+#X connect 8 0 16 1;
 #X connect 9 0 6 0;
 #X connect 10 0 17 0;
 #X connect 10 0 20 0;
 #X connect 11 0 12 0;
 #X connect 12 0 8 0;
 #X connect 12 0 16 1;
-#X connect 12 0 18 0;
 #X connect 13 0 14 0;
 #X connect 13 0 33 0;
 #X connect 14 0 16 0;
@@ -66,10 +67,11 @@
 #X connect 25 0 34 0;
 #X connect 26 0 32 0;
 #X connect 27 0 31 0;
+#X connect 27 0 30 1;
+#X connect 27 0 28 1;
 #X connect 28 0 30 0;
 #X connect 30 0 27 0;
 #X connect 30 0 28 1;
-#X connect 30 0 29 0;
 #X connect 32 0 30 0;
 #X connect 33 0 28 0;
 #X connect 34 0 33 0;
