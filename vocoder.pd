@@ -1,4 +1,4 @@
-#N canvas 69 255 1668 682 12;
+#N canvas 58 161 1668 682 12;
 #X obj 516 79 s vocoder-q;
 #X text 20 56 Q;
 #X text 15 33 Mix;
@@ -8,13 +8,12 @@
 -10 0 12 #fcfcfc #000000 #000000 0 1;
 #X obj 193 286 r vocoder-mix;
 #X obj 146 376 s~ vocoder-out;
-#X obj 74 60 hsl 140 15 1 100000 1 0 vocoder-q vocoder-q empty -2 -10
+#X obj 74 60 hsl 140 15 1 1000 1 0 vocoder-q vocoder-q empty -2 -10
 0 12 #fcfcfc #000000 #000000 0 1;
 #X obj 366 28 catch~ vocoder-in;
 #X obj 366 77 s~ voc-in;
 #X obj 147 241 r~ voc-in;
 #X obj 607 7 r init;
-#X floatatom 607 55 5 0 0 0 - - - 0;
 #X obj 607 78 s vocoder-speed;
 #X msg 516 57 50;
 #X msg 607 31 130;
@@ -43,30 +42,32 @@
 #X msg 659 37 10;
 #X obj 351 273 loadbang;
 #X obj 32 146 vocoder_vcf 0;
-#X obj 32 167 vocoder_vcf 5;
-#X obj 129 146 vocoder_vcf 1;
 #X obj 129 167 vocoder_vcf 6;
 #X obj 226 146 vocoder_vcf 2;
-#X obj 226 167 vocoder_vcf 7;
-#X obj 323 146 vocoder_vcf 3;
 #X obj 323 167 vocoder_vcf 8;
 #X obj 420 146 vocoder_vcf 4;
-#X obj 420 167 vocoder_vcf 9;
 #X msg 351 296 threshold-compress -35 \, smooth 100 \, compression
 55 \, threshold-expand -44 \, expansion 50 \, lookahead 64 \, gain
 30 \;;
+#X obj 32 167 vocoder_vcf 5;
+#X obj 129 146 vocoder_vcf 1;
+#X obj 226 167 vocoder_vcf 7;
+#X obj 323 146 vocoder_vcf 3;
+#X obj 420 167 vocoder_vcf 9;
+#X obj 719 55 r vocoder-speed;
+#X floatatom 719 79 5 0 0 0 - - - 0;
 #X connect 3 0 4 1;
-#X connect 4 0 17 0;
+#X connect 4 0 16 0;
 #X connect 6 0 4 2;
 #X connect 9 0 10 0;
 #X connect 11 0 4 0;
-#X connect 12 0 16 0;
-#X connect 12 0 15 0;
-#X connect 13 0 14 0;
-#X connect 15 0 0 0;
-#X connect 16 0 13 0;
-#X connect 17 0 7 0;
-#X connect 18 0 14 0;
-#X connect 19 0 30 0;
-#X connect 30 0 17 1;
+#X connect 12 0 14 0;
+#X connect 12 0 17 0;
+#X connect 14 0 0 0;
+#X connect 15 0 13 0;
+#X connect 16 0 7 0;
+#X connect 17 0 13 0;
+#X connect 18 0 24 0;
+#X connect 24 0 16 1;
+#X connect 30 0 31 0;
 #X coords 0 -1 1 1 232 70 1 10 10;

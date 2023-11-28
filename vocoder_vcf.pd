@@ -3,12 +3,12 @@
 #X obj 110 220 line~;
 #X msg 110 195 \$1 10;
 #X obj 20 240 *~;
-#X obj 156 60 r vocoder-q;
+#X obj 156 31 r vocoder-q;
 #X obj 20 287 throw~ vocoder-out-wet;
 #X msg 156 84 \$1 10;
 #X obj 21 55 r~ voc-in;
 #X obj 43 80 r peak-\$1;
-#X obj 96 38 r vocoder-speed;
+#X obj 96 9 r vocoder-speed;
 #X obj 43 148 pack f f;
 #X msg 43 169 \$1 \$2;
 #X obj 20 265 *~;
@@ -18,12 +18,13 @@
 #X obj 43 127 expr max(50 \, min(5000 \, $f1));
 #X obj 20 215 vcf~, f 7;
 #X obj 43 190 line~;
+#X obj 156 55 * 100;
 #X connect 0 0 16 0;
 #X connect 0 1 2 0;
 #X connect 1 0 3 1;
 #X connect 2 0 1 0;
 #X connect 3 0 12 0;
-#X connect 4 0 6 0;
+#X connect 4 0 19 0;
 #X connect 6 0 13 0;
 #X connect 6 0 15 0;
 #X connect 7 0 17 0;
@@ -38,4 +39,5 @@
 #X connect 16 0 10 0;
 #X connect 17 0 3 0;
 #X connect 18 0 17 1;
+#X connect 19 0 6 0;
 #X coords 0 0 1 1 85 60 0;
