@@ -1,4 +1,4 @@
-#N canvas 109 -24 1920 997 12;
+#N canvas -71 -24 1920 997 12;
 #X obj 7 6 r current-trigger;
 #X msg 7 54 \; reset bang \;;
 #X obj 613 56 route 10 11 12 13 14 15 16 17 18 19, f 90;
@@ -11,14 +11,14 @@
 #X obj 28 709 r change-q;
 #X obj 273 125 s to-vocoder;
 #X obj 351 94 s change-q;
-#X obj 439 245 r grizzle;
+#X obj 481 235 r grizzle;
 #X msg 29 635 \; patchbay replay-out analyse-in 1 \; replay-1 2 0 20
 \; vocoder-q 1 \;;
 #X obj 418 71 s grizzle;
 #X msg 1532 702 \; reset-sample-1 \; reset-sample-2 \;;
 #X msg 1520 785 \; patchbay audio-in analyse-in 1 \; patchbay vocoder-out
 delay-in 10 \; patchbay delay-out-1 mixer-2 1 \; fader-2 0.9 \;;
-#X msg 439 270 \; patchbay grizzle-out blur-in 1 \; patchbay blur-out
+#X msg 481 260 \; patchbay grizzle-out blur-in 1 \; patchbay blur-out
 mixer-4 1 \; open-sample-1 buffer4.wav \; freq-1 2 \; vol-1 1 \; vol-2
 0 \; fader-4 0.6 \;;
 #X msg 1472 614 \; sweller-1 line 0 \, line 1 1000 \, osc-freq 1 \;
@@ -36,7 +36,7 @@ sweller-1 line 1 \, line 0 20000 \, osc-freq 1 \, osc-amp 0 \, osc-amp
 #X msg 28 754 \; record 20 \; sweller-1 line 1 10000 \, osc-amp 0 1000
 \;;
 #X obj 37 732 line_send 1 1000 10000 vocoder-q;
-#X text 386 238 \; \; \; \; \; \; \; \; \; \; \; \; \; \; \; \; \;
+#X text 428 228 \; \; \; \; \; \; \; \; \; \; \; \; \; \; \; \; \;
 \; \; \; \; \; \; \; \; \; \; \; \; \; \; \; \; \; \; \; \; \; \; \;
 \; \; \; \; \; \; \; \; \; \; \; \; \;;
 #X connect 0 0 3 0;
