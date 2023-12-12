@@ -1,4 +1,4 @@
-#N canvas 7 -23 1920 997 12;
+#N canvas 2048 -16 1920 997 12;
 #X obj 8 6 inputs;
 #X obj 8 222 outputs;
 #X obj 8 78 delays;
@@ -10,7 +10,7 @@
 #X text 621 114 Patch einrichten \; 1) Mikro mit Orgel Pegeln \; 2)
 auto-level MIC (während Orgel laut ist) \; 3) auto-level OUT (während
 es ruhig ist) \;;
-#X obj 1055 480 throw~ delay-in;
+#X obj 1026 533 throw~ delay-in;
 #X obj 1444 458 vsl 19 162 0 1 0 0 empty empty empty 0 -9 0 12 #fcfcfc
 #000000 #000000 0 1;
 #X msg 1444 628 \$1 10;
@@ -146,6 +146,9 @@ empty -2 -10 0 12 #fcfcfc #000000 #000000 0 1;
 1 \, vocoder-out mixer-1 1 \, audio-in mixer-2 1 \;;
 #X msg 562 673 \; patchbay audio-in analyse-in 1 \;;
 #X msg 569 745 \; replay-1 2 0 20 \;;
+#X obj 1017 483 *~;
+#X obj 1059 473 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#000000 0 1;
 #X connect 5 0 4 0;
 #X connect 10 0 11 0;
 #X connect 11 0 12 0;
@@ -188,9 +191,11 @@ empty -2 -10 0 12 #fcfcfc #000000 #000000 0 1;
 #X connect 52 0 51 0;
 #X connect 53 0 54 0;
 #X connect 54 0 52 0;
-#X connect 56 0 9 0;
 #X connect 56 0 21 0;
+#X connect 56 0 79 0;
 #X connect 67 0 57 0;
 #X connect 70 0 48 0;
 #X connect 75 0 74 0;
 #X connect 75 0 22 0;
+#X connect 79 0 9 0;
+#X connect 80 0 79 1;
