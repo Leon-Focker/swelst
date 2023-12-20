@@ -1,0 +1,10 @@
+#N canvas 104 104 450 300 12;
+#X obj 7 9 catch~ filter-in;
+#X obj 7 68 bob~;
+#X obj 95 42 r filter-freq;
+#X obj 192 42 r filter-q;
+#X obj 7 92 s~ filter-out;
+#X connect 0 0 1 0;
+#X connect 1 0 4 0;
+#X connect 2 0 1 1;
+#X connect 3 0 1 2;

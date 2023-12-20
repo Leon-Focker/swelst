@@ -25,6 +25,10 @@
 #X msg 622 18 80;
 #X msg 622 60 \; sweller-1 line 0 \, osc-freq 1 \, osc-amp 0 \; sweller-2
 line 0 \, osc-freq 1 \, osc-amp 0 \;;
+#X msg 269 126 10000;
+#X obj 269 150 s filter-freq;
+#X msg 383 127 0;
+#X obj 383 151 s filter-q;
 #X connect 1 0 6 0;
 #X connect 2 0 3 0;
 #X connect 5 0 4 0;
@@ -34,6 +38,8 @@ line 0 \, osc-freq 1 \, osc-amp 0 \;;
 #X connect 13 0 5 0;
 #X connect 13 0 21 0;
 #X connect 13 0 24 0;
+#X connect 13 0 25 0;
+#X connect 13 0 27 0;
 #X connect 14 0 12 0;
 #X connect 14 0 0 0;
 #X connect 14 0 23 0;
@@ -46,3 +52,5 @@ line 0 \, osc-freq 1 \, osc-amp 0 \;;
 #X connect 19 0 18 0;
 #X connect 21 0 22 0;
 #X connect 23 0 16 0;
+#X connect 25 0 26 0;
+#X connect 27 0 28 0;
