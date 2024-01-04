@@ -1,4 +1,4 @@
-#N canvas 57 -25 1920 997 12;
+#N canvas -223 -21 1920 997 12;
 #X obj 7 6 r current-trigger;
 #X msg 7 54 \; reset bang \;;
 #X obj 613 56 route 10 11 12 13 14 15 16 17 18 19, f 90;
@@ -8,10 +8,9 @@
 #X obj 27 538 r to-vocoder;
 #X obj 156 70 s intro-swelling;
 #X obj 28 444 r intro-swelling;
-#X obj 26 790 r change-q;
 #X obj 273 125 s to-vocoder;
-#X obj 305 91 s change-q;
-#X obj 486 112 s grizzle;
+#X obj 385 97 s change-q;
+#X obj 544 112 s grizzle;
 #X msg 1629 787 \; reset-sample-1 \; reset-sample-2 \;;
 #X msg 1617 870 \; patchbay audio-in analyse-in 1 \; patchbay vocoder-out
 delay-in 10 \; patchbay delay-out-1 mixer-2 1 \; fader-2 0.9 \;;
@@ -27,21 +26,19 @@ delay-out-4 swelling-in-2 1 \; patchbay swelling-out-2 mixer-2 1 \;
 sweller-2 line 1 \; sweller-1 line 1 \, line 0 20000 \, osc-freq 1
 \, osc-amp 0 \, osc-amp 1 20000 \; fader-2 0.8 \; record 20 \;, f
 52;
-#X msg 26 870 \; record 20 \; replay-1 3 0 20 \; sweller-1 line 0.6
-10000 \, osc-freq 0.2 10000 \, osc-amp 0.4 1000 \;;
-#X obj 370 116 s voc-fade-out;
-#X obj 401 85 s voc-fade-in;
+#X obj 411 125 s voc-fade-out;
+#X obj 470 93 s voc-fade-in;
 #X obj 463 229 cnv 19 1 1 empty empty 5 20 12 0 30 #e0e0e0 #404040
 0;
-#X obj 501 584 r grizzle;
-#X msg 501 609 \; patchbay grizzle-out blur-in 1 \; patchbay blur-out
+#X obj 895 272 r grizzle;
+#X msg 895 297 \; patchbay grizzle-out blur-in 1 \; patchbay blur-out
 mixer-4 1 \; open-sample-1 buffer4.wav \; freq-1 2 \; vol-1 1 \; vol-2
 0 \; fader-4 0.6 \;;
-#X obj 501 265 r voc-fade-out;
-#X obj 501 345 r voc-fade-in;
-#X obj 501 289 line_send 0.7 0 5000 fader-1 1 1;
-#X obj 507 367 line_send 0 0.7 5000 fader-1 1;
-#X text 478 422 !;
+#X obj 501 442 r voc-fade-out;
+#X obj 501 522 r voc-fade-in;
+#X obj 501 466 line_send 0.7 0 5000 fader-1 1 1;
+#X obj 507 544 line_send 0 0.7 5000 fader-1 1;
+#X text 478 599 !;
 #X msg 30 287 \; patchbay rauschen vocoder-in 1 \; patchbay rauschen
 swelling-in-2 1 \; patchbay vocoder-out swelling-in-1 1 \; patchbay
 swelling-out-1 mixer-1 1 \; patchbay swelling-out-2 filter-in 1 \;
@@ -49,46 +46,82 @@ patchbay filter-out mixer-2 1 \; filter-freq 5000 \; sweller-2 line
 1 \; fader-2 0.1 \;;
 #X msg 28 471 \; sweller-2 line 1 \, line 0 20000 \, osc-freq 0.5 \,
 osc-amp 0 \, osc-amp 1 20000 \; record 20 \;, f 52;
-#X msg 27 654 \; patchbay audio-in analyse-in 1 \; patchbay replay-out
-analyse-in 1 \; sweller-1 line 1 10000 \; record 20 \; vocoder-speed
-200 \; vocoder-q 1000 \; vocoder-mix 1 \;;
 #X obj 35 566 line_send 0 0.7 20000 fader-1;
-#X obj 36 631 line_send 0 4 10000 filter-q 2 1;
-#X obj 36 609 line_send 5000 150 10000 filter-freq 4;
-#X obj 35 587 line_send 0.1 0.8 10000 fader-2 4;
-#X obj 35 815 line_send 1000 10 30000 vocoder-q 4 1;
-#X obj 35 837 line_send 200 10 25000 vocoder-speed 1 1;
-#X obj 501 312 line_send 0.7 0 5000 fader-2 1 1;
-#X msg 501 389 \; patchbay rauschen vocoder-in 1 \; patchbay rauschen
+#X obj 501 489 line_send 0.7 0 5000 fader-2 1 1;
+#X obj 36 609 line_send 5000 150 10000 filter-freq 0.25;
+#X msg 27 654 \; patchbay audio-in analyse-in 1 \; patchbay replay-out
+analyse-in 1 \; sweller-2 line 0 \, line 1 7000 \, osc-amp 1 \, osc-amp
+0 7000 \; sweller-1 line 1 10000 \; record 20 \; vocoder-speed 1000
+\; vocoder-speed-t 100 \; vocoder-q 1000 \; vocoder-mix 1 \;;
+#X obj 36 631 line_send 0 4.5 15000 filter-q 2 1;
+#X obj 35 587 line_send 0.1 0.8 10000 fader-2 1;
+#X obj 501 259 r change-q;
+#X obj 280 64 s change-filter-freq;
+#X obj 26 816 r change-filter-freq;
+#X msg 26 840 \; filter-freq 140 \; sweller-2 line 0 1000 \;;
+#X obj 511 349 line_send 4.5 0 5000 filter-q 100 1;
+#X obj 510 306 line_send 200 10 15000 vocoder-speed 1 1;
+#X obj 510 284 line_send 1000 10 20000 vocoder-q 4 1;
+#X obj 512 327 line_send 200 10 10000 vocoder-speed-t 1 1;
+#X msg 501 371 \; record 20 \; sweller-1 line 0 20000 \, osc-freq 0.2
+10000 \, osc-amp 0.4 1000 \;, f 47;
+#X obj 792 502 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
+#000000 #000000;
+#X obj 508 565 line_send 10 1000 10000 vocoder-speed 2 1;
+#X text 862 237 \; \; \; \; \; \; \; \; \; \; \; \; \; \; \; \; \;
+\; \; \; \; \; \; \; \; \; \; \; \; \; \; \; \; \; \; \; \; \; \; \;
+\; \; \; \; \; \; \; \; \; \; \; \; \;, f 2;
+#X obj 877 238 cnv 19 1 1 empty empty 8 20 12 0 30 #e0e0e0 #404040
+0;
+#X obj 500 839 bang;
+#X obj 500 862 del 20000;
+#X obj 499 962 line_send 0.7 0.2 35000 fader-1 3 1;
+#X msg 500 883 \; sweller-1 line 1 \, line 0 11000 \, osc-amp 1 12000
+\, osc-freq 0.125 \;, f 39;
+#X obj 499 940 line_send 10000 1 35000 vocoder-q 3 1;
+#X msg 501 587 \; patchbay rauschen vocoder-in 1 \; patchbay rauschen
 swelling-in-2 0 \; patchbay vocoder-out swelling-in-1 1 \; patchbay
 swelling-out-1 mixer-1 1 \; patchbay swelling-out-2 filter-in 0 \;
-patchbay filter-out mixer-2 0 \; patchbay audio-in analyse-in 1 \;
-patchbay replay-out analyse-in 1 \; fader-2 0.8 \; sweller-1 line 0.6
-\, osc-freq 0.2 \, osc-amp 0.4 \; vocoder-speed 10 \; vocoder-q 1000
-\;;
+patchbay filter-out mixer-2 0 \; patchbay audio-in analyse-in 0 \;
+patchbay replay-out analyse-in 1 \; fader-0 0.5 \; sweller-1 line 1
+\, osc-freq 0 \, osc-amp 0 \; sweller-2 line 0 \, osc-amp 0 \; vocoder-speed
+10 \; vocoder-speed-t 20 \; vocoder-q 10000 \; vocoder-mix 1 \; replay-1
+3 0 20 0.5;
 #X connect 0 0 3 0;
 #X connect 3 0 1 0;
 #X connect 3 1 5 0;
 #X connect 3 2 7 0;
-#X connect 3 3 10 0;
-#X connect 3 4 11 0;
-#X connect 3 5 20 0;
-#X connect 3 6 21 0;
-#X connect 3 7 12 0;
+#X connect 3 3 9 0;
+#X connect 3 4 37 0;
+#X connect 3 5 10 0;
+#X connect 3 6 18 0;
+#X connect 3 7 19 0;
+#X connect 3 8 11 0;
 #X connect 3 10 2 0;
-#X connect 4 0 30 0;
-#X connect 4 0 17 0;
-#X connect 6 0 32 0;
+#X connect 4 0 28 0;
+#X connect 4 0 16 0;
 #X connect 6 0 33 0;
+#X connect 6 0 30 0;
+#X connect 6 0 32 0;
 #X connect 6 0 34 0;
 #X connect 6 0 35 0;
-#X connect 6 0 36 0;
-#X connect 8 0 31 0;
-#X connect 9 0 19 0;
-#X connect 9 0 37 0;
-#X connect 9 0 38 0;
-#X connect 23 0 24 0;
-#X connect 25 0 27 0;
-#X connect 25 0 39 0;
-#X connect 26 0 40 0;
-#X connect 26 0 28 0;
+#X connect 8 0 29 0;
+#X connect 21 0 22 0;
+#X connect 23 0 31 0;
+#X connect 23 0 25 0;
+#X connect 24 0 54 0;
+#X connect 24 0 26 0;
+#X connect 24 0 46 0;
+#X connect 24 0 49 0;
+#X connect 36 0 44 0;
+#X connect 36 0 40 0;
+#X connect 36 0 41 0;
+#X connect 36 0 42 0;
+#X connect 36 0 43 0;
+#X connect 38 0 39 0;
+#X connect 45 0 54 0;
+#X connect 45 0 46 0;
+#X connect 49 0 50 0;
+#X connect 50 0 52 0;
+#X connect 50 0 51 0;
+#X connect 50 0 53 0;

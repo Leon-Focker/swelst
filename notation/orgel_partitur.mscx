@@ -154,6 +154,7 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
+          <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="19"/>
           <synti>Fluid</synti>
@@ -1938,6 +1939,7 @@
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.9</stretch>
         <voice>
           <Chord>
             <durationType>whole</durationType>
@@ -1956,7 +1958,7 @@
                   <Segment>
                     <subtype>0</subtype>
                     <offset x="0.623467" y="0"/>
-                    <off2 x="10.9592" y="0"/>
+                    <off2 x="9.37927" y="0"/>
                     </Segment>
                   </TextLine>
                 <next>
@@ -1978,7 +1980,7 @@
                   <Segment>
                     <subtype>0</subtype>
                     <offset x="0.77587" y="0"/>
-                    <off2 x="10.7929" y="0"/>
+                    <off2 x="9.26234" y="0"/>
                     </Segment>
                   </TextLine>
                 <next>
@@ -2000,7 +2002,7 @@
                   <Segment>
                     <subtype>0</subtype>
                     <offset x="0.77587" y="0"/>
-                    <off2 x="10.8622" y="0"/>
+                    <off2 x="9.35633" y="0"/>
                     </Segment>
                   </TextLine>
                 <next>
@@ -2022,7 +2024,7 @@
                   <Segment>
                     <subtype>0</subtype>
                     <offset x="0.692741" y="0"/>
-                    <off2 x="10.8899" y="0"/>
+                    <off2 x="9.45809" y="0"/>
                     </Segment>
                   </TextLine>
                 <next>
@@ -2036,6 +2038,7 @@
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.9</stretch>
         <voice>
           <Chord>
             <durationType>whole</durationType>
@@ -2103,6 +2106,7 @@
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.9</stretch>
         <voice>
           <Chord>
             <durationType>half</durationType>
@@ -2162,6 +2166,7 @@
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.9</stretch>
         <voice>
           <Chord>
             <durationType>quarter</durationType>
@@ -2193,7 +2198,7 @@
                   <Segment>
                     <subtype>0</subtype>
                     <offset x="0.264514" y="0.0195937"/>
-                    <off2 x="2.76488" y="0"/>
+                    <off2 x="2.16265" y="0"/>
                     </Segment>
                   </TextLine>
                 <next>
@@ -2227,7 +2232,7 @@
                   <Segment>
                     <subtype>0</subtype>
                     <offset x="0" y="0"/>
-                    <off2 x="3.07545" y="0"/>
+                    <off2 x="2.41212" y="0"/>
                     </Segment>
                   </TextLine>
                 <next>
@@ -2264,7 +2269,7 @@
                   <Segment>
                     <subtype>0</subtype>
                     <offset x="0" y="0"/>
-                    <off2 x="3.09543" y="0"/>
+                    <off2 x="2.4321" y="0"/>
                     </Segment>
                   </TextLine>
                 <next>
@@ -2322,6 +2327,7 @@
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.9</stretch>
         <voice>
           <Chord>
             <durationType>half</durationType>
@@ -2339,13 +2345,13 @@
                   <anchor>3</anchor>
                   <Segment>
                     <subtype>0</subtype>
-                    <offset x="0.636794" y="0"/>
-                    <off2 x="-0.151876" y="0"/>
+                    <offset x="0.644248" y="0"/>
+                    <off2 x="2.94414" y="0"/>
                     </Segment>
                   </TextLine>
                 <next>
                   <location>
-                    <measures>2</measures>
+                    <measures>3</measures>
                     <notes>1</notes>
                     </location>
                   </next>
@@ -2365,13 +2371,13 @@
                   <anchor>3</anchor>
                   <Segment>
                     <subtype>0</subtype>
-                    <offset x="0.636794" y="0"/>
-                    <off2 x="-0.138021" y="0"/>
+                    <offset x="0.671958" y="0"/>
+                    <off2 x="2.94414" y="0"/>
                     </Segment>
                   </TextLine>
                 <next>
                   <location>
-                    <measures>2</measures>
+                    <measures>3</measures>
                     <notes>1</notes>
                     </location>
                   </next>
@@ -2389,13 +2395,13 @@
                   <anchor>3</anchor>
                   <Segment>
                     <subtype>0</subtype>
-                    <offset x="0.646591" y="0"/>
-                    <off2 x="-0.203237" y="0"/>
+                    <offset x="0.678885" y="0"/>
+                    <off2 x="2.93722" y="0"/>
                     </Segment>
                   </TextLine>
                 <next>
                   <location>
-                    <measures>2</measures>
+                    <measures>3</measures>
                     <notes>1</notes>
                     </location>
                   </next>
@@ -2418,13 +2424,13 @@
                   <anchor>3</anchor>
                   <Segment>
                     <subtype>0</subtype>
-                    <offset x="0.666185" y="0"/>
-                    <off2 x="-0.153557" y="0"/>
+                    <offset x="0.637321" y="0"/>
+                    <off2 x="2.89565" y="0"/>
                     </Segment>
                   </TextLine>
                 <next>
                   <location>
-                    <measures>2</measures>
+                    <measures>3</measures>
                     <fractions>-1/2</fractions>
                     </location>
                   </next>
@@ -2453,6 +2459,7 @@
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.9</stretch>
         <voice>
           <Chord>
             <durationType>whole</durationType>
@@ -2502,9 +2509,10 @@
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.9</stretch>
         <voice>
           <Chord>
-            <durationType>half</durationType>
+            <durationType>whole</durationType>
             <Note>
               <visible>0</visible>
               <Accidental>
@@ -2513,10 +2521,62 @@
                 </Accidental>
               <pitch>54</pitch>
               <tpc>20</tpc>
+              <velocity>32</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                <visible>0</visible>
+                </Accidental>
+              <pitch>61</pitch>
+              <tpc>21</tpc>
+              <velocity>32</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                <visible>0</visible>
+                </Accidental>
+              <pitch>63</pitch>
+              <tpc>23</tpc>
+              <velocity>32</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                <visible>0</visible>
+                </Accidental>
+              <pitch>73</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <stretch>0.9</stretch>
+        <voice>
+          <Chord>
+            <durationType>whole</durationType>
+            <Note>
+              <visible>0</visible>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                <visible>0</visible>
+                </Accidental>
+              <pitch>54</pitch>
+              <tpc>20</tpc>
+              <velocity>32</velocity>
+              <veloType>user</veloType>
               <Spanner type="TextLine">
                 <prev>
                   <location>
-                    <measures>-2</measures>
+                    <measures>-3</measures>
                     <fractions>1/2</fractions>
                     </location>
                   </prev>
@@ -2530,10 +2590,12 @@
                 </Accidental>
               <pitch>61</pitch>
               <tpc>21</tpc>
+              <velocity>32</velocity>
+              <veloType>user</veloType>
               <Spanner type="TextLine">
                 <prev>
                   <location>
-                    <measures>-2</measures>
+                    <measures>-3</measures>
                     <notes>-1</notes>
                     </location>
                   </prev>
@@ -2547,10 +2609,12 @@
                 </Accidental>
               <pitch>63</pitch>
               <tpc>23</tpc>
+              <velocity>32</velocity>
+              <veloType>user</veloType>
               <Spanner type="TextLine">
                 <prev>
                   <location>
-                    <measures>-2</measures>
+                    <measures>-3</measures>
                     <notes>-1</notes>
                     </location>
                   </prev>
@@ -2567,31 +2631,37 @@
               <Spanner type="TextLine">
                 <prev>
                   <location>
-                    <measures>-2</measures>
+                    <measures>-3</measures>
                     <notes>-1</notes>
                     </location>
                   </prev>
                 </Spanner>
               </Note>
             </Chord>
-          <Rest>
-            <durationType>half</durationType>
-            </Rest>
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.9</stretch>
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
         <voice>
+          <TimeSig>
+            <sigN>6</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           <Rest>
             <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <duration>6/4</duration>
             </Rest>
           </voice>
         </Measure>
       <Measure>
         <voice>
+          <TimeSig>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           <Chord>
             <durationType>half</durationType>
             <Note>
@@ -3875,6 +3945,22 @@
         </Measure>
       <Measure>
         <voice>
+          <TimeSig>
+            <sigN>6</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>6/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
@@ -4147,6 +4233,22 @@
         </Measure>
       <Measure>
         <voice>
+          <TimeSig>
+            <sigN>6</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>6/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
@@ -4420,6 +4522,22 @@
         </Measure>
       <Measure>
         <voice>
+          <TimeSig>
+            <sigN>6</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>6/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
