@@ -1,4 +1,4 @@
-#N canvas -97 -23 1920 997 12;
+#N canvas -33 -23 1920 997 12;
 #X obj 7 6 r current-trigger;
 #X msg 7 54 \; reset bang \;;
 #X obj 613 56 route 10 11 12 13 14 15 16 17 18 19, f 90;
@@ -100,20 +100,9 @@ analyse-in 1 \; sweller-2 line 0 \, line 1 7000 \, osc-amp 1 \, osc-amp
 open-sample-1 buffer6.wav \; freq-1 2 \; vol-1 1 \; vol-2 0 \;, f
 39;
 #X obj 518 847 line_send 0 0.6 40000 fader-4 3;
-#X obj 513 934 line_send 0.3 0 50000 fader-1 1 1;
 #X obj 569 319 line_send 10 500 1000 vocoder-q 1 1;
 #X obj 512 249 t b b;
 #X obj 512 228 r voc-fade-in;
-#X msg 1118 171 \; reset \; patchbay rauschen vocoder-in 1 \; patchbay
-rauschen swelling-in-2 0 \; patchbay vocoder-out swelling-in-1 1 \;
-patchbay swelling-out-1 mixer-1 1 \; patchbay swelling-out-2 filter-in
-0 \; patchbay filter-out mixer-2 0 \; patchbay audio-in analyse-in
-0 \; patchbay replay-out analyse-in 1 \; patchbay blur-out analyse-in
-1 \; patchbay blur-out mixer-3 1 \; patchbay grizzle-out blur-in 1
-\; patchbay grizzle-out mixer-4 1 \; reset-1 bang \; fader-0 0.5 \;
-sweller-1 line 1 \, osc-freq 0 \, osc-amp 0 \; sweller-2 line 0 \,
-osc-amp 0 \; vocoder-speed-t 20 \; vocoder-mix 1 \; replay-1 6 0 10
-0.5 \;;
 #X msg 512 342 \; reset \; patchbay rauschen vocoder-in 1 \; patchbay
 vocoder-out swelling-in-1 1 \; patchbay swelling-out-1 mixer-1 1 \;
 patchbay replay-out analyse-in 1 \; patchbay blur-out analyse-in 1
@@ -121,6 +110,9 @@ patchbay replay-out analyse-in 1 \; patchbay blur-out analyse-in 1
 patchbay grizzle-out mixer-4 1 \; reset-1 bang \; fader-0 0.5 \; sweller-1
 line 1 \, osc-freq 0 \, osc-amp 0 \; sweller-2 line 0 \, osc-amp 0
 \; vocoder-speed-t 20 \; vocoder-mix 1 \; replay-1 6 0 10 0.5 \;;
+#X obj 513 934 line_send 0.3 0 15000 fader-1 1 1;
+#X text 902 282 audio-in wieder in analyse \, um feedback vorzubereiten
+;
 #X connect 0 0 3 0;
 #X connect 3 0 1 0;
 #X connect 3 1 5 0;
@@ -158,7 +150,7 @@ line 1 \, osc-freq 0 \, osc-amp 0 \; sweller-2 line 0 \, osc-amp 0
 #X connect 44 0 66 0;
 #X connect 46 0 59 0;
 #X connect 46 0 60 0;
-#X connect 46 0 70 0;
+#X connect 46 0 74 0;
 #X connect 47 0 48 0;
 #X connect 49 0 50 0;
 #X connect 51 0 52 0;
@@ -166,9 +158,9 @@ line 1 \, osc-freq 0 \, osc-amp 0 \; sweller-2 line 0 \, osc-amp 0
 #X connect 55 0 56 0;
 #X connect 57 0 58 0;
 #X connect 64 0 69 0;
-#X connect 72 0 61 0;
-#X connect 72 0 62 0;
+#X connect 71 0 61 0;
+#X connect 71 0 62 0;
+#X connect 71 0 70 0;
+#X connect 71 1 41 0;
+#X connect 71 1 73 0;
 #X connect 72 0 71 0;
-#X connect 72 1 41 0;
-#X connect 72 1 75 0;
-#X connect 73 0 72 0;
