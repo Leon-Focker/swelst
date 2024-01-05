@@ -26,7 +26,7 @@
 #X msg 48 530 \; buffertable-\$1 normalize;
 #X obj 48 508 f \$0;
 #X msg 136 259 set \$1 \$2;
-#X msg 136 305 0 960000;
+#X msg 136 305 0 480000;
 #X obj 46 358 t b b b;
 #X obj 62 286 delay;
 #X obj 94 264 * 10;
@@ -54,6 +54,7 @@
 #X connect 15 0 4 0;
 #X connect 15 1 5 0;
 #X connect 16 0 17 0;
+#X connect 16 0 5 0;
 #X connect 17 0 15 0;
 #X connect 18 0 26 0;
 #X connect 19 0 13 0;

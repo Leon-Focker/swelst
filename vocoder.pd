@@ -1,4 +1,4 @@
-#N canvas 180 212 1668 682 12;
+#N canvas 204 171 1668 682 12;
 #X obj 516 79 s vocoder-q;
 #X text 20 56 Q;
 #X text 15 33 Mix;
@@ -58,6 +58,8 @@
 #X floatatom 719 79 5 0 0 0 - - - 0;
 #X floatatom 766 115 5 0 0 0 - - - 0;
 #X obj 766 91 r vocoder-speed-t;
+#X obj 938 72 r vocoder-q;
+#X floatatom 938 96 5 0 0 0 - - - 0;
 #X connect 3 0 4 1;
 #X connect 4 0 16 0;
 #X connect 6 0 4 2;
@@ -73,4 +75,5 @@
 #X connect 24 0 16 1;
 #X connect 30 0 31 0;
 #X connect 33 0 32 0;
+#X connect 34 0 35 0;
 #X coords 0 -1 1 1 232 70 1 10 10;
