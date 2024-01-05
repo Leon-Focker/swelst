@@ -1,4 +1,4 @@
-#N canvas 204 171 1668 682 12;
+#N canvas 197 198 1668 682 12;
 #X obj 516 79 s vocoder-q;
 #X text 20 56 Q;
 #X text 15 33 Mix;
@@ -7,7 +7,7 @@
 #X obj 74 36 hsl 140 15 0.01 1 0 0 vocoder-mix vocoder-mix empty -2
 -10 0 12 #fcfcfc #000000 #000000 0 1;
 #X obj 193 286 r vocoder-mix;
-#X obj 146 376 s~ vocoder-out;
+#X obj 146 399 s~ vocoder-out;
 #X obj 74 60 hsl 140 15 1 1000 1 0 vocoder-q vocoder-q empty -2 -10
 0 12 #fcfcfc #000000 #000000 0 1;
 #X obj 366 28 catch~ vocoder-in;
@@ -60,6 +60,7 @@
 #X obj 766 91 r vocoder-speed-t;
 #X obj 938 72 r vocoder-q;
 #X floatatom 938 96 5 0 0 0 - - - 0;
+#X obj 147 373 limiter~;
 #X connect 3 0 4 1;
 #X connect 4 0 16 0;
 #X connect 6 0 4 2;
@@ -69,11 +70,12 @@
 #X connect 12 0 17 0;
 #X connect 14 0 0 0;
 #X connect 15 0 13 0;
-#X connect 16 0 7 0;
+#X connect 16 0 36 0;
 #X connect 17 0 13 0;
 #X connect 18 0 24 0;
 #X connect 24 0 16 1;
 #X connect 30 0 31 0;
 #X connect 33 0 32 0;
 #X connect 34 0 35 0;
+#X connect 36 0 7 0;
 #X coords 0 -1 1 1 232 70 1 10 10;

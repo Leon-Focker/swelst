@@ -1,4 +1,4 @@
-#N canvas 1938 -17 1920 997 12;
+#N canvas -296 -17 1920 997 12;
 #X obj 8 6 inputs;
 #X obj 8 222 outputs;
 #X obj 8 78 delays;
