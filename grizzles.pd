@@ -2,9 +2,13 @@
 #X obj 6 38 grizzle_slim 1;
 #X obj 408 38 grizzle_slim 2;
 #X obj 7 5 catch~ grizzle-in;
-#X obj 7 379 s~ grizzle-out-1;
-#X obj 407 377 s~ grizzle-out-2;
-#X connect 0 0 3 0;
-#X connect 1 0 4 0;
+#X obj 7 383 s~ grizzle-out-1;
+#X obj 407 389 s~ grizzle-out-2;
+#X obj 6 360 limiter~;
+#X obj 408 363 limiter~;
+#X connect 0 0 5 0;
+#X connect 1 0 6 0;
 #X connect 2 0 0 0;
 #X connect 2 0 1 0;
+#X connect 5 0 3 0;
+#X connect 6 0 4 0;

@@ -1,4 +1,4 @@
-#N canvas 28 -27 1920 997 12;
+#N canvas 178 -25 1920 997 12;
 #X obj 7 6 r current-trigger;
 #X msg 7 54 \; reset bang \;;
 #X obj 613 56 route 10 11 12 13 14 15 16 17 18 19, f 90;
@@ -111,16 +111,16 @@ filter-q 4.5 \; filter-freq 130 \;;
 #X obj 895 631 line_send 139 92 15000 filter-freq 1;
 #X obj 513 1026 del 1000;
 #X obj 521 875 line_send 0 1 200 fader-2 1;
-#X obj 1010 892 r griz-chords-2;
-#X obj 896 930 r griz-chords-3;
-#X obj 1010 963 r griz-chords-4;
-#X obj 896 987 r griz-chords-5;
-#X obj 1010 1020 r griz-chords-6;
-#X obj 896 1044 r griz-chords-7;
-#X obj 1011 1077 r griz-chords-8;
-#X obj 897 1101 r griz-chords-9;
-#X obj 1011 1134 r griz-chords-10;
-#X obj 896 1191 r grizzle-out;
+#X obj 1010 920 r griz-chords-2;
+#X obj 896 958 r griz-chords-3;
+#X obj 1010 991 r griz-chords-4;
+#X obj 896 1015 r griz-chords-5;
+#X obj 1010 1048 r griz-chords-6;
+#X obj 896 1085 r griz-chords-7;
+#X obj 1011 1105 r griz-chords-8;
+#X obj 897 1155 r griz-chords-9;
+#X obj 1011 1162 r griz-chords-10;
+#X obj 896 1260 r grizzle-out;
 #X obj 1188 86 s griz-chords-2;
 #X obj 1188 109 s griz-chords-3;
 #X obj 1188 131 s griz-chords-4;
@@ -138,7 +138,7 @@ filter-q 4.5 \; filter-freq 130 \;;
 \; \; \; \; \; \; \; \; \; \; \; \; \;, f 2;
 #X obj 1214 310 cnv 19 1 1 empty empty 22 20 12 0 30 #e0e0e0 #404040
 0;
-#X obj 896 1215 line_send 0.7 0 50 fader-3 1 1;
+#X obj 896 1284 line_send 0.7 0 50 fader-3 1 1;
 #X msg 512 342 \; reset bang \; patchbay rauschen vocoder-in 1 \; patchbay
 vocoder-out swelling-in-1 1 \; patchbay swelling-out-1 mixer-1 1 \;
 patchbay replay-out analyse-in 1 \; patchbay blur-out analyse-in 1
@@ -146,18 +146,23 @@ patchbay replay-out analyse-in 1 \; patchbay blur-out analyse-in 1
 \; patchbay grizzle-out-1 mixer-4 1 \; reset-1 bang \; fader-0 0.5
 \; sweller-1 line 1 \, osc-freq 0 \, osc-amp 0 \; sweller-2 line 0
 \, osc-amp 0 \; vocoder-speed-t 20 \; vocoder-mix 1 \;;
-#X msg 1010 913 \; fader-2 0 \;;
-#X msg 896 952 \; fader-2 1 \;;
-#X msg 896 1008 \; fader-2 1 \;;
-#X msg 1010 984 \; fader-2 0 \;;
-#X msg 1010 1041 \; fader-2 0 \;;
-#X msg 896 1065 \; fader-2 1 \;;
-#X msg 897 1123 \; fader-2 1 \;;
-#X msg 1011 1099 \; fader-2 0 \;;
-#X msg 1011 1155 \; fader-2 0 \; vol-2 0 \;;
-#X msg 895 744 \; patchbay audio-in grizzle-in 1 \; patchbay grizzle-out-2
-mixer-2 1 \; vol-2 1 \; freq-2 80 \; width-2 1 \; fader-2 1 \; sweller-2
+#X msg 1010 941 \; fader-2 0 \;;
+#X msg 896 979 \; fader-2 1 \;;
+#X msg 1010 1012 \; fader-2 0 \;;
+#X msg 1010 1069 \; fader-2 0 \;;
+#X msg 897 1177 \; fader-2 1 \;;
+#X msg 1011 1127 \; fader-2 0 \;;
+#X msg 1011 1183 \; fader-2 0 \; vol-2 0 \;;
+#X msg 1338 757 \; patchbay audio-in grizzle-in 1 \; patchbay grizzle-out-2
+filter-in 1 \; vol-2 1 \; freq-2 80 \; width-2 1 \; fader-2 1 \; sweller-2
 line 1 \; filter-q 1 \; filter-freq 2000 \;;
+#X msg 896 1036 \; fader-2 1 \; freq-2 -3.1 \;;
+#X msg 896 1106 \; fader-2 1 \; freq-2 -3.25 \;;
+#X obj 897 1236 line_send -3.25 -4.5 6000 freq-2 2 1;
+#X msg 895 744 \; patchbay audio-in grizzle-in 1 \; patchbay grizzle-out-2
+filter-in 1 \; vol-2 3 \; freq-2 -3 \; width-2 1 \; pulse-2 bang \;
+fader-2 1 \; sweller-2 line 1 \; filter-q 1 \; filter-freq 2000 \;
+sweller-2 line 0.5 \;;
 #X connect 0 0 3 0;
 #X connect 2 0 69 0;
 #X connect 2 1 43 0;
@@ -205,7 +210,7 @@ line 1 \; filter-q 1 \; filter-freq 2000 \;;
 #X connect 44 0 45 0;
 #X connect 44 0 46 0;
 #X connect 44 0 54 0;
-#X connect 44 0 119 0;
+#X connect 44 0 121 0;
 #X connect 52 0 57 0;
 #X connect 52 0 59 0;
 #X connect 52 0 60 0;
@@ -232,13 +237,14 @@ line 1 \; filter-q 1 \; filter-freq 2000 \;;
 #X connect 82 0 79 0;
 #X connect 84 0 110 0;
 #X connect 85 0 111 0;
-#X connect 86 0 113 0;
-#X connect 87 0 112 0;
-#X connect 88 0 114 0;
-#X connect 89 0 115 0;
-#X connect 90 0 117 0;
-#X connect 91 0 116 0;
-#X connect 92 0 118 0;
+#X connect 86 0 112 0;
+#X connect 87 0 118 0;
+#X connect 88 0 113 0;
+#X connect 89 0 119 0;
+#X connect 90 0 115 0;
+#X connect 91 0 114 0;
+#X connect 91 0 120 0;
+#X connect 92 0 116 0;
 #X connect 93 0 108 0;
 #X connect 103 0 102 0;
 #X connect 103 1 104 0;
