@@ -1,4 +1,4 @@
-#N canvas 197 198 1668 682 12;
+#N canvas 308 169 1668 673 12;
 #X obj 516 79 s vocoder-q;
 #X text 20 56 Q;
 #X text 15 33 Mix;
@@ -7,7 +7,7 @@
 #X obj 74 36 hsl 140 15 0.01 1 0 0 vocoder-mix vocoder-mix empty -2
 -10 0 12 #fcfcfc #000000 #000000 0 1;
 #X obj 193 286 r vocoder-mix;
-#X obj 146 399 s~ vocoder-out;
+#X obj 146 425 s~ vocoder-out;
 #X obj 74 60 hsl 140 15 1 1000 1 0 vocoder-q vocoder-q empty -2 -10
 0 12 #fcfcfc #000000 #000000 0 1;
 #X obj 366 28 catch~ vocoder-in;
@@ -17,7 +17,7 @@
 #X obj 607 78 s vocoder-speed;
 #X msg 516 57 50;
 #X msg 607 31 130;
-#X obj 147 335 dynamics~;
+#X obj 147 334 dynamics~;
 #A saved;
 #A saved;
 #A saved;
@@ -40,15 +40,11 @@
 #A saved;
 #A saved;
 #X msg 659 37 10;
-#X obj 351 273 loadbang;
 #X obj 32 146 vocoder_vcf 0;
 #X obj 129 167 vocoder_vcf 6;
 #X obj 226 146 vocoder_vcf 2;
 #X obj 323 167 vocoder_vcf 8;
 #X obj 420 146 vocoder_vcf 4;
-#X msg 351 296 threshold-compress -35 \, smooth 100 \, compression
-55 \, threshold-expand -44 \, expansion 50 \, lookahead 64 \, gain
-30 \;;
 #X obj 32 167 vocoder_vcf 5;
 #X obj 129 146 vocoder_vcf 1;
 #X obj 226 167 vocoder_vcf 7;
@@ -61,6 +57,13 @@
 #X obj 938 72 r vocoder-q;
 #X floatatom 938 96 5 0 0 0 - - - 0;
 #X obj 147 373 limiter~;
+#X msg 359 354 threshold-compress -35 \, smooth 100 \, compression
+55 \, threshold-expand -44 \, expansion 50 \, lookahead 64 \, gain
+40 \, attack 30 \, release 70 \;;
+#X obj 357 264 loadbang;
+#X msg 357 287 threshold-compress -50 \, smooth 100 \, compression
+65 \, lookahead 64 \, gain 45 \, attack 70 \, release 130 \, rms bang
+\;;
 #X connect 3 0 4 1;
 #X connect 4 0 16 0;
 #X connect 6 0 4 2;
@@ -70,12 +73,12 @@
 #X connect 12 0 17 0;
 #X connect 14 0 0 0;
 #X connect 15 0 13 0;
-#X connect 16 0 36 0;
+#X connect 16 0 34 0;
 #X connect 17 0 13 0;
-#X connect 18 0 24 0;
-#X connect 24 0 16 1;
-#X connect 30 0 31 0;
-#X connect 33 0 32 0;
-#X connect 34 0 35 0;
-#X connect 36 0 7 0;
+#X connect 28 0 29 0;
+#X connect 31 0 30 0;
+#X connect 32 0 33 0;
+#X connect 34 0 7 0;
+#X connect 36 0 37 0;
+#X connect 37 0 16 1;
 #X coords 0 -1 1 1 232 70 1 10 10;
