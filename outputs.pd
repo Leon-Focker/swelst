@@ -1,4 +1,4 @@
-#N canvas 290 317 916 488 12;
+#N canvas 741 278 916 488 12;
 #X text 14 41 Master;
 #X obj 44 71 vu 15 120 meter-0 empty -1 -8 0 10 #404040 #000000 1 0
 ;
@@ -88,13 +88,13 @@
 #X text 193 40 mixer-2;
 #X text 283 40 mixer-3;
 #X obj 578 229 catch~ mixer-3;
-#X obj 194 18 hsl 230 15 0 1 0 0 stable empty empty -2 -10 0 12 #fcfcfc
-#000000 #000000 0 1;
+#X obj 194 18 hsl 230 15 0 1 0 0 stable stablizer empty -2 -10 0 12
+#fcfcfc #000000 #000000 0 1;
 #X text 121 14 stablizer;
 #X obj 149 300 throw~ feedback-patch-in;
 #X obj 100 16 tgl 19 0 enable-stablizer enable-stablizer empty 0 -10
 0 12 #fcfcfc #000000 #000000 0 1;
-#X obj 9 385 expr~ max(min($v1 \, 1) \, -1);
+#X obj 9 411 expr~ max(min($v1 \, 1) \, -1);
 #X obj 682 229 catch~ mixer-4;
 #N canvas 332 264 880 349 leveling 0;
 #X obj 20 16 inlet~;
@@ -115,11 +115,52 @@
 #X connect 8 0 7 0;
 #X connect 8 0 5 0;
 #X coords 0 -1 1 1 150 20 1 100 100;
-#X restore 9 354 pd leveling;
+#X restore 9 380 pd leveling;
 #X text 370 40 griz;
-#X obj 150 231 catch~ feedback-mic-out;
+#N canvas 731 219 1055 665 stabilize 0;
+#X obj 39 37 inlet~;
+#X obj 39 256 outlet~;
+#X obj 40 209 *~;
+#X obj 518 104 pow~ 2;
+#X obj 518 154 +~ 1;
+#X obj 518 130 *~ 99;
+#X obj 519 32 r stable;
+#X msg 519 56 \$1 10;
+#X obj 519 80 line~;
+#X obj 126 107 expr~ pow((1 - min(1 \, $v1)) \, $v2);
+#X obj 239 128 r enable-stablizer;
+#X obj 126 131 *~;
+#X obj 239 176 line~;
+#X obj 239 200 expr~ 1 - $v1;
+#X obj 126 155 +~;
+#X obj 126 179 unsig~;
+#X floatatom 126 203 5 0 0 0 - - - 0;
+#X msg 239 152 \$1 100;
+#X obj 126 79 RMS~ 0.01;
+#X connect 0 0 2 0;
+#X connect 0 0 18 0;
+#X connect 2 0 1 0;
+#X connect 3 0 5 0;
+#X connect 4 0 9 1;
+#X connect 5 0 4 0;
+#X connect 6 0 7 0;
+#X connect 7 0 8 0;
+#X connect 8 0 3 0;
+#X connect 9 0 11 0;
+#X connect 10 0 17 0;
+#X connect 11 0 14 0;
+#X connect 12 0 11 1;
+#X connect 12 0 13 0;
+#X connect 13 0 14 1;
+#X connect 14 0 2 1;
+#X connect 14 0 15 0;
+#X connect 15 0 16 0;
+#X connect 17 0 12 0;
+#X connect 18 0 9 0;
+#X restore 8 350 pd stabilize;
+#X obj 150 231 catch~ feedback-out;
 #X connect 16 0 18 0;
-#X connect 18 0 40 0;
+#X connect 18 0 42 0;
 #X connect 23 0 19 0;
 #X connect 24 0 20 0;
 #X connect 25 0 21 0;
@@ -133,5 +174,6 @@
 #X connect 38 0 17 0;
 #X connect 39 0 26 0;
 #X connect 40 0 38 0;
-#X connect 42 0 27 0;
+#X connect 42 0 40 0;
+#X connect 43 0 27 0;
 #X coords 0 -1 1 1 500 210 1 10 10;
