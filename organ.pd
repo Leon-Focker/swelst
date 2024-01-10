@@ -158,6 +158,7 @@ empty -2 -10 0 12 #fcfcfc #000000 #000000 0 1;
 #X floatatom 918 748 5 0 0 0 - - - 0;
 #X obj 1055 432 r~ mic-in;
 #X obj 1010 895 throw~ mixer-2;
+#X msg 623 441 \; patchbay audio-in analyse-in 1 \;;
 #X connect 5 0 4 0;
 #X connect 10 0 11 0;
 #X connect 11 0 12 0;
