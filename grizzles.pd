@@ -1,4 +1,4 @@
-#N canvas 226 172 963 510 12;
+#N canvas 678 271 963 510 12;
 #X obj 6 38 grizzle_slim 1;
 #X obj 408 38 grizzle_slim 2;
 #X obj 7 5 catch~ grizzle-in;
