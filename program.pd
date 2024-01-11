@@ -1,4 +1,4 @@
-#N canvas 1862 -22 1920 997 12;
+#N canvas 56 -14 1920 997 12;
 #X obj 7 6 r current-trigger;
 #X msg 7 54 \; reset bang \;;
 #X obj 30 145 r intro-noise;
@@ -64,7 +64,7 @@ open-sample-1 buffer6.wav \; freq-1 2 \; vol-1 1 \; vol-2 0 \;, f
 #X obj 512 249 t b b;
 #X obj 512 228 r voc-fade-in;
 #X obj 902 722 line_send 0.3 0 15000 fader-1 1 1;
-#X text 1356 330 audio-in wieder in analyse \, um feedback vorzubereiten
+#X text 1405 932 audio-in wieder in analyse \, um feedback vorzubereiten
 ;
 #X obj 568 298 line_send 10 1000 13000 vocoder-speed 2;
 #X obj 33 775 line_send 200 10 20000 vocoder-speed 2 1;
@@ -157,14 +157,10 @@ analyse-in 1 \; sweller-2 line 0 \, line 1 7000 \, osc-amp 1 \, osc-amp
 #X msg 679 598 \; replay-1 1008 0 10 0.5 \;;
 #X obj 567 277 line_send 0 0.7 500 fader-1 0.5;
 #X obj 569 319 line_send 10 200 500 vocoder-q 1 1;
-#X text 1250 447 nice impulses:;
-#X msg 1248 474 \; patchbay grizzle-out-1 mixer-4 1 \; open-sample-1
-buffer1008.wav \; freq-1 8.5 \; vol-1 1 \; vol-2 0 \; fader-4 0.8 \;
-;
+#X text 1230 341 nice impulses:;
 #X obj 2052 175 s feedback-standalone;
 #X obj 1872 368 r feedback-standalone;
-#X msg 1248 399 \; reset bang \;;
-#X text 1376 448 plus modulation?;
+#X text 1356 342 plus modulation?;
 #X msg 2032 985 \; patchbay audio-in swelling-in-1 1 \; patchbay audio-in
 analyse-in 1 \; patchbay swelling-out-1 delay-in 1 \; patchbay delay-out-1
 swelling-in-2 0 \; patchbay delay-out-2 swelling-in-2 1 \; patchbay
@@ -201,6 +197,20 @@ delay-out-2 vocoder-in 1 \; patchbay vocoder-out mixer-2 1 \; del-line-mult
 #X obj 1870 878 line_send 0 1000 10000 vocoder-q 1 1;
 #X text 2011 294 stage 3 sounds good with "vor tutti";
 #X text 2044 320 vocoder für tutti rein;
+#X obj 1245 387 line_send 0 0.8 10000 fader-4 1 1;
+#X obj 1232 365 r start-impulses;
+#X msg 1475 438 \; open-sample-1 test.wav \; open-sample-2 test.wav
+\;;
+#X obj 1233 613 r mod-impulses;
+#X obj 1246 635 line_send 8 8.5 20000 freq-1 1 1;
+#X obj 1246 657 line_send 8 8.2 20000 freq-2 1 1;
+#X obj 1364 115 s start-impulses;
+#X obj 1412 93 s mod-impulses;
+#X obj 1245 681 line_send 0.5 0.49 20000 width-1 1 1;
+#X msg 1232 408 \; reset bang \; patchbay grizzle-out-1 mixer-4 1 \;
+patchbay grizzle-out-2 mixer-4 1 \; patchbay audio-in grizzle-in 1
+\; freq-1 8 \; freq-2 8 \; width-1 0.5 \; width-2 0.5 \; pulse-1 bang
+\; pulse-2 bang \; vol-1 1 \; vol-2 1 \; fader-0 0.5 \;;
 #X connect 0 0 117 0;
 #X connect 2 0 18 0;
 #X connect 2 0 13 0;
@@ -279,7 +289,9 @@ delay-out-2 vocoder-in 1 \; patchbay vocoder-out mixer-2 1 \; del-line-mult
 #X connect 115 10 116 0;
 #X connect 116 0 92 0;
 #X connect 116 1 93 0;
-#X connect 116 10 130 0;
+#X connect 116 2 155 0;
+#X connect 116 3 156 0;
+#X connect 116 10 128 0;
 #X connect 117 0 1 0;
 #X connect 117 1 3 0;
 #X connect 117 2 5 0;
@@ -292,19 +304,24 @@ delay-out-2 vocoder-in 1 \; patchbay vocoder-out mixer-2 1 \; del-line-mult
 #X connect 117 9 53 0;
 #X connect 117 10 57 0;
 #X connect 117 11 115 0;
-#X connect 126 0 142 0;
-#X connect 130 0 125 0;
-#X connect 130 1 140 0;
-#X connect 130 2 135 0;
-#X connect 130 3 144 0;
-#X connect 133 0 134 0;
-#X connect 136 0 131 0;
-#X connect 136 0 132 0;
+#X connect 125 0 140 0;
+#X connect 128 0 124 0;
+#X connect 128 1 138 0;
+#X connect 128 2 133 0;
+#X connect 128 3 142 0;
+#X connect 131 0 132 0;
+#X connect 134 0 129 0;
+#X connect 134 0 130 0;
+#X connect 134 0 131 0;
+#X connect 135 0 124 0;
 #X connect 136 0 133 0;
-#X connect 137 0 125 0;
-#X connect 138 0 135 0;
-#X connect 139 0 143 0;
-#X connect 141 0 140 0;
-#X connect 145 0 144 0;
-#X connect 146 0 147 0;
-#X connect 146 0 148 0;
+#X connect 137 0 141 0;
+#X connect 139 0 138 0;
+#X connect 143 0 142 0;
+#X connect 144 0 145 0;
+#X connect 144 0 146 0;
+#X connect 150 0 158 0;
+#X connect 150 0 149 0;
+#X connect 152 0 153 0;
+#X connect 152 0 154 0;
+#X connect 152 0 157 0;
