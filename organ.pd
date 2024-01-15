@@ -1,4 +1,4 @@
-#N canvas 56 -20 1920 997 12;
+#N canvas -39 -21 1920 997 12;
 #X obj 8 6 inputs;
 #X obj 8 222 outputs;
 #X obj 8 78 delays;
@@ -101,12 +101,11 @@ empty -2 -10 0 12 #fcfcfc #000000 #000000 0 1;
 #X obj 655 692 vsl 15 128 2 8 0 0 empty empty empty 0 -9 0 10 #fcfcfc
 #000000 #000000 0 1;
 #X msg 655 828 \; freq-1 \$1 \;;
-#X msg 693 768 \; width-1 \$1 \;;
 #X msg 474 735 \; pulse-1 bang \;;
 #X obj 440 701 vsl 15 128 0 1 0 0 empty empty empty 0 -9 0 10 #fcfcfc
 #000000 #000000 0 1;
-#X msg 440 837 \; duty-cycle-1 \$1 \;;
-#X msg 623 441 \; patchbay audio-in analyse-in 1 \;;
+#X msg 440 837 \; duty-cycle-1 \$1 \; duty-cycle-2 \$1 \;;
+#X msg 693 767 \; width-1 \$1 \; width-2 \$1 \;;
 #X connect 9 0 13 0;
 #X connect 10 0 9 0;
 #X connect 11 0 10 0;
@@ -115,6 +114,6 @@ empty -2 -10 0 12 #fcfcfc #000000 #000000 0 1;
 #X connect 16 0 17 0;
 #X connect 17 0 15 0;
 #X connect 30 0 11 0;
-#X connect 35 0 38 0;
+#X connect 35 0 41 0;
 #X connect 36 0 37 0;
-#X connect 40 0 41 0;
+#X connect 39 0 40 0;

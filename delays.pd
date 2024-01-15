@@ -1,4 +1,4 @@
-#N canvas -45 -26 1920 997 12;
+#N canvas -12 -16 1920 997 12;
 #X obj 138 45 delwrite~ delay-1 5000;
 #X obj 139 195 delread4~ delay-1 1000;
 #X obj 138 21 catch~ delay-in;
