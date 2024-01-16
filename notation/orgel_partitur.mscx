@@ -3986,11 +3986,225 @@
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.9</stretch>
         <voice>
           <TimeSig>
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <stretch>0.9</stretch>
+        <voice>
+          <TimeSig>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <stretch>0.9</stretch>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <stretch>0.9</stretch>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <stretch>0.9</stretch>
+        <voice>
+          <TimeSig>
+            <sigN>6</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>6/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <stretch>0.9</stretch>
+        <voice>
+          <TimeSig>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <stretch>0.9</stretch>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <voice>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <stretch>0.9</stretch>
+        <voice>
+          <TimeSig>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <stretch>0.9</stretch>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <stretch>0.9</stretch>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <stretch>0.9</stretch>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <stretch>0.9</stretch>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <voice>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>5/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>5/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
@@ -4057,9 +4271,6 @@
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Chord>
             <durationType>quarter</durationType>
@@ -4105,7 +4316,6 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>0</stretch>
         <voice>
           <RehearsalMark>
             <size>12</size>
@@ -4120,7 +4330,6 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>0</stretch>
         <voice>
           <Rest>
             <durationType>measure</durationType>
@@ -4129,7 +4338,6 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>0</stretch>
         <voice>
           <Rest>
             <durationType>measure</durationType>
@@ -4138,7 +4346,6 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>0</stretch>
         <voice>
           <Rest>
             <durationType>measure</durationType>
@@ -4147,7 +4354,6 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>0</stretch>
         <voice>
           <Rest>
             <durationType>measure</durationType>
@@ -4156,7 +4362,6 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>0</stretch>
         <voice>
           <Rest>
             <durationType>measure</durationType>
@@ -4165,11 +4370,6 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>0</stretch>
-        <LayoutBreak>
-          <visible>0</visible>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <RehearsalMark>
             <size>12</size>
@@ -4184,7 +4384,6 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>0</stretch>
         <voice>
           <Rest>
             <durationType>measure</durationType>
@@ -4193,7 +4392,6 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>0</stretch>
         <voice>
           <Rest>
             <durationType>measure</durationType>
@@ -4202,7 +4400,6 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>0</stretch>
         <voice>
           <Rest>
             <durationType>measure</durationType>
@@ -4211,7 +4408,6 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>0</stretch>
         <voice>
           <Rest>
             <durationType>measure</durationType>
@@ -4220,7 +4416,6 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>0</stretch>
         <voice>
           <Rest>
             <durationType>measure</durationType>
@@ -4229,7 +4424,6 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>0</stretch>
         <voice>
           <Rest>
             <durationType>measure</durationType>
@@ -4238,7 +4432,6 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>0</stretch>
         <voice>
           <Rest>
             <durationType>measure</durationType>
@@ -4247,11 +4440,6 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>0</stretch>
-        <LayoutBreak>
-          <visible>0</visible>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Chord>
             <durationType>half</durationType>
@@ -4334,7 +4522,6 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>0.9</stretch>
         <voice>
           <Chord>
             <durationType>whole</durationType>
@@ -4364,7 +4551,6 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>0.9</stretch>
         <voice>
           <Chord>
             <durationType>whole</durationType>
@@ -4394,7 +4580,6 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>0.9</stretch>
         <voice>
           <Chord>
             <durationType>whole</durationType>
@@ -4424,7 +4609,6 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>0.9</stretch>
         <voice>
           <Chord>
             <durationType>whole</durationType>
@@ -4454,7 +4638,6 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>0.9</stretch>
         <voice>
           <Chord>
             <durationType>whole</durationType>
@@ -4484,11 +4667,6 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>0.9</stretch>
-        <LayoutBreak>
-          <visible>0</visible>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Chord>
             <durationType>quarter</durationType>
@@ -4580,12 +4758,12 @@
             </Chord>
           </voice>
         <voice>
-          <location>
-            <fractions>3/4</fractions>
-            </location>
-          <Beam>
-            <visible>0</visible>
-            </Beam>
+          <Rest>
+            <durationType>half</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -4805,9 +4983,6 @@
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Chord>
             <durationType>half</durationType>
@@ -4873,9 +5048,9 @@
             </Chord>
           </voice>
         <voice>
-          <location>
-            <fractions>1/2</fractions>
-            </location>
+          <Rest>
+            <durationType>half</durationType>
+            </Rest>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -5088,9 +5263,6 @@
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Chord>
             <durationType>quarter</durationType>
@@ -5238,12 +5410,12 @@
             </Chord>
           </voice>
         <voice>
-          <location>
-            <fractions>3/4</fractions>
-            </location>
-          <Beam>
-            <visible>0</visible>
-            </Beam>
+          <Rest>
+            <durationType>half</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -5283,7 +5455,6 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>0.8</stretch>
         <voice>
           <Chord>
             <durationType>whole</durationType>
@@ -5334,7 +5505,6 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>0.8</stretch>
         <voice>
           <Chord>
             <durationType>whole</durationType>
@@ -5385,7 +5555,6 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>0.8</stretch>
         <voice>
           <Chord>
             <durationType>whole</durationType>
@@ -5436,7 +5605,6 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>0.8</stretch>
         <voice>
           <Chord>
             <durationType>whole</durationType>
@@ -5487,7 +5655,6 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>0.8</stretch>
         <voice>
           <RehearsalMark>
             <size>12</size>
@@ -5544,7 +5711,6 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>0.8</stretch>
         <voice>
           <Chord>
             <durationType>whole</durationType>
@@ -5595,7 +5761,6 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>0.8</stretch>
         <voice>
           <Chord>
             <durationType>whole</durationType>
@@ -5655,7 +5820,6 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>0.8</stretch>
         <voice>
           <Chord>
             <durationType>whole</durationType>
@@ -5706,7 +5870,6 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>0.8</stretch>
         <voice>
           <Chord>
             <durationType>whole</durationType>
@@ -5757,7 +5920,6 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>0.8</stretch>
         <voice>
           <Chord>
             <durationType>whole</durationType>
@@ -5853,7 +6015,6 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>0.8</stretch>
         <voice>
           <Chord>
             <durationType>whole</durationType>
@@ -7354,6 +7515,743 @@
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <StaffText>
+            <autoplace>0</autoplace>
+            <size>8</size>
+            <offset x="-2.82994" y="-2.47819"/>
+            <frameType>1</frameType>
+            <text>Flöte 8'</text>
+            </StaffText>
+          <Chord>
+            <durationType>half</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/2</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>68</pitch>
+              <tpc>22</tpc>
+              <velocity>88</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/2</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>70</pitch>
+              <tpc>24</tpc>
+              <velocity>88</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/2</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>71</pitch>
+              <tpc>19</tpc>
+              <velocity>88</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/2</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+              <velocity>88</velocity>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Tuplet>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>eighth</baseNote>
+            <Number>
+              <style>Tuplet</style>
+              <text>3</text>
+              </Number>
+            </Tuplet>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/2</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>68</pitch>
+              <tpc>22</tpc>
+              <velocity>88</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/2</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>70</pitch>
+              <tpc>24</tpc>
+              <velocity>88</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/2</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>71</pitch>
+              <tpc>19</tpc>
+              <velocity>88</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/2</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+              <velocity>88</velocity>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/12</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              <velocity>88</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/12</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              <velocity>88</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/12</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>75</pitch>
+              <tpc>11</tpc>
+              <velocity>88</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/12</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>78</pitch>
+              <tpc>20</tpc>
+              <velocity>88</velocity>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/12</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              <velocity>88</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/12</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              <velocity>88</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/12</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>75</pitch>
+              <tpc>11</tpc>
+              <velocity>88</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/12</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>78</pitch>
+              <tpc>20</tpc>
+              <velocity>88</velocity>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Chord>
+            <durationType>half</durationType>
+            <Note>
+              <pitch>69</pitch>
+              <tpc>17</tpc>
+              <velocity>88</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+              <velocity>88</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              <velocity>88</velocity>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>half</durationType>
+            <Note>
+              <pitch>77</pitch>
+              <tpc>13</tpc>
+              <velocity>88</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <pitch>81</pitch>
+              <tpc>17</tpc>
+              <velocity>88</velocity>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <location>
+            <fractions>1/2</fractions>
+            </location>
+          <Chord>
+            <durationType>half</durationType>
+            <Note>
+              <pitch>62</pitch>
+              <tpc>16</tpc>
+              <velocity>88</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
+              <pitch>63</pitch>
+              <tpc>11</tpc>
+              <velocity>88</velocity>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <durationType>whole</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>84</pitch>
+              <tpc>14</tpc>
+              <velocity>88</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>85</pitch>
+              <tpc>9</tpc>
+              <velocity>88</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>90</pitch>
+              <tpc>8</tpc>
+              <velocity>88</velocity>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <durationType>whole</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>84</pitch>
+              <tpc>14</tpc>
+              </Note>
+            <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>85</pitch>
+              <tpc>9</tpc>
+              </Note>
+            <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>90</pitch>
+              <tpc>8</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>6</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Chord>
+            <dots>1</dots>
+            <durationType>whole</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>84</pitch>
+              <tpc>14</tpc>
+              </Note>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>85</pitch>
+              <tpc>9</tpc>
+              </Note>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>90</pitch>
+              <tpc>8</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>79</pitch>
+              <tpc>15</tpc>
+              <velocity>88</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <pitch>91</pitch>
+              <tpc>15</tpc>
+              <velocity>88</velocity>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>79</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>91</pitch>
+              <tpc>15</tpc>
+              <velocity>88</velocity>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          </voice>
+        <voice>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              <velocity>88</velocity>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>7/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>5/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>5/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
@@ -7503,7 +8401,8 @@
       <Measure>
         <voice>
           <Rest>
-            <durationType>whole</durationType>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -8488,6 +9387,151 @@
             <durationType>measure</durationType>
             <duration>7/4</duration>
             </Rest>
+          <Clef>
+            <concertClefType>G8va</concertClefType>
+            <transposingClefType>G8va</transposingClefType>
+            </Clef>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>half</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>6</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>6/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <StaffText>
+            <autoplace>0</autoplace>
+            <size>8</size>
+            <offset x="-0.454683" y="-1.1586"/>
+            <frameType>1</frameType>
+            <text>Prinzipal 8'</text>
+            </StaffText>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              </Articulation>
+            <Note>
+              <pitch>91</pitch>
+              <tpc>15</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              </Articulation>
+            <Note>
+              <pitch>91</pitch>
+              <tpc>15</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              </Articulation>
+            <Note>
+              <pitch>91</pitch>
+              <tpc>15</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              </Articulation>
+            <Note>
+              <pitch>91</pitch>
+              <tpc>15</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
           </voice>
         </Measure>
       <Measure>
@@ -8499,15 +9543,1554 @@
           <Chord>
             <durationType>quarter</durationType>
             <Note>
-              <pitch>64</pitch>
-              <tpc>18</tpc>
+              <pitch>91</pitch>
+              <tpc>15</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
               </Note>
             </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>87</pitch>
+              <tpc>23</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              <Spanner type="TextLine">
+                <TextLine>
+                  <lineWidth>0.3</lineWidth>
+                  <anchor>3</anchor>
+                  <Segment>
+                    <subtype>0</subtype>
+                    <offset x="0" y="0"/>
+                    <off2 x="1.60462" y="0"/>
+                    </Segment>
+                  </TextLine>
+                <next>
+                  <location>
+                    <measures>2</measures>
+                    <fractions>1/2</fractions>
+                    <notes>1</notes>
+                    </location>
+                  </next>
+                </Spanner>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>16th</durationType>
+            <Note>
+              <visible>0</visible>
+              <pitch>87</pitch>
+              <tpc>23</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <pitch>89</pitch>
+              <tpc>13</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              <Spanner type="TextLine">
+                <TextLine>
+                  <lineWidth>0.3</lineWidth>
+                  <anchor>3</anchor>
+                  <Segment>
+                    <subtype>0</subtype>
+                    <offset x="0" y="0"/>
+                    <off2 x="2.72962" y="0"/>
+                    </Segment>
+                  </TextLine>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    <fractions>7/16</fractions>
+                    <notes>1</notes>
+                    </location>
+                  </next>
+                </Spanner>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <visible>0</visible>
+              <pitch>87</pitch>
+              <tpc>23</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <pitch>88</pitch>
+              <tpc>18</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              <Spanner type="TextLine">
+                <TextLine>
+                  <lineWidth>0.3</lineWidth>
+                  <anchor>3</anchor>
+                  <Segment>
+                    <subtype>0</subtype>
+                    <offset x="0" y="0"/>
+                    <off2 x="0.69122" y="0"/>
+                    </Segment>
+                  </TextLine>
+                <next>
+                  <location>
+                    <measures>2</measures>
+                    <fractions>3/8</fractions>
+                    <notes>1</notes>
+                    </location>
+                  </next>
+                </Spanner>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>89</pitch>
+              <tpc>13</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <visible>0</visible>
+              <pitch>87</pitch>
+              <tpc>23</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>88</pitch>
+              <tpc>18</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>89</pitch>
+              <tpc>13</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <pitch>91</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <visible>0</visible>
+              <pitch>87</pitch>
+              <tpc>23</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>88</pitch>
+              <tpc>18</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>89</pitch>
+              <tpc>13</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <visible>0</visible>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                <visible>0</visible>
+                </Accidental>
+              <pitch>87</pitch>
+              <tpc>23</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>88</pitch>
+              <tpc>18</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>89</pitch>
+              <tpc>13</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <pitch>91</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <visible>0</visible>
+              <pitch>87</pitch>
+              <tpc>23</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>88</pitch>
+              <tpc>18</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>89</pitch>
+              <tpc>13</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <visible>0</visible>
+              <pitch>87</pitch>
+              <tpc>23</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>88</pitch>
+              <tpc>18</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>89</pitch>
+              <tpc>13</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <pitch>91</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <visible>0</visible>
+              <pitch>87</pitch>
+              <tpc>23</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>88</pitch>
+              <tpc>18</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>89</pitch>
+              <tpc>13</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              <Spanner type="TextLine">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    <fractions>-7/16</fractions>
+                    <notes>-1</notes>
+                    </location>
+                  </prev>
+                </Spanner>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <visible>0</visible>
+              <pitch>86</pitch>
+              <tpc>16</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>88</pitch>
+              <tpc>18</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <pitch>91</pitch>
+              <tpc>15</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <visible>0</visible>
+              <pitch>86</pitch>
+              <tpc>16</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>88</pitch>
+              <tpc>18</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <pitch>96</pitch>
+              <tpc>14</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              <Spanner type="TextLine">
+                <TextLine>
+                  <lineWidth>0.3</lineWidth>
+                  <anchor>3</anchor>
+                  </TextLine>
+                <next>
+                  <location>
+                    <fractions>1/2</fractions>
+                    <notes>1</notes>
+                    </location>
+                  </next>
+                </Spanner>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>84</pitch>
+              <tpc>14</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              <Spanner type="TextLine">
+                <TextLine>
+                  <lineWidth>0.3</lineWidth>
+                  <anchor>3</anchor>
+                  <Segment>
+                    <subtype>0</subtype>
+                    <offset x="0" y="0"/>
+                    <off2 x="2.14301" y="0"/>
+                    </Segment>
+                  </TextLine>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    <fractions>-1/4</fractions>
+                    <notes>2</notes>
+                    </location>
+                  </next>
+                </Spanner>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <StemDirection>down</StemDirection>
+            <Note>
+              <visible>0</visible>
+              <pitch>84</pitch>
+              <tpc>14</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>86</pitch>
+              <tpc>16</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              <Spanner type="TextLine">
+                <prev>
+                  <location>
+                    <measures>-2</measures>
+                    <fractions>-1/2</fractions>
+                    <notes>-1</notes>
+                    </location>
+                  </prev>
+                </Spanner>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>88</pitch>
+              <tpc>18</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              <Spanner type="TextLine">
+                <prev>
+                  <location>
+                    <measures>-2</measures>
+                    <fractions>-3/8</fractions>
+                    <notes>-1</notes>
+                    </location>
+                  </prev>
+                </Spanner>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>96</pitch>
+              <tpc>14</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              <Spanner type="TextLine">
+                <prev>
+                  <location>
+                    <fractions>-1/2</fractions>
+                    <notes>-1</notes>
+                    </location>
+                  </prev>
+                </Spanner>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <location>
+            <fractions>1/2</fractions>
+            </location>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <visible>0</visible>
+              <pitch>86</pitch>
+              <tpc>16</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>88</pitch>
+              <tpc>18</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>96</pitch>
+              <tpc>14</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>82</pitch>
+              <tpc>24</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              <Spanner type="TextLine">
+                <TextLine>
+                  <lineWidth>0.3</lineWidth>
+                  <anchor>3</anchor>
+                  <Segment>
+                    <subtype>0</subtype>
+                    <offset x="0" y="0"/>
+                    <off2 x="2.69417" y="0"/>
+                    </Segment>
+                  </TextLine>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    <fractions>3/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              </Note>
+            <Note>
+              <pitch>83</pitch>
+              <tpc>19</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              <Spanner type="TextLine">
+                <TextLine>
+                  <lineWidth>0.3</lineWidth>
+                  <anchor>3</anchor>
+                  <Segment>
+                    <subtype>0</subtype>
+                    <offset x="0" y="0"/>
+                    <off2 x="1.12066" y="0"/>
+                    </Segment>
+                  </TextLine>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    <fractions>1/1</fractions>
+                    <notes>-1</notes>
+                    </location>
+                  </next>
+                </Spanner>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>84</pitch>
+              <tpc>14</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <visible>0</visible>
+              <pitch>82</pitch>
+              <tpc>24</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>83</pitch>
+              <tpc>19</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>84</pitch>
+              <tpc>14</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <pitch>91</pitch>
+              <tpc>15</tpc>
+              <Spanner type="TextLine">
+                <TextLine>
+                  <lineWidth>0.3</lineWidth>
+                  <anchor>3</anchor>
+                  <Segment>
+                    <subtype>0</subtype>
+                    <offset x="0" y="0"/>
+                    <off2 x="2.74487" y="0"/>
+                    </Segment>
+                  </TextLine>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    <fractions>7/8</fractions>
+                    <notes>-2</notes>
+                    </location>
+                  </next>
+                </Spanner>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <visible>0</visible>
+              <pitch>82</pitch>
+              <tpc>24</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>83</pitch>
+              <tpc>19</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>84</pitch>
+              <tpc>14</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              <Spanner type="TextLine">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    <fractions>1/4</fractions>
+                    <notes>-2</notes>
+                    </location>
+                  </prev>
+                </Spanner>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>91</pitch>
+              <tpc>15</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>79</pitch>
+              <tpc>15</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>82</pitch>
+              <tpc>24</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>83</pitch>
+              <tpc>19</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>91</pitch>
+              <tpc>15</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>79</pitch>
+              <tpc>15</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>82</pitch>
+              <tpc>24</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>83</pitch>
+              <tpc>19</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>91</pitch>
+              <tpc>15</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>79</pitch>
+              <tpc>15</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>82</pitch>
+              <tpc>24</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>83</pitch>
+              <tpc>19</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>91</pitch>
+              <tpc>15</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>79</pitch>
+              <tpc>15</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>82</pitch>
+              <tpc>24</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>83</pitch>
+              <tpc>19</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>91</pitch>
+              <tpc>15</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>79</pitch>
+              <tpc>15</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>82</pitch>
+              <tpc>24</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>83</pitch>
+              <tpc>19</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>91</pitch>
+              <tpc>15</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <visible>0</visible>
+              <pitch>82</pitch>
+              <tpc>24</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              <Spanner type="TextLine">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    <fractions>-3/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>83</pitch>
+              <tpc>19</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>91</pitch>
+              <tpc>15</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <visible>0</visible>
+              <pitch>83</pitch>
+              <tpc>19</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              <Spanner type="TextLine">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    <fractions>-1/1</fractions>
+                    <notes>1</notes>
+                    </location>
+                  </prev>
+                </Spanner>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>91</pitch>
+              <tpc>15</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              <Spanner type="TextLine">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    <fractions>-7/8</fractions>
+                    <notes>2</notes>
+                    </location>
+                  </prev>
+                </Spanner>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>84</pitch>
+              <tpc>14</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              <Spanner type="TextLine">
+                <TextLine>
+                  <lineWidth>0.3</lineWidth>
+                  <anchor>3</anchor>
+                  <Segment>
+                    <subtype>0</subtype>
+                    <offset x="0" y="0"/>
+                    <off2 x="2.09835" y="0"/>
+                    </Segment>
+                  </TextLine>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    <fractions>7/8</fractions>
+                    <notes>2</notes>
+                    </location>
+                  </next>
+                </Spanner>
+              </Note>
+            <Note>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>87</pitch>
+              <tpc>23</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <pitch>88</pitch>
+              <tpc>18</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              <Spanner type="TextLine">
+                <TextLine>
+                  <lineWidth>0.3</lineWidth>
+                  <anchor>3</anchor>
+                  </TextLine>
+                <next>
+                  <location>
+                    <fractions>5/8</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <visible>0</visible>
+              <pitch>84</pitch>
+              <tpc>14</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <pitch>87</pitch>
+              <tpc>23</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>88</pitch>
+              <tpc>18</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <visible>0</visible>
+              <pitch>84</pitch>
+              <tpc>14</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <pitch>87</pitch>
+              <tpc>23</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>88</pitch>
+              <tpc>18</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <pitch>96</pitch>
+              <tpc>14</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              <Spanner type="TextLine">
+                <TextLine>
+                  <lineWidth>0.3</lineWidth>
+                  <anchor>3</anchor>
+                  </TextLine>
+                <next>
+                  <location>
+                    <fractions>1/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <visible>0</visible>
+              <pitch>84</pitch>
+              <tpc>14</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <pitch>87</pitch>
+              <tpc>23</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>88</pitch>
+              <tpc>18</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>96</pitch>
+              <tpc>14</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <visible>0</visible>
+              <pitch>84</pitch>
+              <tpc>14</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <pitch>87</pitch>
+              <tpc>23</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>88</pitch>
+              <tpc>18</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>96</pitch>
+              <tpc>14</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              <Spanner type="TextLine">
+                <prev>
+                  <location>
+                    <fractions>-1/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <visible>0</visible>
+              <pitch>84</pitch>
+              <tpc>14</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <pitch>87</pitch>
+              <tpc>23</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>88</pitch>
+              <tpc>18</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              <Spanner type="TextLine">
+                <prev>
+                  <location>
+                    <fractions>-5/8</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>81</pitch>
+              <tpc>17</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              <Spanner type="TextLine">
+                <TextLine>
+                  <lineWidth>0.3</lineWidth>
+                  <anchor>3</anchor>
+                  <Segment>
+                    <subtype>0</subtype>
+                    <offset x="0" y="0"/>
+                    <off2 x="2.12303" y="0"/>
+                    </Segment>
+                  </TextLine>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    <fractions>1/8</fractions>
+                    <notes>1</notes>
+                    </location>
+                  </next>
+                </Spanner>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>84</pitch>
+              <tpc>14</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <visible>0</visible>
+              <pitch>81</pitch>
+              <tpc>17</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>84</pitch>
+              <tpc>14</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>92</pitch>
+              <tpc>22</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              <Spanner type="TextLine">
+                <TextLine>
+                  <lineWidth>0.3</lineWidth>
+                  <anchor>3</anchor>
+                  <Segment>
+                    <subtype>0</subtype>
+                    <offset x="0" y="0"/>
+                    <off2 x="2.07366" y="0"/>
+                    </Segment>
+                  </TextLine>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    <notes>1</notes>
+                    </location>
+                  </next>
+                </Spanner>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
+              <pitch>75</pitch>
+              <tpc>11</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>81</pitch>
+              <tpc>17</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>84</pitch>
+              <tpc>14</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>92</pitch>
+              <tpc>22</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>75</pitch>
+              <tpc>11</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>81</pitch>
+              <tpc>17</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>84</pitch>
+              <tpc>14</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>92</pitch>
+              <tpc>22</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
+              <pitch>75</pitch>
+              <tpc>11</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>81</pitch>
+              <tpc>17</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>84</pitch>
+              <tpc>14</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                <visible>0</visible>
+                </Accidental>
+              <pitch>92</pitch>
+              <tpc>22</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>75</pitch>
+              <tpc>11</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>81</pitch>
+              <tpc>17</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>84</pitch>
+              <tpc>14</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>92</pitch>
+              <tpc>22</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>75</pitch>
+              <tpc>11</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>81</pitch>
+              <tpc>17</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>84</pitch>
+              <tpc>14</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>92</pitch>
+              <tpc>22</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>75</pitch>
+              <tpc>11</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>81</pitch>
+              <tpc>17</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>84</pitch>
+              <tpc>14</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>92</pitch>
+              <tpc>22</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>75</pitch>
+              <tpc>11</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>81</pitch>
+              <tpc>17</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>84</pitch>
+              <tpc>14</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>92</pitch>
+              <tpc>22</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>75</pitch>
+              <tpc>11</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>81</pitch>
+              <tpc>17</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>84</pitch>
+              <tpc>14</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>92</pitch>
+              <tpc>22</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>75</pitch>
+              <tpc>11</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>81</pitch>
+              <tpc>17</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>84</pitch>
+              <tpc>14</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>92</pitch>
+              <tpc>22</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Note>
+              <pitch>75</pitch>
+              <tpc>11</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>81</pitch>
+              <tpc>17</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              <Spanner type="TextLine">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    <fractions>-1/8</fractions>
+                    <notes>-1</notes>
+                    </location>
+                  </prev>
+                </Spanner>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>84</pitch>
+              <tpc>14</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              <Spanner type="TextLine">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    <fractions>-7/8</fractions>
+                    <notes>-2</notes>
+                    </location>
+                  </prev>
+                </Spanner>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>92</pitch>
+              <tpc>22</tpc>
+              <velocity>31</velocity>
+              <veloType>user</veloType>
+              <Spanner type="TextLine">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    <notes>-1</notes>
+                    </location>
+                  </prev>
+                </Spanner>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>half</durationType>
+            </Rest>
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>52</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <Rest>
-            <durationType>half</durationType>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
             </Rest>
           </voice>
         </Measure>
@@ -8798,10 +11381,10 @@
               </Note>
             </Chord>
           <Rest>
-            <durationType>quarter</durationType>
+            <durationType>half</durationType>
             </Rest>
           <Rest>
-            <durationType>half</durationType>
+            <durationType>quarter</durationType>
             </Rest>
           </voice>
         </Measure>
@@ -8925,10 +11508,10 @@
               </Note>
             </Chord>
           <Rest>
-            <durationType>quarter</durationType>
+            <durationType>half</durationType>
             </Rest>
           <Rest>
-            <durationType>half</durationType>
+            <durationType>quarter</durationType>
             </Rest>
           </voice>
         </Measure>
@@ -9002,10 +11585,7 @@
               </Note>
             </Chord>
           <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
+            <durationType>half</durationType>
             </Rest>
           <Chord>
             <durationType>quarter</durationType>
@@ -9088,10 +11668,7 @@
               </Note>
             </Chord>
           <Rest>
-            <durationType>quarter</durationType>
-            </Rest>
-          <Rest>
-            <durationType>quarter</durationType>
+            <durationType>half</durationType>
             </Rest>
           </voice>
         </Measure>
@@ -9380,7 +11957,10 @@
           </voice>
         <voice>
           <location>
-            <fractions>3/4</fractions>
+            <fractions>1/2</fractions>
+            </location>
+          <location>
+            <fractions>1/4</fractions>
             </location>
           <Chord>
             <durationType>quarter</durationType>
@@ -11324,6 +13904,456 @@
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <StaffText>
+            <autoplace>0</autoplace>
+            <size>8</size>
+            <offset x="2.27095" y="-2.85143"/>
+            <frameType>1</frameType>
+            <text>Oktavbass 8'</text>
+            </StaffText>
+          <Chord>
+            <durationType>whole</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <voices>1</voices>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>53</pitch>
+              <tpc>25</tpc>
+              <velocity>88</velocity>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Chord>
+            <durationType>whole</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>58</pitch>
+              <tpc>24</tpc>
+              <velocity>88</velocity>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Chord>
+            <durationType>half</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <voices>-1</voices>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>53</pitch>
+              <tpc>25</tpc>
+              <velocity>88</velocity>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <durationType>whole</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              <velocity>88</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>59</pitch>
+              <tpc>19</tpc>
+              <velocity>88</velocity>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <durationType>whole</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              <velocity>88</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>59</pitch>
+              <tpc>19</tpc>
+              <velocity>88</velocity>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>6</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Chord>
+            <dots>1</dots>
+            <durationType>whole</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              <velocity>88</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>59</pitch>
+              <tpc>19</tpc>
+              <velocity>88</velocity>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Chord>
+            <durationType>whole</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              <velocity>88</velocity>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>7</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Chord>
+            <durationType>whole</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/1</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              <velocity>88</velocity>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Chord>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    <fractions>-1/1</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/1</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    <fractions>1/1</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>55</pitch>
+              <tpc>15</tpc>
+              <velocity>88</velocity>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>half</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>5</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>5/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>5/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>half</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>52</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
@@ -11410,22 +14440,6 @@
               <tpc>16</tpc>
               <velocity>88</velocity>
               <veloType>user</veloType>
-              <Spanner type="TextLine">
-                <TextLine>
-                  <lineWidth>0.3</lineWidth>
-                  <anchor>3</anchor>
-                  <Segment>
-                    <subtype>0</subtype>
-                    <offset x="0.629835" y="0"/>
-                    <off2 x="10.2251" y="0"/>
-                    </Segment>
-                  </TextLine>
-                <next>
-                  <location>
-                    <measures>6</measures>
-                    </location>
-                  </next>
-                </Spanner>
               </Note>
             <Note>
               <Accidental>
@@ -11435,78 +14449,10 @@
               <tpc>11</tpc>
               <velocity>88</velocity>
               <veloType>user</veloType>
-              <Spanner type="TextLine">
-                <TextLine>
-                  <lineWidth>0.3</lineWidth>
-                  <anchor>3</anchor>
-                  <Segment>
-                    <subtype>0</subtype>
-                    <offset x="0.606508" y="0"/>
-                    <off2 x="10.3106" y="0"/>
-                    </Segment>
-                  </TextLine>
-                <next>
-                  <location>
-                    <measures>6</measures>
-                    </location>
-                  </next>
-                </Spanner>
               </Note>
             <Note>
               <Accidental>
                 <subtype>accidentalFlat</subtype>
-                </Accidental>
-              <pitch>40</pitch>
-              <tpc>6</tpc>
-              <velocity>88</velocity>
-              <veloType>user</veloType>
-              <Spanner type="TextLine">
-                <TextLine>
-                  <lineWidth>0.3</lineWidth>
-                  <anchor>3</anchor>
-                  <Segment>
-                    <subtype>0</subtype>
-                    <offset x="0.583181" y="0"/>
-                    <off2 x="10.334" y="0"/>
-                    </Segment>
-                  </TextLine>
-                <next>
-                  <location>
-                    <measures>6</measures>
-                    </location>
-                  </next>
-                </Spanner>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <durationType>whole</durationType>
-            <Note>
-              <visible>0</visible>
-              <pitch>38</pitch>
-              <tpc>16</tpc>
-              <velocity>88</velocity>
-              <veloType>user</veloType>
-              </Note>
-            <Note>
-              <visible>0</visible>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                <visible>0</visible>
-                </Accidental>
-              <pitch>39</pitch>
-              <tpc>11</tpc>
-              <velocity>88</velocity>
-              <veloType>user</veloType>
-              </Note>
-            <Note>
-              <visible>0</visible>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                <visible>0</visible>
                 </Accidental>
               <pitch>40</pitch>
               <tpc>6</tpc>
@@ -11656,147 +14602,6 @@
               <tpc>6</tpc>
               <velocity>88</velocity>
               <veloType>user</veloType>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <durationType>whole</durationType>
-            <Note>
-              <visible>0</visible>
-              <pitch>38</pitch>
-              <tpc>16</tpc>
-              <velocity>88</velocity>
-              <veloType>user</veloType>
-              <Spanner type="TextLine">
-                <prev>
-                  <location>
-                    <measures>-6</measures>
-                    </location>
-                  </prev>
-                </Spanner>
-              </Note>
-            <Note>
-              <visible>0</visible>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                <visible>0</visible>
-                </Accidental>
-              <pitch>39</pitch>
-              <tpc>11</tpc>
-              <velocity>88</velocity>
-              <veloType>user</veloType>
-              <Spanner type="TextLine">
-                <prev>
-                  <location>
-                    <measures>-6</measures>
-                    </location>
-                  </prev>
-                </Spanner>
-              </Note>
-            <Note>
-              <visible>0</visible>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                <visible>0</visible>
-                </Accidental>
-              <pitch>40</pitch>
-              <tpc>6</tpc>
-              <velocity>88</velocity>
-              <veloType>user</veloType>
-              <Spanner type="TextLine">
-                <prev>
-                  <location>
-                    <measures>-6</measures>
-                    </location>
-                  </prev>
-                </Spanner>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <durationType>whole</durationType>
-            <Note>
-              <visible>0</visible>
-              <pitch>38</pitch>
-              <tpc>16</tpc>
-              <velocity>88</velocity>
-              <veloType>user</veloType>
-              <Spanner type="TextLine">
-                <TextLine>
-                  <lineWidth>0.3</lineWidth>
-                  <anchor>3</anchor>
-                  <Segment>
-                    <subtype>0</subtype>
-                    <offset x="0" y="0"/>
-                    <off2 x="9.18183" y="0"/>
-                    </Segment>
-                  </TextLine>
-                <next>
-                  <location>
-                    <measures>7</measures>
-                    </location>
-                  </next>
-                </Spanner>
-              </Note>
-            <Note>
-              <visible>0</visible>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                <visible>0</visible>
-                </Accidental>
-              <pitch>39</pitch>
-              <tpc>11</tpc>
-              <velocity>88</velocity>
-              <veloType>user</veloType>
-              <Spanner type="TextLine">
-                <TextLine>
-                  <lineWidth>0.3</lineWidth>
-                  <anchor>3</anchor>
-                  <Segment>
-                    <subtype>0</subtype>
-                    <offset x="0" y="0"/>
-                    <off2 x="9.19928" y="0"/>
-                    </Segment>
-                  </TextLine>
-                <next>
-                  <location>
-                    <measures>7</measures>
-                    </location>
-                  </next>
-                </Spanner>
-              </Note>
-            <Note>
-              <visible>0</visible>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                <visible>0</visible>
-                </Accidental>
-              <pitch>40</pitch>
-              <tpc>6</tpc>
-              <velocity>88</velocity>
-              <veloType>user</veloType>
-              <Spanner type="TextLine">
-                <TextLine>
-                  <lineWidth>0.3</lineWidth>
-                  <anchor>3</anchor>
-                  <Segment>
-                    <subtype>0</subtype>
-                    <offset x="0" y="0"/>
-                    <off2 x="9.14692" y="0"/>
-                    </Segment>
-                  </TextLine>
-                <next>
-                  <location>
-                    <measures>7</measures>
-                    </location>
-                  </next>
-                </Spanner>
               </Note>
             </Chord>
           </voice>
@@ -12027,13 +14832,6 @@
               <tpc>16</tpc>
               <velocity>88</velocity>
               <veloType>user</veloType>
-              <Spanner type="TextLine">
-                <prev>
-                  <location>
-                    <measures>-7</measures>
-                    </location>
-                  </prev>
-                </Spanner>
               </Note>
             <Note>
               <visible>0</visible>
@@ -12045,13 +14843,6 @@
               <tpc>11</tpc>
               <velocity>88</velocity>
               <veloType>user</veloType>
-              <Spanner type="TextLine">
-                <prev>
-                  <location>
-                    <measures>-7</measures>
-                    </location>
-                  </prev>
-                </Spanner>
               </Note>
             <Note>
               <visible>0</visible>
@@ -12063,13 +14854,6 @@
               <tpc>6</tpc>
               <velocity>88</velocity>
               <veloType>user</veloType>
-              <Spanner type="TextLine">
-                <prev>
-                  <location>
-                    <measures>-7</measures>
-                    </location>
-                  </prev>
-                </Spanner>
               </Note>
             </Chord>
           </voice>
@@ -12084,18 +14868,6 @@
               <tpc>16</tpc>
               <velocity>88</velocity>
               <veloType>user</veloType>
-              <Spanner type="TextLine">
-                <TextLine>
-                  <lineWidth>0.3</lineWidth>
-                  <anchor>3</anchor>
-                  </TextLine>
-                <next>
-                  <location>
-                    <voices>1</voices>
-                    <measures>1</measures>
-                    </location>
-                  </next>
-                </Spanner>
               </Note>
             <Note>
               <visible>0</visible>
@@ -12107,23 +14879,6 @@
               <tpc>11</tpc>
               <velocity>88</velocity>
               <veloType>user</veloType>
-              <Spanner type="TextLine">
-                <TextLine>
-                  <lineWidth>0.3</lineWidth>
-                  <anchor>3</anchor>
-                  <Segment>
-                    <subtype>0</subtype>
-                    <offset x="0" y="0"/>
-                    <off2 x="19.4789" y="0"/>
-                    </Segment>
-                  </TextLine>
-                <next>
-                  <location>
-                    <measures>5</measures>
-                    <notes>-1</notes>
-                    </location>
-                  </next>
-                </Spanner>
               </Note>
             <Note>
               <visible>0</visible>
@@ -12135,23 +14890,114 @@
               <tpc>6</tpc>
               <velocity>88</velocity>
               <veloType>user</veloType>
-              <Spanner type="TextLine">
-                <TextLine>
-                  <lineWidth>0.3</lineWidth>
-                  <anchor>3</anchor>
-                  <Segment>
-                    <subtype>0</subtype>
-                    <offset x="0" y="0"/>
-                    <off2 x="19.5545" y="0"/>
-                    </Segment>
-                  </TextLine>
-                <next>
-                  <location>
-                    <measures>5</measures>
-                    <notes>-1</notes>
-                    </location>
-                  </next>
-                </Spanner>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <durationType>whole</durationType>
+            <Note>
+              <visible>0</visible>
+              <pitch>38</pitch>
+              <tpc>16</tpc>
+              <velocity>88</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                <visible>0</visible>
+                </Accidental>
+              <pitch>39</pitch>
+              <tpc>11</tpc>
+              <velocity>88</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                <visible>0</visible>
+                </Accidental>
+              <pitch>40</pitch>
+              <tpc>6</tpc>
+              <velocity>88</velocity>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <durationType>whole</durationType>
+            <Note>
+              <visible>0</visible>
+              <pitch>38</pitch>
+              <tpc>16</tpc>
+              <velocity>88</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                <visible>0</visible>
+                </Accidental>
+              <pitch>39</pitch>
+              <tpc>11</tpc>
+              <velocity>88</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                <visible>0</visible>
+                </Accidental>
+              <pitch>40</pitch>
+              <tpc>6</tpc>
+              <velocity>88</velocity>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <durationType>whole</durationType>
+            <Note>
+              <visible>0</visible>
+              <pitch>38</pitch>
+              <tpc>16</tpc>
+              <velocity>88</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                <visible>0</visible>
+                </Accidental>
+              <pitch>39</pitch>
+              <tpc>11</tpc>
+              <velocity>88</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                <visible>0</visible>
+                </Accidental>
+              <pitch>40</pitch>
+              <tpc>6</tpc>
+              <velocity>88</velocity>
+              <veloType>user</veloType>
               </Note>
             </Chord>
           </voice>
@@ -12200,19 +15046,11 @@
               <tpc>16</tpc>
               <velocity>88</velocity>
               <veloType>user</veloType>
-              <Spanner type="TextLine">
-                <prev>
-                  <location>
-                    <voices>-1</voices>
-                    <measures>-1</measures>
-                    </location>
-                  </prev>
-                </Spanner>
               </Note>
             </Chord>
           <Rest>
             <visible>0</visible>
-            <durationType>eighth</durationType>
+            <durationType>half</durationType>
             </Rest>
           <Rest>
             <visible>0</visible>
@@ -12220,7 +15058,7 @@
             </Rest>
           <Rest>
             <visible>0</visible>
-            <durationType>half</durationType>
+            <durationType>eighth</durationType>
             </Rest>
           </voice>
         </Measure>
@@ -12325,14 +15163,6 @@
               <tpc>11</tpc>
               <velocity>88</velocity>
               <veloType>user</veloType>
-              <Spanner type="TextLine">
-                <prev>
-                  <location>
-                    <measures>-5</measures>
-                    <notes>1</notes>
-                    </location>
-                  </prev>
-                </Spanner>
               </Note>
             <Note>
               <visible>0</visible>
@@ -12344,65 +15174,6 @@
               <tpc>6</tpc>
               <velocity>88</velocity>
               <veloType>user</veloType>
-              <Spanner type="TextLine">
-                <prev>
-                  <location>
-                    <measures>-5</measures>
-                    <notes>1</notes>
-                    </location>
-                  </prev>
-                </Spanner>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <durationType>whole</durationType>
-            <Note>
-              <visible>0</visible>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                <visible>0</visible>
-                </Accidental>
-              <pitch>39</pitch>
-              <tpc>11</tpc>
-              <velocity>88</velocity>
-              <veloType>user</veloType>
-              <Spanner type="TextLine">
-                <TextLine>
-                  <lineWidth>0.3</lineWidth>
-                  <anchor>3</anchor>
-                  </TextLine>
-                <next>
-                  <location>
-                    <measures>5</measures>
-                    </location>
-                  </next>
-                </Spanner>
-              </Note>
-            <Note>
-              <visible>0</visible>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                <visible>0</visible>
-                </Accidental>
-              <pitch>40</pitch>
-              <tpc>6</tpc>
-              <velocity>88</velocity>
-              <veloType>user</veloType>
-              <Spanner type="TextLine">
-                <TextLine>
-                  <lineWidth>0.3</lineWidth>
-                  <anchor>3</anchor>
-                  </TextLine>
-                <next>
-                  <location>
-                    <measures>1</measures>
-                    </location>
-                  </next>
-                </Spanner>
               </Note>
             </Chord>
           </voice>
@@ -12432,13 +15203,77 @@
               <tpc>6</tpc>
               <velocity>88</velocity>
               <veloType>user</veloType>
-              <Spanner type="TextLine">
-                <prev>
-                  <location>
-                    <measures>-1</measures>
-                    </location>
-                  </prev>
-                </Spanner>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <durationType>whole</durationType>
+            <Note>
+              <visible>0</visible>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                <visible>0</visible>
+                </Accidental>
+              <pitch>39</pitch>
+              <tpc>11</tpc>
+              <velocity>88</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                <visible>0</visible>
+                </Accidental>
+              <pitch>40</pitch>
+              <tpc>6</tpc>
+              <velocity>88</velocity>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <durationType>whole</durationType>
+            <Note>
+              <visible>0</visible>
+              <pitch>40</pitch>
+              <tpc>18</tpc>
+              <velocity>88</velocity>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <durationType>whole</durationType>
+            <Note>
+              <visible>0</visible>
+              <pitch>40</pitch>
+              <tpc>18</tpc>
+              <velocity>88</velocity>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <durationType>whole</durationType>
+            <Note>
+              <visible>0</visible>
+              <pitch>40</pitch>
+              <tpc>18</tpc>
+              <velocity>88</velocity>
+              <veloType>user</veloType>
               </Note>
             </Chord>
           </voice>
@@ -12495,43 +15330,6 @@
               <tpc>18</tpc>
               <velocity>88</velocity>
               <veloType>user</veloType>
-              <Spanner type="TextLine">
-                <prev>
-                  <location>
-                    <measures>-5</measures>
-                    </location>
-                  </prev>
-                </Spanner>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <durationType>whole</durationType>
-            <Note>
-              <visible>0</visible>
-              <pitch>40</pitch>
-              <tpc>18</tpc>
-              <velocity>88</velocity>
-              <veloType>user</veloType>
-              <Spanner type="TextLine">
-                <TextLine>
-                  <lineWidth>0.3</lineWidth>
-                  <anchor>3</anchor>
-                  <Segment>
-                    <subtype>0</subtype>
-                    <offset x="0" y="0"/>
-                    <off2 x="23.4447" y="0"/>
-                    </Segment>
-                  </TextLine>
-                <next>
-                  <location>
-                    <measures>4</measures>
-                    </location>
-                  </next>
-                </Spanner>
               </Note>
             </Chord>
           </voice>
@@ -12566,44 +15364,6 @@
         </Measure>
       <Measure>
         <voice>
-          <Chord>
-            <durationType>whole</durationType>
-            <Note>
-              <visible>0</visible>
-              <pitch>40</pitch>
-              <tpc>18</tpc>
-              <velocity>88</velocity>
-              <veloType>user</veloType>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <durationType>whole</durationType>
-            <Note>
-              <visible>0</visible>
-              <pitch>40</pitch>
-              <tpc>18</tpc>
-              <velocity>88</velocity>
-              <veloType>user</veloType>
-              <Spanner type="TextLine">
-                <prev>
-                  <location>
-                    <measures>-4</measures>
-                    </location>
-                  </prev>
-                </Spanner>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Beam>
-            <visible>0</visible>
-            </Beam>
           <Chord>
             <durationType>eighth</durationType>
             <Stem>
@@ -12615,17 +15375,6 @@
               <tpc>18</tpc>
               <velocity>88</velocity>
               <veloType>user</veloType>
-              <Spanner type="TextLine">
-                <TextLine>
-                  <lineWidth>0.3</lineWidth>
-                  <anchor>3</anchor>
-                  </TextLine>
-                <next>
-                  <location>
-                    <fractions>1/8</fractions>
-                    </location>
-                  </next>
-                </Spanner>
               </Note>
             </Chord>
           <Chord>
@@ -12637,20 +15386,13 @@
               <visible>0</visible>
               <pitch>40</pitch>
               <tpc>18</tpc>
-              <Spanner type="TextLine">
-                <prev>
-                  <location>
-                    <fractions>-1/8</fractions>
-                    </location>
-                  </prev>
-                </Spanner>
               </Note>
             </Chord>
           <Rest>
-            <durationType>quarter</durationType>
+            <durationType>half</durationType>
             </Rest>
           <Rest>
-            <durationType>half</durationType>
+            <durationType>quarter</durationType>
             </Rest>
           </voice>
         </Measure>
