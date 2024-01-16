@@ -35,10 +35,12 @@
 line 0 \, osc-freq 1 \, osc-amp 0 \; reset-1 bang \; reset-2 bang \;
 reset-sample-1 bang \; reset-sample-2 bang \;;
 #X msg 622 18 80;
+#X obj 403 186 s del-line-mult;
 #X connect 1 0 6 0;
 #X connect 1 0 31 0;
 #X connect 2 0 3 0;
 #X connect 5 0 4 0;
+#X connect 5 0 34 0;
 #X connect 13 0 15 0;
 #X connect 13 0 1 0;
 #X connect 13 0 2 0;
