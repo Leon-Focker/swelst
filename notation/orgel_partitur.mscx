@@ -4111,7 +4111,7 @@
             <size>12</size>
             <offset x="5.2511" y="-2.11812"/>
             <frameRound>0</frameRound>
-            <text>51</text>
+            <text>31</text>
             </RehearsalMark>
           <Rest>
             <durationType>measure</durationType>
@@ -4175,7 +4175,7 @@
             <size>12</size>
             <offset x="1.82973" y="-2.11812"/>
             <frameRound>0</frameRound>
-            <text>52</text>
+            <text>32</text>
             </RehearsalMark>
           <Rest>
             <durationType>measure</durationType>
@@ -4522,7 +4522,7 @@
             <size>12</size>
             <offset x="1.82973" y="-2.11812"/>
             <frameRound>0</frameRound>
-            <text>53</text>
+            <text>33</text>
             </RehearsalMark>
           <Chord>
             <durationType>quarter</durationType>
@@ -5493,7 +5493,7 @@
             <size>12</size>
             <offset x="1.82973" y="-2.11812"/>
             <frameRound>0</frameRound>
-            <text>54</text>
+            <text>34</text>
             </RehearsalMark>
           <Chord>
             <durationType>whole</durationType>
@@ -5650,7 +5650,7 @@
             <size>12</size>
             <offset x="1.82973" y="-2.11812"/>
             <frameRound>0</frameRound>
-            <text>55</text>
+            <text>35</text>
             </RehearsalMark>
           </voice>
         </Measure>
