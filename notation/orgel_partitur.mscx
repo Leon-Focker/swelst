@@ -12,7 +12,7 @@
       <enableVerticalSpread>1</enableVerticalSpread>
       <Spatium>1.74978</Spatium>
       </Style>
-    <showInvisible>0</showInvisible>
+    <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
@@ -136,6 +136,7 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
+          <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="19"/>
           <synti>Fluid</synti>
@@ -200,6 +201,7 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
+          <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="19"/>
           <synti>Fluid</synti>
@@ -264,6 +266,7 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
+          <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="19"/>
           <synti>Fluid</synti>
@@ -328,6 +331,7 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
+          <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="19"/>
           <synti>Fluid</synti>
@@ -405,6 +409,7 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel name="arco">
+          <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="43"/>
           <synti>Fluid</synti>
@@ -414,6 +419,7 @@
           <synti>Fluid</synti>
           </Channel>
         <Channel name="tremolo">
+          <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="44"/>
           <synti>Fluid</synti>
@@ -2203,6 +2209,15 @@
       <Measure>
         <stretch>0.9</stretch>
         <voice>
+          <RehearsalMark>
+            <minDistance>7.16272e-16</minDistance>
+            <textLineSpacing>0.7</textLineSpacing>
+            <offset x="0" y="-4.48635"/>
+            <frameType>0</frameType>
+            <text>3
+|
+</text>
+            </RehearsalMark>
           <Chord>
             <durationType>whole</durationType>
             <Note>
@@ -2295,38 +2310,6 @@
                     </location>
                   </next>
                 </Spanner>
-              </Note>
-            </Chord>
-          <location>
-            <fractions>-1/2</fractions>
-            </location>
-          <RehearsalMark>
-            <textLineSpacing>0.7</textLineSpacing>
-            <frameType>0</frameType>
-            <text>3</text>
-            </RehearsalMark>
-          </voice>
-        <voice>
-          <Chord>
-            <durationType>half</durationType>
-            <Stem>
-              <visible>0</visible>
-              </Stem>
-            <Note>
-              <visible>0</visible>
-              <pitch>69</pitch>
-              <tpc>17</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>half</durationType>
-            <Stem>
-              <visible>0</visible>
-              </Stem>
-            <Note>
-              <visible>0</visible>
-              <pitch>69</pitch>
-              <tpc>17</tpc>
               </Note>
             </Chord>
           </voice>
@@ -3636,14 +3619,6 @@
               <veloType>user</veloType>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/4</fractions>
-            </location>
-          <RehearsalMark>
-            <textLineSpacing>0.7</textLineSpacing>
-            <frameType>0</frameType>
-            <text>6</text>
-            </RehearsalMark>
           </voice>
         </Measure>
       <Measure>
@@ -3653,6 +3628,13 @@
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <RehearsalMark>
+            <textLineSpacing>0.7</textLineSpacing>
+            <frameType>0</frameType>
+            <text>6
+|
+</text>
+            </RehearsalMark>
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
@@ -5773,10 +5755,7 @@
           </voice>
         <voice>
           <location>
-            <fractions>1/2</fractions>
-            </location>
-          <location>
-            <fractions>1/4</fractions>
+            <fractions>3/4</fractions>
             </location>
           <Chord>
             <durationType>eighth</durationType>
@@ -16030,9 +16009,6 @@
     <Staff id="5">
       <Measure>
         <voice>
-          <KeySig>
-            <accidental>0</accidental>
-            </KeySig>
           <TimeSig>
             <sigN>4</sigN>
             <sigD>4</sigD>
