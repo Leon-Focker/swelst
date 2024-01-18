@@ -1,4 +1,4 @@
-#N canvas -74 -16 1920 997 12;
+#N canvas -33 -21 1920 997 12;
 #X obj 7 6 r current-trigger;
 #X msg 7 54 \; reset bang \;;
 #X obj 30 145 r intro-noise;
@@ -159,23 +159,15 @@ analyse-in 1 \; sweller-2 line 0 \, line 1 7000 \, osc-amp 1 \, osc-amp
 #X obj 569 319 line_send 10 200 500 vocoder-q 1 1;
 #X text 1230 341 nice impulses:;
 #X obj 2052 175 s feedback-standalone;
-#X obj 1873 368 r feedback-standalone;
 #X text 1356 342 plus modulation?;
-#X msg 1855 781 \; hipass-freq 800 \;;
-#X obj 1879 737 line_send 1 15 60000 del-line-mult 1;
-#X obj 1872 819 del 20000;
-#X msg 1872 843 \; delay-slider-automation 1 \;;
 #X obj 2106 123 s feedback-sweep;
-#X obj 1872 714 r feedback-sweep;
 #X obj 1981 201 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
 #000000 #000000;
 #X obj 2083 237 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
 #000000 #000000;
-#X obj 1872 629 r feedback-pitch;
 #X obj 2079 148 s feedback-pitch;
 #X obj 2034 225 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
 #000000 #000000;
-#X msg 1872 675 \; patchbay audio-in analyse-in 1 \;;
 #X obj 2579 244 s feedback-voc;
 #X obj 2582 216 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
 #000000 #000000;
@@ -196,25 +188,44 @@ analyse-in 1 \; sweller-2 line 0 \, line 1 7000 \, osc-amp 1 \, osc-amp
 patchbay grizzle-out-2 mixer-4 1 \; patchbay audio-in grizzle-in 1
 \; freq-1 8 \; freq-2 8 \; width-1 0.5 \; width-2 0.5 \; pulse-1 bang
 \; pulse-2 bang \; vol-1 1 \; vol-2 1 \; fader-0 0.5 \;;
-#X obj 1879 759 line_send 400 1 60000 highpass-freq 1 1;
 #X obj 2243 226 s fdb-break;
 #X obj 2243 206 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
 #000000 #000000;
 #X obj 2328 206 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
 #000000 #000000;
 #X obj 2328 226 s fdb-tutti;
-#X obj 1872 879 r fdb-break;
-#X obj 1872 927 r fdb-tutti;
-#X obj 1872 903 line_send 0.7 0 4000 fader-0 2 1;
-#X obj 1872 951 line_send 0 0.7 500 fader-0 1 1;
-#X msg 1873 415 \; reset bang \; patchbay audio-in delay-in 1 \; patchbay
-delay-out-2 vocoder-in 1 \; patchbay vocoder-out mixer-2 1 \; del-line-mult
-1 \; hipass-freq 200 \; delay-2-slider 1 \; delay-3-slider 1 \; delay-4-slider
-1 \; fdbpitch 40 \; enable-stablizer 1 \; stablizer 0.1 \; fader-2
-0.8 \;, f 52;
-#X obj 1881 392 line_send 0 0.7 10000 fader-0 1 1;
-#X obj 1881 652 line_send 800 200 10000 highpass-freq 1 1;
 #X obj 2052 94 route 31 32 33 34 35 36;
+#X obj 1873 368 r feedback-standalone;
+#X msg 1855 846 \; hipass-freq 800 \;;
+#X obj 1879 802 line_send 1 15 60000 del-line-mult 1;
+#X obj 1872 884 del 20000;
+#X msg 1872 908 \; delay-slider-automation 1 \;;
+#X obj 1872 779 r feedback-sweep;
+#X obj 1872 648 r feedback-pitch;
+#X obj 1879 824 line_send 400 1 60000 highpass-freq 1 1;
+#X obj 1872 944 r fdb-break;
+#X obj 1872 992 r fdb-tutti;
+#X obj 1872 968 line_send 0.7 0 4000 fader-0 2 1;
+#X obj 1872 1016 line_send 0 0.7 500 fader-0 1 1;
+#X obj 1881 392 line_send 0 0.7 10000 fader-0 1 1;
+#X obj 1881 671 line_send 800 200 10000 highpass-freq 1 1;
+#X msg 2178 667 0;
+#X obj 2254 496 unsig~ 100;
+#X floatatom 2355 568 5 0 0 0 - - - 0;
+#X obj 2254 543 expr (($f1 + 1) * 0.5) * 1000 + 300;
+#X obj 2254 567 s hipass-freq;
+#X obj 2255 474 r~ sweller-val-2;
+#X obj 2332 501 r auto-hipass;
+#X obj 2254 520 spigot;
+#X msg 1873 416 \; reset bang \; patchbay audio-in delay-in 1 \; patchbay
+delay-out-2 vocoder-in 1 \; patchbay vocoder-out mixer-2 1 \; del-line-mult
+1 \; hipass-freq 1300 \; delay-2-slider 1 \; delay-3-slider 1 \; delay-4-slider
+1 \; fdbpitch 40 \; enable-stablizer 1 \; stablizer 0.1 \; fader-2
+0.8 \; sweller-2 line 0 \, osc-amp 1 \, osc-freq 0.02 \; auto-hipass
+1 \;, f 52;
+#X msg 1872 715 \; patchbay audio-in analyse-in 1 \; auto-hipass 0
+\; fdbspeed 2000 \;;
+#X obj 1881 693 line_send 2000 200 15000 fdbspeed 1 1;
 #X connect 0 0 117 0;
 #X connect 2 0 18 0;
 #X connect 2 0 13 0;
@@ -293,9 +304,9 @@ delay-out-2 vocoder-in 1 \; patchbay vocoder-out mixer-2 1 \; del-line-mult
 #X connect 115 10 116 0;
 #X connect 116 0 92 0;
 #X connect 116 1 93 0;
-#X connect 116 2 150 0;
-#X connect 116 3 151 0;
-#X connect 116 10 166 0;
+#X connect 116 2 142 0;
+#X connect 116 3 143 0;
+#X connect 116 10 150 0;
 #X connect 117 0 1 0;
 #X connect 117 1 3 0;
 #X connect 117 2 5 0;
@@ -308,32 +319,40 @@ delay-out-2 vocoder-in 1 \; patchbay vocoder-out mixer-2 1 \; del-line-mult
 #X connect 117 9 53 0;
 #X connect 117 10 57 0;
 #X connect 117 11 115 0;
-#X connect 125 0 163 0;
-#X connect 125 0 164 0;
-#X connect 129 0 130 0;
-#X connect 132 0 128 0;
-#X connect 132 0 129 0;
-#X connect 132 0 154 0;
-#X connect 133 0 124 0;
-#X connect 134 0 131 0;
-#X connect 135 0 138 0;
-#X connect 135 0 165 0;
+#X connect 127 0 124 0;
+#X connect 128 0 126 0;
+#X connect 130 0 129 0;
+#X connect 132 0 131 0;
+#X connect 133 0 134 0;
+#X connect 133 0 135 0;
+#X connect 137 0 145 0;
 #X connect 137 0 136 0;
-#X connect 140 0 139 0;
-#X connect 141 0 142 0;
-#X connect 141 0 143 0;
-#X connect 145 0 153 0;
-#X connect 145 0 144 0;
-#X connect 147 0 148 0;
-#X connect 147 0 149 0;
-#X connect 147 0 152 0;
-#X connect 156 0 155 0;
-#X connect 157 0 158 0;
+#X connect 139 0 140 0;
+#X connect 139 0 141 0;
+#X connect 139 0 144 0;
+#X connect 147 0 146 0;
+#X connect 148 0 149 0;
+#X connect 150 0 124 0;
+#X connect 150 1 129 0;
+#X connect 150 2 126 0;
+#X connect 150 3 146 0;
+#X connect 150 4 149 0;
+#X connect 150 5 131 0;
+#X connect 151 0 173 0;
+#X connect 151 0 163 0;
+#X connect 154 0 155 0;
+#X connect 156 0 153 0;
+#X connect 156 0 154 0;
+#X connect 156 0 158 0;
+#X connect 157 0 174 0;
+#X connect 157 0 165 0;
+#X connect 157 0 164 0;
+#X connect 157 0 175 0;
 #X connect 159 0 161 0;
 #X connect 160 0 162 0;
-#X connect 166 0 124 0;
-#X connect 166 1 136 0;
-#X connect 166 2 131 0;
-#X connect 166 3 155 0;
-#X connect 166 4 158 0;
-#X connect 166 5 139 0;
+#X connect 166 0 172 0;
+#X connect 168 0 167 0;
+#X connect 168 0 169 0;
+#X connect 170 0 166 0;
+#X connect 171 0 172 1;
+#X connect 172 0 168 0;
