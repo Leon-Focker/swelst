@@ -1,4 +1,4 @@
-#N canvas 35 -22 1920 997 12;
+#N canvas -44 -22 1920 997 12;
 #X obj 8 6 inputs;
 #X obj 8 222 outputs;
 #X obj 8 78 delays;
@@ -8,8 +8,6 @@
 #X text 621 114 Patch einrichten \; 1) Mikro mit Orgel Pegeln \; 2)
 auto-level MIC (während Orgel laut ist) \; 3) auto-level OUT (während
 es ruhig ist) \;;
-#X text 621 9 TODO \; build delays \; compressor for vocoder?? \; feedback
-über eigenen dac;
 #X obj 125 6 trigger-parts;
 #X obj 519 271 rauschen;
 #X obj 519 292 analyse;
@@ -86,17 +84,15 @@ empty -2 -10 0 12 #fcfcfc #000000 #000000 0 1;
 #000000 #000000 0 1;
 #X obj 655 692 vsl 15 128 2 8 0 0 empty empty empty 0 -9 0 10 #fcfcfc
 #000000 #000000 0 1;
-#X msg 655 828 \; freq-1 \$1 \;;
 #X msg 474 735 \; pulse-1 bang \;;
 #X obj 440 701 vsl 15 128 0 1 0 0 empty empty empty 0 -9 0 10 #fcfcfc
 #000000 #000000 0 1;
 #X msg 440 837 \; duty-cycle-1 \$1 \; duty-cycle-2 \$1 \;;
 #X msg 693 767 \; width-1 \$1 \; width-2 \$1 \;;
 #X obj 519 313 swellers;
-#X msg 1138 539 \; patchbay replay-out master 1 \; sweller-1 line 0
-20000 \, osc-freq 0.2 10000 \, osc-amp 0.4 1000 \; replay-2 1005 0
-29 0.25 \;, f 47;
 #X msg 1145 665 \; replay-1 1005 0 29 0.25 \;, f 47;
-#X connect 21 0 27 0;
-#X connect 22 0 23 0;
-#X connect 25 0 26 0;
+#X msg 655 828 \; freq-1 \$1 \; freq-2 \$1 \;;
+#X msg 957 787 \; pulse-1 bang \; pulse-2 bang \;;
+#X connect 20 0 25 0;
+#X connect 21 0 28 0;
+#X connect 23 0 24 0;
