@@ -11,8 +11,8 @@
 #000000 0 1;
 #X obj 96 114 s~ mic-in;
 #X obj 364 115 r~ mic-in;
-#X obj 364 174 s~ audio-in;
-#X obj 484 173 s~ patch-in;
+#X obj 364 201 s~ audio-in;
+#X obj 484 200 s~ patch-in;
 #X obj 19 96 env~;
 #X obj 276 195 unsig~;
 #X obj 276 219 rmstodb;
@@ -38,17 +38,18 @@
 #X connect 8 0 5 0;
 #X coords 0 -1 1 1 150 20 1 100 100;
 #X restore 95 87 pd mic-level;
-#X obj 392 142 catch~ feedback-patch-in;
+#X obj 392 169 catch~ feedback-patch-in;
 #X obj 18 12 adc~ 1 2;
 #X obj 87 277 bonk~;
 #X obj 87 305 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc #000000
 #000000;
 #X msg 99 248 minvel 15;
 #X obj 19 143 > 10;
+#X obj 363 143 hip~ 20;
 #X connect 0 0 1 0;
 #X connect 5 0 23 0;
 #X connect 9 0 16 0;
-#X connect 9 0 10 0;
+#X connect 9 0 24 0;
 #X connect 12 0 5 0;
 #X connect 13 0 14 0;
 #X connect 14 0 15 0;
@@ -64,4 +65,5 @@
 #X connect 20 0 21 0;
 #X connect 22 0 20 0;
 #X connect 23 0 6 0;
+#X connect 24 0 10 0;
 #X coords 0 -1 1 1 115 70 1 300 10;
