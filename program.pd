@@ -1,4 +1,4 @@
-#N canvas -141 -18 1920 997 12;
+#N canvas 2029 -16 1920 997 12;
 #X obj 7 6 r current-trigger;
 #X msg 7 54 \; reset bang \;;
 #X obj 30 145 r intro-noise;
@@ -350,6 +350,29 @@ mixer-1 1 \; patchbay delay-out-4 mixer-1 1 \; fader-0 1 \; delay-time-1
 #X obj 1709 212 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc
 #000000 #000000;
 #X obj 1234 1427 r wild-delays;
+#N canvas 521 249 693 356 filter-mod 0;
+#X obj 155 114 unsig~ 10;
+#X obj 273 200 s filter-freq;
+#X obj 273 176 expr ($f1 + 1) * 3000 + 130;
+#X obj 77 200 s filter-q;
+#X obj 77 176 expr (2 - ($f1 + 1)) * 2.25;
+#X obj 156 91 r~ sweller-val-1;
+#X obj 263 119 r filter-mod;
+#X obj 155 138 spigot 0;
+#X connect 0 0 7 0;
+#X connect 2 0 1 0;
+#X connect 4 0 3 0;
+#X connect 5 0 0 0;
+#X connect 6 0 7 1;
+#X connect 7 0 4 0;
+#X connect 7 0 2 0;
+#X restore 1617 1014 pd filter-mod;
+#X obj 1279 1039 line_send 0.5 0 10000 fader-3 1 1;
+#X msg 1504 911 \; patchbay rauschen filter-in 1 \; patchbay filter-out
+mixer-3 1 \; sweller-1 line 0 \, osc-amp 1 \, osc-freq 25 \; filter-q
+4.5 \; filter-mod 1 \;;
+#X obj 1570 880 line_send 0 0.5 20000 fader-3 1 1;
+#X msg 1574 1050 \; sweller-1 osc-freq 0.19 23000 \;;
 #X connect 0 0 106 0;
 #X connect 2 0 161 0;
 #X connect 2 0 13 0;
@@ -458,6 +481,8 @@ mixer-1 1 \; patchbay delay-out-4 mixer-1 1 \; fader-0 1 \; delay-time-1
 #X connect 126 0 127 0;
 #X connect 126 0 128 0;
 #X connect 126 0 131 0;
+#X connect 126 0 233 0;
+#X connect 126 0 234 0;
 #X connect 133 0 132 0;
 #X connect 134 0 135 0;
 #X connect 136 0 112 0;
@@ -495,6 +520,7 @@ mixer-1 1 \; patchbay delay-out-4 mixer-1 1 \; fader-0 1 \; delay-time-1
 #X connect 171 0 170 0;
 #X connect 172 0 202 0;
 #X connect 172 0 203 0;
+#X connect 172 0 235 0;
 #X connect 173 0 174 0;
 #X connect 175 0 176 0;
 #X connect 177 0 175 0;
@@ -505,6 +531,7 @@ mixer-1 1 \; patchbay delay-out-4 mixer-1 1 \; fader-0 1 \; delay-time-1
 #X connect 183 0 181 0;
 #X connect 183 0 182 0;
 #X connect 183 0 206 0;
+#X connect 183 0 232 0;
 #X connect 185 0 184 0;
 #X connect 188 0 219 0;
 #X connect 188 0 191 0;
