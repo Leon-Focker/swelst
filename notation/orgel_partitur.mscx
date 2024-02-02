@@ -5818,9 +5818,9 @@
         <voice>
           <RehearsalMark>
             <textLineSpacing>0.7</textLineSpacing>
+            <offset x="0" y="-1.5"/>
             <frameType>0</frameType>
             <text>24
-|
 </text>
             </RehearsalMark>
           <Rest>
@@ -6115,9 +6115,9 @@
         <voice>
           <RehearsalMark>
             <textLineSpacing>0.7</textLineSpacing>
+            <offset x="0" y="-1.5"/>
             <frameType>0</frameType>
             <text>25
-|
 </text>
             </RehearsalMark>
           <Chord>
@@ -6214,37 +6214,49 @@
           </voice>
         </Measure>
       <Measure>
+        <stretch>1.2</stretch>
         <voice>
+          <StaffText>
+            <minDistance>0.296616</minDistance>
+            <size>8</size>
+            <offset x="-1.5" y="-3"/>
+            <frameType>1</frameType>
+            <text>Einsatzabstände der Register sind
+frei wählbar, nicht gleichmäßig!
+</text>
+            </StaffText>
           <Rest>
             <visible>0</visible>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>dashed</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <TimeSig>
-            <sigN>3</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           <Rest>
             <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
+            <durationType>whole</durationType>
             </Rest>
+          <BarLine>
+            <subtype>dashed</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.4</stretch>
         <voice>
           <TimeSig>
+            <visible>0</visible>
             <sigN>2</sigN>
             <sigD>4</sigD>
             </TimeSig>
           <StaffText>
             <autoplace>0</autoplace>
             <size>22</size>
-            <offset x="-0.5" y="-1"/>
             <frameType>1</frameType>
             <text>-</text>
             </StaffText>
@@ -6253,11 +6265,16 @@
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>dashed</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.4</stretch>
         <voice>
           <TimeSig>
+            <visible>0</visible>
             <sigN>1</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -6266,18 +6283,22 @@
             <durationType>measure</durationType>
             <duration>1/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>dashed</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.4</stretch>
         <voice>
           <TimeSig>
+            <visible>0</visible>
             <sigN>3</sigN>
             <sigD>4</sigD>
             </TimeSig>
           <StaffText>
             <autoplace>0</autoplace>
             <size>8</size>
-            <offset x="-1" y="-2"/>
             <frameType>1</frameType>
             <text>3+5</text>
             </StaffText>
@@ -6286,11 +6307,16 @@
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>dashed</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.4</stretch>
         <voice>
           <TimeSig>
+            <visible>0</visible>
             <sigN>1</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -6299,11 +6325,16 @@
             <durationType>measure</durationType>
             <duration>1/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>dashed</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.4</stretch>
         <voice>
           <TimeSig>
+            <visible>0</visible>
             <sigN>2</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -6312,18 +6343,22 @@
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>dashed</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.4</stretch>
         <voice>
           <TimeSig>
+            <visible>0</visible>
             <sigN>1</sigN>
             <sigD>4</sigD>
             </TimeSig>
           <StaffText>
             <autoplace>0</autoplace>
             <size>22</size>
-            <offset x="-0.5" y="-1"/>
             <frameType>1</frameType>
             <text>-</text>
             </StaffText>
@@ -6332,14 +6367,17 @@
             <durationType>measure</durationType>
             <duration>1/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>dashed</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.4</stretch>
         <voice>
           <StaffText>
             <autoplace>0</autoplace>
             <size>8</size>
-            <offset x="-1" y="-2"/>
             <frameType>1</frameType>
             <text>3+5</text>
             </StaffText>
@@ -6348,23 +6386,30 @@
             <durationType>measure</durationType>
             <duration>1/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>dashed</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.4</stretch>
         <voice>
           <Rest>
             <visible>0</visible>
             <durationType>measure</durationType>
             <duration>1/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>dashed</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.4</stretch>
         <voice>
           <StaffText>
             <autoplace>0</autoplace>
             <size>22</size>
-            <offset x="-0.5" y="-1"/>
             <frameType>1</frameType>
             <text>-</text>
             </StaffText>
@@ -6373,11 +6418,16 @@
             <durationType>measure</durationType>
             <duration>1/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>dashed</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
+        <stretch>0</stretch>
         <voice>
           <TimeSig>
+            <visible>0</visible>
             <sigN>6</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -6386,18 +6436,25 @@
             <durationType>measure</durationType>
             <duration>6/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>dashed</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.4</stretch>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <TimeSig>
+            <visible>0</visible>
             <sigN>2</sigN>
             <sigD>4</sigD>
             </TimeSig>
           <StaffText>
             <autoplace>0</autoplace>
             <size>8</size>
-            <offset x="-1" y="-2"/>
             <frameType>1</frameType>
             <text>3+5</text>
             </StaffText>
@@ -6406,6 +6463,9 @@
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>dashed</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -6471,7 +6531,6 @@
           <StaffText>
             <autoplace>0</autoplace>
             <size>22</size>
-            <offset x="-0.5" y="-1"/>
             <frameType>1</frameType>
             <text>-</text>
             </StaffText>
@@ -7842,10 +7901,7 @@
           </voice>
         <voice>
           <location>
-            <fractions>1/2</fractions>
-            </location>
-          <location>
-            <fractions>1/4</fractions>
+            <fractions>3/4</fractions>
             </location>
           <Chord>
             <durationType>eighth</durationType>
@@ -10750,6 +10806,11 @@
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>F</transposingClefType>
+            <visible>0</visible>
+            </Clef>
           </voice>
         <voice>
           <Chord>
@@ -10864,10 +10925,6 @@
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
-          <Clef>
-            <concertClefType>F</concertClefType>
-            <transposingClefType>F</transposingClefType>
-            </Clef>
           </voice>
         </Measure>
       <Measure>
@@ -11866,7 +11923,6 @@
           <StaffText>
             <autoplace>0</autoplace>
             <size>22</size>
-            <offset x="-0.5" y="-1"/>
             <frameType>1</frameType>
             <text>-</text>
             </StaffText>
@@ -11874,14 +11930,13 @@
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>dashed</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <TimeSig>
-            <sigN>3</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           <Chord>
             <durationType>half</durationType>
             <Note>
@@ -11969,7 +12024,7 @@
           <StaffText>
             <autoplace>0</autoplace>
             <size>8</size>
-            <offset x="-1" y="-2"/>
+            <offset x="-1.99529" y="-1.12912"/>
             <frameType>1</frameType>
             <text>19 oder 20</text>
             </StaffText>
@@ -12049,11 +12104,19 @@
               <veloType>user</veloType>
               </Note>
             </Chord>
+          <Rest>
+            <visible>0</visible>
+            <durationType>quarter</durationType>
+            </Rest>
+          <BarLine>
+            <subtype>dashed</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <TimeSig>
+            <visible>0</visible>
             <sigN>2</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -12062,11 +12125,15 @@
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>dashed</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <TimeSig>
+            <visible>0</visible>
             <sigN>1</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -12075,11 +12142,15 @@
             <durationType>measure</durationType>
             <duration>1/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>dashed</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <TimeSig>
+            <visible>0</visible>
             <sigN>3</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -12088,11 +12159,15 @@
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>dashed</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <TimeSig>
+            <visible>0</visible>
             <sigN>1</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -12101,18 +12176,21 @@
             <durationType>measure</durationType>
             <duration>1/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>dashed</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <TimeSig>
+            <visible>0</visible>
             <sigN>2</sigN>
             <sigD>4</sigD>
             </TimeSig>
           <StaffText>
             <autoplace>0</autoplace>
             <size>22</size>
-            <offset x="-0.5" y="-1"/>
             <frameType>1</frameType>
             <text>-</text>
             </StaffText>
@@ -12121,11 +12199,15 @@
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>dashed</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <TimeSig>
+            <visible>0</visible>
             <sigN>1</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -12134,6 +12216,9 @@
             <durationType>measure</durationType>
             <duration>1/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>dashed</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -12143,6 +12228,9 @@
             <durationType>measure</durationType>
             <duration>1/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>dashed</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -12150,7 +12238,6 @@
           <StaffText>
             <autoplace>0</autoplace>
             <size>8</size>
-            <offset x="-1" y="-2"/>
             <frameType>1</frameType>
             <text>19 oder 20</text>
             </StaffText>
@@ -12159,6 +12246,9 @@
             <durationType>measure</durationType>
             <duration>1/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>dashed</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -12168,11 +12258,15 @@
             <durationType>measure</durationType>
             <duration>1/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>dashed</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <TimeSig>
+            <visible>0</visible>
             <sigN>6</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -12181,11 +12275,15 @@
             <durationType>measure</durationType>
             <duration>6/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>dashed</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <TimeSig>
+            <visible>0</visible>
             <sigN>2</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -12194,6 +12292,9 @@
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>dashed</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -12466,10 +12567,7 @@
           </voice>
         <voice>
           <location>
-            <fractions>1/4</fractions>
-            </location>
-          <location>
-            <fractions>1/4</fractions>
+            <fractions>1/2</fractions>
             </location>
           <Chord>
             <durationType>quarter</durationType>
@@ -16550,7 +16648,6 @@
           <StaffText>
             <autoplace>0</autoplace>
             <size>8</size>
-            <offset x="-0.098014" y="-1.09801"/>
             <frameType>1</frameType>
             <text>31</text>
             </StaffText>
@@ -16558,24 +16655,26 @@
             <visible>0</visible>
             <durationType>half</durationType>
             </Rest>
+          <BarLine>
+            <subtype>dashed</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <TimeSig>
-            <sigN>3</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
           <Rest>
             <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
+            <durationType>whole</durationType>
             </Rest>
+          <BarLine>
+            <subtype>dashed</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <TimeSig>
+            <visible>0</visible>
             <sigN>2</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -16584,18 +16683,21 @@
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>dashed</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <TimeSig>
+            <visible>0</visible>
             <sigN>1</sigN>
             <sigD>4</sigD>
             </TimeSig>
           <StaffText>
             <autoplace>0</autoplace>
             <size>22</size>
-            <offset x="-0.5" y="-1"/>
             <frameType>1</frameType>
             <text>-</text>
             </StaffText>
@@ -16604,11 +16706,15 @@
             <durationType>measure</durationType>
             <duration>1/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>dashed</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <TimeSig>
+            <visible>0</visible>
             <sigN>3</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -16617,18 +16723,21 @@
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>dashed</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <TimeSig>
+            <visible>0</visible>
             <sigN>1</sigN>
             <sigD>4</sigD>
             </TimeSig>
           <StaffText>
             <autoplace>0</autoplace>
             <size>8</size>
-            <offset x="-0.098014" y="-1.09801"/>
             <frameType>1</frameType>
             <text>31</text>
             </StaffText>
@@ -16637,11 +16746,15 @@
             <durationType>measure</durationType>
             <duration>1/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>dashed</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <TimeSig>
+            <visible>0</visible>
             <sigN>2</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -16650,11 +16763,15 @@
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>dashed</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <TimeSig>
+            <visible>0</visible>
             <sigN>1</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -16663,6 +16780,9 @@
             <durationType>measure</durationType>
             <duration>1/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>dashed</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -16672,6 +16792,9 @@
             <durationType>measure</durationType>
             <duration>1/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>dashed</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -16681,6 +16804,9 @@
             <durationType>measure</durationType>
             <duration>1/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>dashed</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -16690,18 +16816,21 @@
             <durationType>measure</durationType>
             <duration>1/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>dashed</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <TimeSig>
+            <visible>0</visible>
             <sigN>6</sigN>
             <sigD>4</sigD>
             </TimeSig>
           <StaffText>
             <autoplace>0</autoplace>
             <size>22</size>
-            <offset x="-0.5" y="-1"/>
             <frameType>1</frameType>
             <text>-</text>
             </StaffText>
@@ -16710,11 +16839,15 @@
             <durationType>measure</durationType>
             <duration>6/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>dashed</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <TimeSig>
+            <visible>0</visible>
             <sigN>2</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -16723,6 +16856,9 @@
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>dashed</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -17021,7 +17157,6 @@
           <StaffText>
             <autoplace>0</autoplace>
             <size>8</size>
-            <offset x="-0.098014" y="-1.09801"/>
             <frameType>1</frameType>
             <text>24</text>
             </StaffText>
@@ -20778,29 +20913,26 @@
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>dashed</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
-          <TimeSig>
-            <sigN>3</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          <Chord>
-            <durationType>half</durationType>
-            <Note>
-              <pitch>50</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
           <Rest>
-            <durationType>quarter</durationType>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>dashed</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <TimeSig>
+            <visible>0</visible>
             <sigN>2</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -20808,11 +20940,15 @@
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>dashed</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <TimeSig>
+            <visible>0</visible>
             <sigN>1</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -20820,11 +20956,15 @@
             <durationType>measure</durationType>
             <duration>1/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>dashed</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <TimeSig>
+            <visible>0</visible>
             <sigN>3</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -20832,11 +20972,15 @@
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>dashed</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <TimeSig>
+            <visible>0</visible>
             <sigN>1</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -20844,11 +20988,15 @@
             <durationType>measure</durationType>
             <duration>1/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>dashed</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <TimeSig>
+            <visible>0</visible>
             <sigN>2</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -20856,11 +21004,15 @@
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>dashed</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <TimeSig>
+            <visible>0</visible>
             <sigN>1</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -20868,6 +21020,9 @@
             <durationType>measure</durationType>
             <duration>1/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>dashed</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -20876,6 +21031,9 @@
             <durationType>measure</durationType>
             <duration>1/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>dashed</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -20884,6 +21042,9 @@
             <durationType>measure</durationType>
             <duration>1/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>dashed</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -20892,11 +21053,15 @@
             <durationType>measure</durationType>
             <duration>1/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>dashed</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <TimeSig>
+            <visible>0</visible>
             <sigN>6</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -20904,11 +21069,15 @@
             <durationType>measure</durationType>
             <duration>6/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>dashed</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <TimeSig>
+            <visible>0</visible>
             <sigN>2</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -20916,6 +21085,9 @@
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>dashed</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -22009,12 +22181,6 @@
                 </Spanner>
               </Note>
             </Chord>
-          <location>
-            <fractions>1/2</fractions>
-            </location>
-          <location>
-            <fractions>1/4</fractions>
-            </location>
           </voice>
         </Measure>
       <Measure>
@@ -24496,174 +24662,30 @@
         </Measure>
       <Measure>
         <voice>
-          <Chord>
-            <durationType>whole</durationType>
-            <Note>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          <BarLine>
+            <subtype>dashed</subtype>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          <BarLine>
+            <subtype>dashed</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <TimeSig>
-            <sigN>3</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          <Chord>
-            <dots>1</dots>
-            <durationType>half</durationType>
-            <Note>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          <Chord>
-            <durationType>half</durationType>
-            <Note>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>1</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>3</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          <Chord>
-            <dots>1</dots>
-            <durationType>half</durationType>
-            <Note>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>1</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>2</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          <Chord>
-            <durationType>half</durationType>
-            <Note>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>1</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <durationType>quarter</durationType>
-            <Note>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
-            <sigN>6</sigN>
-            <sigD>4</sigD>
-            </TimeSig>
-          <Chord>
-            <dots>1</dots>
-            <durationType>whole</durationType>
-            <Note>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <TimeSig>
+            <visible>0</visible>
             <sigN>2</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -24671,6 +24693,154 @@
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>dashed</subtype>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <visible>0</visible>
+            <sigN>1</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>1/4</duration>
+            </Rest>
+          <BarLine>
+            <subtype>dashed</subtype>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <visible>0</visible>
+            <sigN>3</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
+            </Rest>
+          <BarLine>
+            <subtype>dashed</subtype>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <visible>0</visible>
+            <sigN>1</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>1/4</duration>
+            </Rest>
+          <BarLine>
+            <subtype>dashed</subtype>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <visible>0</visible>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          <BarLine>
+            <subtype>dashed</subtype>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <visible>0</visible>
+            <sigN>1</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>1/4</duration>
+            </Rest>
+          <BarLine>
+            <subtype>dashed</subtype>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>1/4</duration>
+            </Rest>
+          <BarLine>
+            <subtype>dashed</subtype>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>1/4</duration>
+            </Rest>
+          <BarLine>
+            <subtype>dashed</subtype>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>1/4</duration>
+            </Rest>
+          <BarLine>
+            <subtype>dashed</subtype>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <visible>0</visible>
+            <sigN>6</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>6/4</duration>
+            </Rest>
+          <BarLine>
+            <subtype>dashed</subtype>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
+            <visible>0</visible>
+            <sigN>2</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          <BarLine>
+            <subtype>dashed</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
