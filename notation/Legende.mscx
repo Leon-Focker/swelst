@@ -1,0 +1,1475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<museScore version="3.02">
+  <programVersion>3.6.0</programVersion>
+  <programRevision>1977cb3</programRevision>
+  <Score>
+    <LayerTag id="0" tag="default"></LayerTag>
+    <currentLayer>0</currentLayer>
+    <Division>480</Division>
+    <Style>
+      <pageWidth>8.27</pageWidth>
+      <pageHeight>11.69</pageHeight>
+      <enableVerticalSpread>1</enableVerticalSpread>
+      <spreadSystem>3</spreadSystem>
+      <minSystemSpread>0</minSystemSpread>
+      <minSpreadSpread>0</minSpreadSpread>
+      <maxAkkoladeDistance>0</maxAkkoladeDistance>
+      <enableIndentationOnFirstSystem>0</enableIndentationOnFirstSystem>
+      <showHeader>0</showHeader>
+      <showFooter>0</showFooter>
+      <frameLineSpacing>0.4</frameLineSpacing>
+      <user1FontFace>Leland</user1FontFace>
+      <user1LineSpacing>0.3</user1LineSpacing>
+      <Spatium>1.74978</Spatium>
+      </Style>
+    <showInvisible>1</showInvisible>
+    <showUnprintable>1</showUnprintable>
+    <showFrames>1</showFrames>
+    <showMargins>0</showMargins>
+    <metaTag name="arranger"></metaTag>
+    <metaTag name="composer">Composer</metaTag>
+    <metaTag name="copyright"></metaTag>
+    <metaTag name="creationDate">2023-12-28</metaTag>
+    <metaTag name="lyricist"></metaTag>
+    <metaTag name="movementNumber"></metaTag>
+    <metaTag name="movementTitle"></metaTag>
+    <metaTag name="platform">Microsoft Windows</metaTag>
+    <metaTag name="poet"></metaTag>
+    <metaTag name="source"></metaTag>
+    <metaTag name="translator"></metaTag>
+    <metaTag name="workNumber"></metaTag>
+    <metaTag name="workTitle">Title</metaTag>
+    <Order id="orchestral" customized="1">
+      <name>Orchestral</name>
+      <instrument id="flute">
+        <family id="flutes">Flutes</family>
+        </instrument>
+      <instrument id="piano">
+        <family id="keyboards">Tasteninstrumente</family>
+        </instrument>
+      <section id="woodwind" brackets="true" showSystemMarkings="true" barLineSpan="true" thinBrackets="true">
+        <family>flutes</family>
+        <family>oboes</family>
+        <family>clarinets</family>
+        <family>saxophones</family>
+        <family>bassoons</family>
+        <unsorted group="woodwinds"/>
+        </section>
+      <section id="brass" brackets="true" showSystemMarkings="false" barLineSpan="true" thinBrackets="true">
+        <family>horns</family>
+        <family>trumpets</family>
+        <family>cornets</family>
+        <family>trombones</family>
+        <family>tubas</family>
+        </section>
+      <section id="timpani" brackets="true" showSystemMarkings="false" barLineSpan="true" thinBrackets="true">
+        <family>timpani</family>
+        </section>
+      <section id="percussion" brackets="true" showSystemMarkings="false" barLineSpan="true" thinBrackets="true">
+        <family>keyboard-percussion</family>
+        <family>drums</family>
+        <family>unpitched-metal-percussion</family>
+        <family>unpitched-wooden-percussion</family>
+        <family>other-percussion</family>
+        </section>
+      <family>keyboards</family>
+      <family>harps</family>
+      <family>organs</family>
+      <family>synths</family>
+      <section id="plucked-strings" brackets="true" showSystemMarkings="false" barLineSpan="true" thinBrackets="true">
+        <family>plucked-strings</family>
+        </section>
+      <soloists/>
+      <section id="voices" brackets="true" showSystemMarkings="false" barLineSpan="false" thinBrackets="true">
+        <family>voices</family>
+        </section>
+      <section id="strings" brackets="true" showSystemMarkings="true" barLineSpan="true" thinBrackets="true">
+        <family>orchestral-strings</family>
+        </section>
+      <unsorted/>
+      </Order>
+    <Part>
+      <Staff id="1">
+        <StaffType group="pitched">
+          <name>stdNormal</name>
+          <clef>0</clef>
+          <barlines>0</barlines>
+          <timesig>0</timesig>
+          <invisible>1</invisible>
+          </StaffType>
+        <invisible>1</invisible>
+        <hideWhenEmpty>1</hideWhenEmpty>
+        <bracket type="1" span="2" col="2"/>
+        <barLineSpan>1</barLineSpan>
+        </Staff>
+      <trackName>Piano</trackName>
+      <Instrument id="piano">
+        <trackName>Piano</trackName>
+        <minPitchP>21</minPitchP>
+        <maxPitchP>108</maxPitchP>
+        <minPitchA>21</minPitchA>
+        <maxPitchA>108</maxPitchA>
+        <instrumentId>keyboard.piano</instrumentId>
+        <clef staff="2">F</clef>
+        <Articulation>
+          <velocity>100</velocity>
+          <gateTime>95</gateTime>
+          </Articulation>
+        <Articulation name="staccatissimo">
+          <velocity>100</velocity>
+          <gateTime>33</gateTime>
+          </Articulation>
+        <Articulation name="staccato">
+          <velocity>100</velocity>
+          <gateTime>50</gateTime>
+          </Articulation>
+        <Articulation name="portato">
+          <velocity>100</velocity>
+          <gateTime>67</gateTime>
+          </Articulation>
+        <Articulation name="tenuto">
+          <velocity>100</velocity>
+          <gateTime>100</gateTime>
+          </Articulation>
+        <Articulation name="marcato">
+          <velocity>120</velocity>
+          <gateTime>67</gateTime>
+          </Articulation>
+        <Articulation name="sforzato">
+          <velocity>150</velocity>
+          <gateTime>100</gateTime>
+          </Articulation>
+        <Articulation name="sforzatoStaccato">
+          <velocity>150</velocity>
+          <gateTime>50</gateTime>
+          </Articulation>
+        <Articulation name="marcatoStaccato">
+          <velocity>120</velocity>
+          <gateTime>50</gateTime>
+          </Articulation>
+        <Articulation name="marcatoTenuto">
+          <velocity>120</velocity>
+          <gateTime>100</gateTime>
+          </Articulation>
+        <Channel>
+          <program value="0"/>
+          <synti>Fluid</synti>
+          </Channel>
+        </Instrument>
+      </Part>
+    <Part>
+      <Staff id="2">
+        <StaffType group="pitched">
+          <name>stdNormal</name>
+          <clef>0</clef>
+          <timesig>0</timesig>
+          </StaffType>
+        <hideWhenEmpty>1</hideWhenEmpty>
+        <barLineSpan>1</barLineSpan>
+        </Staff>
+      <trackName>Klavier</trackName>
+      <Instrument id="piano">
+        <trackName>Klavier</trackName>
+        <minPitchP>21</minPitchP>
+        <maxPitchP>108</maxPitchP>
+        <minPitchA>21</minPitchA>
+        <maxPitchA>108</maxPitchA>
+        <instrumentId>keyboard.piano</instrumentId>
+        <clef staff="2">F</clef>
+        <singleNoteDynamics>0</singleNoteDynamics>
+        <Articulation>
+          <velocity>100</velocity>
+          <gateTime>95</gateTime>
+          </Articulation>
+        <Articulation name="staccatissimo">
+          <velocity>100</velocity>
+          <gateTime>33</gateTime>
+          </Articulation>
+        <Articulation name="staccato">
+          <velocity>100</velocity>
+          <gateTime>50</gateTime>
+          </Articulation>
+        <Articulation name="portato">
+          <velocity>100</velocity>
+          <gateTime>67</gateTime>
+          </Articulation>
+        <Articulation name="tenuto">
+          <velocity>100</velocity>
+          <gateTime>100</gateTime>
+          </Articulation>
+        <Articulation name="marcato">
+          <velocity>120</velocity>
+          <gateTime>67</gateTime>
+          </Articulation>
+        <Articulation name="sforzato">
+          <velocity>150</velocity>
+          <gateTime>100</gateTime>
+          </Articulation>
+        <Articulation name="sforzatoStaccato">
+          <velocity>150</velocity>
+          <gateTime>50</gateTime>
+          </Articulation>
+        <Articulation name="marcatoStaccato">
+          <velocity>120</velocity>
+          <gateTime>50</gateTime>
+          </Articulation>
+        <Articulation name="marcatoTenuto">
+          <velocity>120</velocity>
+          <gateTime>100</gateTime>
+          </Articulation>
+        <Channel>
+          <program value="0"/>
+          <synti>Fluid</synti>
+          </Channel>
+        </Instrument>
+      </Part>
+    <Part>
+      <Staff id="3">
+        <StaffType group="pitched">
+          <name>stdNormal</name>
+          <lines>2</lines>
+          <lineDistance>2.5</lineDistance>
+          <clef>0</clef>
+          <slashStyle>1</slashStyle>
+          <stemless>1</stemless>
+          <timesig>0</timesig>
+          <keysig>0</keysig>
+          <ledgerlines>0</ledgerlines>
+          </StaffType>
+        <hideWhenEmpty>1</hideWhenEmpty>
+        <distOffset>-1</distOffset>
+        </Staff>
+      <trackName>Flöte</trackName>
+      <Instrument id="flute">
+        <longName>Flöte</longName>
+        <shortName>Sw.</shortName>
+        <trackName>Flöte</trackName>
+        <minPitchP>59</minPitchP>
+        <maxPitchP>98</maxPitchP>
+        <minPitchA>60</minPitchA>
+        <maxPitchA>93</maxPitchA>
+        <instrumentId>wind.flutes.flute</instrumentId>
+        <Articulation>
+          <velocity>100</velocity>
+          <gateTime>95</gateTime>
+          </Articulation>
+        <Articulation name="staccatissimo">
+          <velocity>100</velocity>
+          <gateTime>33</gateTime>
+          </Articulation>
+        <Articulation name="staccato">
+          <velocity>100</velocity>
+          <gateTime>50</gateTime>
+          </Articulation>
+        <Articulation name="portato">
+          <velocity>100</velocity>
+          <gateTime>67</gateTime>
+          </Articulation>
+        <Articulation name="tenuto">
+          <velocity>100</velocity>
+          <gateTime>100</gateTime>
+          </Articulation>
+        <Articulation name="marcato">
+          <velocity>120</velocity>
+          <gateTime>67</gateTime>
+          </Articulation>
+        <Articulation name="sforzato">
+          <velocity>150</velocity>
+          <gateTime>100</gateTime>
+          </Articulation>
+        <Articulation name="sforzatoStaccato">
+          <velocity>150</velocity>
+          <gateTime>50</gateTime>
+          </Articulation>
+        <Articulation name="marcatoStaccato">
+          <velocity>120</velocity>
+          <gateTime>50</gateTime>
+          </Articulation>
+        <Articulation name="marcatoTenuto">
+          <velocity>120</velocity>
+          <gateTime>100</gateTime>
+          </Articulation>
+        <Channel>
+          <controller ctrl="32" value="17"/>
+          <program value="73"/>
+          <synti>Fluid</synti>
+          </Channel>
+        </Instrument>
+      </Part>
+    <Staff id="1">
+      <VBox>
+        <height>10</height>
+        <bottomGap>3</bottomGap>
+        <visible>0</visible>
+        <Text>
+          <style>Title</style>
+          <family>Leland Text</family>
+          <size>35</size>
+          <text>Legende</text>
+          </Text>
+        </VBox>
+      <TBox>
+        <height>1</height>
+        <topGap>6</topGap>
+        <bottomGap>4</bottomGap>
+        <visible>0</visible>
+        <Text>
+          <style>Frame</style>
+          <family>Leland</family>
+          <size>14</size>
+          <underline>1</underline>
+          <text>Hinweise zur Registrierung und Disposition der Walcker-Orgel</text>
+          </Text>
+        </TBox>
+      <TBox>
+        <height>1</height>
+        <topGap>0</topGap>
+        <bottomGap>3</bottomGap>
+        <visible>0</visible>
+        <Text>
+          <style>Frame</style>
+          <family>Leland</family>
+          <text>Alle Register, die für Manual III notiert sind (und auch nur diese Register) sollten Teil des Schwellwerks der Orgel 
+sein. Register Nr. 4 der Walcker-Orgel, also die Aeoline, zeichnet sich durch die sehr geringe Lautstärke aus. 
+Auf einer anderen Orgel sollte an den entsprechenden Stellen also auch unbedingt ein Register gewählt werden, 
+das so leise wie möglich ist.
+</text>
+          </Text>
+        </TBox>
+      <HBox>
+        <width>25</width>
+        <visible>0</visible>
+        <Text>
+          <style>Frame</style>
+          <family>Leland</family>
+          <size>9</size>
+          <align>left,center</align>
+          <text>III. Manual
+
+1 - Traversflöte 4’
+2 - Principal 4’
+3 - Voix celeste 8’
+4 - Aeoline 8’
+5 - Gemshorn 8’
+6 - Bourdon 8’
+7 - Geigenprincipal 8’
+8 - Piccolo 2’
+9 - Cor anglais 8’
+</text>
+          </Text>
+        </HBox>
+      <HBox>
+        <width>25</width>
+        <visible>0</visible>
+        <Text>
+          <style>Frame</style>
+          <family>Leland</family>
+          <size>9</size>
+          <text>II. Manual
+
+10 - Clarinette 8’
+11 - Lieblichgedeckt 8’
+12 - Concertflöte 8’
+13 - Flötenprincipal 8’
+14 - Bourdon 16’
+18 - Cornett 3-5fach 8’
+19 - Flauto dolce 4’
+20 - Fugara 4’
+21 - Salicional 8’
+
+
+</text>
+          </Text>
+        </HBox>
+      <HBox>
+        <width>25</width>
+        <visible>0</visible>
+        <Text>
+          <style>Frame</style>
+          <family>Leland</family>
+          <size>9</size>
+          <text>I. Manual
+
+22 - Prinzipal 16′
+23 - Prinzipal 8′
+24 - Doppelflöte 8′
+25 - Viola da Gamba 8’
+26 - Quintatön 8’
+27 - Dolce 8’
+28 - Trompete 8’
+29 - Octav 4’
+30 - Rohrflöte 4’
+31 - Octav 2’
+32 - Mixtur 5-fach 2 2/3’
+
+</text>
+          </Text>
+        </HBox>
+      <HBox>
+        <width>25</width>
+        <visible>0</visible>
+        <Text>
+          <style>Frame</style>
+          <family>Leland</family>
+          <size>9</size>
+          <text>Pedal
+
+33 - Octav 4’
+34 - Posaunenbass 16’
+36 - Principalbass 16’
+37 - Violinbass 16’
+38 - Subbass 16’
+39 - Gedecktbass 16’
+40 - Octavbass 8’
+41 - Violoncello 8’
+</text>
+          </Text>
+        </HBox>
+      <TBox>
+        <height>1</height>
+        <topGap>35</topGap>
+        <bottomGap>8.5</bottomGap>
+        <visible>0</visible>
+        <Text>
+          <style>Frame</style>
+          <family>Leland</family>
+          <size>14</size>
+          <underline>1</underline>
+          <text>Spielanweisungen</text>
+          </Text>
+        </TBox>
+      <Measure>
+        <stretch>0.9</stretch>
+        <voice>
+          <BarLine>
+            <visible>0</visible>
+            </BarLine>
+          <TimeSig>
+            <visible>0</visible>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <HBox>
+        <width>80</width>
+        <visible>0</visible>
+        <LayoutBreak>
+          <visible>0</visible>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <Text>
+          <style>User-1</style>
+          <offset x="3" y="-5"/>
+          <text>Die Anweisungen zur Registrierung beziehen sich auf die oben abgebildete Disposition.
+Von links nach rechts bedeuten diese Anweisungen also beispielsweise:
+Alle Register (des jeweiligen Manuals) raus nehmen,
+Im dritten Manual die Aeoline ziehen,
+Im dritten Manual Voix Celeste und Gemshorn ziehen,
+Die Oktav der aktuellen Registrierung im ersten Manual hinzufügen.
+</text>
+          </Text>
+        </HBox>
+      <VBox>
+        <height>1</height>
+        <topGap>0</topGap>
+        <bottomGap>0</bottomGap>
+        <boxAutoSize>0</boxAutoSize>
+        <visible>0</visible>
+        </VBox>
+      <VBox>
+        <height>7</height>
+        <topGap>0</topGap>
+        <bottomGap>0</bottomGap>
+        <boxAutoSize>0</boxAutoSize>
+        <visible>0</visible>
+        </VBox>
+      <Measure>
+        <stretch>0.1</stretch>
+        <measureNumberMode>2</measureNumberMode>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <stretch>0.1</stretch>
+        <measureNumberMode>2</measureNumberMode>
+        <voice>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <HBox>
+        <width>80</width>
+        <visible>0</visible>
+        <LayoutBreak>
+          <visible>0</visible>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <Text>
+          <style>User-1</style>
+          <offset x="3" y="-1.5"/>
+          <text>An vielen Stellen werden gehaltene Noten durch von den Noten ausgehende Linien 
+dargestellt, um bessere Lesbarkeit zu gewährleisten. Die Taste sollte also erst mit Ende
+der Linie losgelassen werden, in diesem Beispiel nacheinander von oben nach unten.
+</text>
+          </Text>
+        </HBox>
+      <VBox>
+        <height>2</height>
+        <topGap>2.5</topGap>
+        <bottomGap>0</bottomGap>
+        <boxAutoSize>0</boxAutoSize>
+        <visible>0</visible>
+        </VBox>
+      <Measure>
+        <measureNumberMode>2</measureNumberMode>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <HBox>
+        <width>80</width>
+        <visible>0</visible>
+        <LayoutBreak>
+          <visible>0</visible>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <Text>
+          <style>User-1</style>
+          <offset x="3" y="0"/>
+          <text>Noten, die ins &quot;Nichts&quot; überbinden, sollen mit Gewichten gelegt werden. In diesem 
+Beispiel würden sie aber noch nicht klingen, da kein Register gezogen sein soll.
+</text>
+          </Text>
+        </HBox>
+      <VBox>
+        <height>3</height>
+        <topGap>0</topGap>
+        <bottomGap>0</bottomGap>
+        <boxAutoSize>0</boxAutoSize>
+        <visible>0</visible>
+        </VBox>
+      <Measure>
+        <measureNumberMode>2</measureNumberMode>
+        <voice>
+          <BarLine>
+            <visible>0</visible>
+            </BarLine>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <HBox>
+        <width>80</width>
+        <visible>0</visible>
+        <LayoutBreak>
+          <visible>0</visible>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <Text>
+          <style>User-1</style>
+          <offset x="3" y="0"/>
+          <text>So wird gekennzeichnet, dass die Gewichte von den entsprechenden Tasten 
+genommen werden sollen.
+</text>
+          </Text>
+        </HBox>
+      <VBox>
+        <height>3</height>
+        <topGap>0</topGap>
+        <bottomGap>0</bottomGap>
+        <boxAutoSize>0</boxAutoSize>
+        <visible>0</visible>
+        </VBox>
+      <Measure len="2/4">
+        <measureNumberMode>2</measureNumberMode>
+        <voice>
+          <RehearsalMark>
+            <textLineSpacing>0.7</textLineSpacing>
+            <frameType>0</frameType>
+            <text>2
+|
+</text>
+            </RehearsalMark>
+          <Rest>
+            <durationType>half</durationType>
+            </Rest>
+          <location>
+            <fractions>-1/4</fractions>
+            </location>
+          <RehearsalMark>
+            <textLineSpacing>0.7</textLineSpacing>
+            <offset x="0.5" y="-1"/>
+            <frameType>0</frameType>
+            <text>4</text>
+            </RehearsalMark>
+          </voice>
+        </Measure>
+      <HBox>
+        <width>80</width>
+        <visible>0</visible>
+        <LayoutBreak>
+          <visible>0</visible>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <Text>
+          <style>User-1</style>
+          <offset x="3" y="-1"/>
+          <text>Die Zahlen über der Notenzeile zeigen an, dass der elektronische Patch zum 
+korrespondierenden Cue weitergeschalten werden soll. Ein Strich unter der Zahl
+bedeutet, dass das Timing wichtig ist und deutet auf die entsprechende Zählzeit.
+</text>
+          </Text>
+        </HBox>
+      <Measure>
+        <measureNumberMode>2</measureNumberMode>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          <BarLine>
+            </BarLine>
+          </voice>
+        </Measure>
+      <HBox>
+        <width>80</width>
+        <visible>0</visible>
+        <Text>
+          <style>User-1</style>
+          <offset x="3" y="0"/>
+          <text>Die durch &quot;Sw.&quot; gekennzeichnete Notenzeile zeigt, ob die Schweller geöffnet (oben im 
+System) oder geschlossen (unten im System) sein sollen. Hier ist also ein Crescendo 
+notiert.
+</text>
+          </Text>
+        </HBox>
+      <VBox>
+        <height>10</height>
+        </VBox>
+      <TBox>
+        <height>1</height>
+        <Text>
+          <style>Frame</style>
+          <family>Leland</family>
+          <color r="255" g="0" b="0" a="255"/>
+          <text>IMPROVISATION</text>
+          </Text>
+        </TBox>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <HBox>
+        <width>80</width>
+        <visible>0</visible>
+        <LayoutBreak>
+          <visible>0</visible>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        </HBox>
+      <TBox>
+        <height>1</height>
+        <bottomGap>4</bottomGap>
+        <visible>0</visible>
+        <Text>
+          <style>Frame</style>
+          <family>Leland</family>
+          <size>14</size>
+          <underline>1</underline>
+          <text>Hinweise zur Elektronik</text>
+          </Text>
+        </TBox>
+      <TBox>
+        <height>1</height>
+        <topGap>0</topGap>
+        <bottomGap>3</bottomGap>
+        <Text>
+          <style>Frame</style>
+          <family>Leland</family>
+          <color r="255" g="0" b="0" a="255"/>
+          <text>Für die Aufführung sollte ein Lautsprecher hinter den Schwellern, also in der Orgel aufgestellt werden. Gegebenen-
+falls können auch mehrere Lautsprecher das gleiche Signal bekommen, falls ein Lautsprecher nicht laut genug ist.
+Ein Mikrofron sollte vor den Schwellern aufgestellt werden, so dass also durch Öffnen und Schließen der Schweller
+beeinflusst werden kann, wie viel das Mikrofron vom Lautsprecher aufnimmt.
+
+Das Mikrofron sollte mit der lautesten Stelle des Stücks gepegelt werden. Dann sollte im Pure Data Patch der große
+Knopf &quot;auto-level: MIC&quot; gedrückt werden, während die Orgel wieder die lauteste Stelle spielt. Dann sollte der Knopf
+darunter &quot;auto-level: OUT&quot; gedrückt werden, während es leise ist. Dadurch werden Ein- und Ausgangspegel im 
+Patch automatisch eingestellt. Dabei sollte der Mikrofon-Pegel (Anzeige neben dem entsprechenden Knopf) nicht
+höher als 2 sein. Falls doch, sollte die Vorverstärkung des Mikros noch einmal angepasst werden. Gleiches gilt für 
+den Audio-Ausgang. Ist dieser deutlich größer als 1, sollte die Lautstärke des Lautsprechers etc angepasst werden.
+
+Falls die Pegel außerhalb des Patches (also Vorverstärkung etc.) verändert haben, sollte der &quot;auto-level: reset&quot; 
+Knopf gedrückt und der eben beschriebene Vorgang wiederholt werden.
+
+Damit beim Proben nicht immer das ganze Stück von vorn gespielt werden muss, kann alternativ auch zu diesen
+Cues begonnen werden: !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+</text>
+          </Text>
+        </TBox>
+      </Staff>
+    <Staff id="2">
+      <Measure>
+        <voice>
+          <BarLine>
+            <visible>0</visible>
+            </BarLine>
+          <TimeSig>
+            <visible>0</visible>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <StaffText>
+            <autoplace>0</autoplace>
+            <size>22</size>
+            <frameType>1</frameType>
+            <text>-</text>
+            </StaffText>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <StaffText>
+            <autoplace>0</autoplace>
+            <size>8</size>
+            <frameType>1</frameType>
+            <text>4</text>
+            </StaffText>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <StaffText>
+            <autoplace>0</autoplace>
+            <size>8</size>
+            <frameType>1</frameType>
+            <text>3+5</text>
+            </StaffText>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <StaffText>
+            <autoplace>0</autoplace>
+            <size>8</size>
+            <frameType>1</frameType>
+            <text>+31</text>
+            </StaffText>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <BarLine>
+            <visible>0</visible>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <BarLine>
+            <visible>0</visible>
+            </BarLine>
+          <Chord>
+            <durationType>whole</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>75</pitch>
+              <tpc>23</tpc>
+              <velocity>33</velocity>
+              <veloType>user</veloType>
+              <Spanner type="TextLine">
+                <TextLine>
+                  <lineWidth>0.3</lineWidth>
+                  <anchor>3</anchor>
+                  <Segment>
+                    <subtype>0</subtype>
+                    <offset x="0.651175" y="0"/>
+                    <off2 x="8.0525" y="0"/>
+                    </Segment>
+                  </TextLine>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
+              </Note>
+            <Note>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              <velocity>33</velocity>
+              <veloType>user</veloType>
+              <Spanner type="TextLine">
+                <TextLine>
+                  <lineWidth>0.3</lineWidth>
+                  <anchor>3</anchor>
+                  <Segment>
+                    <subtype>0</subtype>
+                    <offset x="0.748159" y="0"/>
+                    <off2 x="6.55356" y="0"/>
+                    </Segment>
+                  </TextLine>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
+              </Note>
+            <Note>
+              <pitch>77</pitch>
+              <tpc>13</tpc>
+              <velocity>33</velocity>
+              <veloType>user</veloType>
+              <Spanner type="TextLine">
+                <TextLine>
+                  <lineWidth>0.3</lineWidth>
+                  <anchor>3</anchor>
+                  <Segment>
+                    <subtype>0</subtype>
+                    <offset x="0.762014" y="0"/>
+                    <off2 x="5.17613" y="0"/>
+                    </Segment>
+                  </TextLine>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
+              </Note>
+            <Note>
+              <pitch>79</pitch>
+              <tpc>15</tpc>
+              <velocity>23</velocity>
+              <veloType>user</veloType>
+              <Spanner type="TextLine">
+                <TextLine>
+                  <lineWidth>0.3</lineWidth>
+                  <anchor>3</anchor>
+                  <Segment>
+                    <subtype>0</subtype>
+                    <offset x="0.595756" y="0"/>
+                    <off2 x="4.15476" y="0"/>
+                    </Segment>
+                  </TextLine>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <durationType>whole</durationType>
+            <Note>
+              <visible>0</visible>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                <visible>0</visible>
+                </Accidental>
+              <pitch>75</pitch>
+              <tpc>23</tpc>
+              <Spanner type="TextLine">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              <Spanner type="TextLine">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>77</pitch>
+              <tpc>13</tpc>
+              <Spanner type="TextLine">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>79</pitch>
+              <tpc>15</tpc>
+              <Spanner type="TextLine">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
+              </Note>
+            </Chord>
+          <BarLine>
+            <visible>0</visible>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <BarLine>
+            <visible>0</visible>
+            </BarLine>
+          <StaffText>
+            <autoplace>0</autoplace>
+            <size>22</size>
+            <frameType>1</frameType>
+            <text>-</text>
+            </StaffText>
+          <Rest>
+            <durationType>half</durationType>
+            </Rest>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Stem>
+              <visible>0</visible>
+              </Stem>
+            <Note>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>68</pitch>
+              <tpc>22</tpc>
+              <velocity>31</velocity>
+              <headType>whole</headType>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+              <velocity>31</velocity>
+              <headType>whole</headType>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>77</pitch>
+              <tpc>13</tpc>
+              <velocity>31</velocity>
+              <headType>whole</headType>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>85</pitch>
+              <tpc>21</tpc>
+              <headType>whole</headType>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Stem>
+              <visible>0</visible>
+              </Stem>
+            <Note>
+              <visible>0</visible>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>68</pitch>
+              <tpc>22</tpc>
+              <velocity>31</velocity>
+              <headType>whole</headType>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+              <velocity>31</velocity>
+              <headType>whole</headType>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>77</pitch>
+              <tpc>13</tpc>
+              <velocity>31</velocity>
+              <headType>whole</headType>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>85</pitch>
+              <tpc>21</tpc>
+              <headType>whole</headType>
+              </Note>
+            </Chord>
+          <BarLine>
+            <visible>0</visible>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <BarLine>
+            <visible>0</visible>
+            </BarLine>
+          <Chord>
+            <durationType>half</durationType>
+            <Stem>
+              <visible>0</visible>
+              </Stem>
+            <Note>
+              <visible>0</visible>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/2</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>68</pitch>
+              <tpc>22</tpc>
+              <velocity>31</velocity>
+              <headType>whole</headType>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/2</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+              <velocity>31</velocity>
+              <headType>whole</headType>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/2</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>77</pitch>
+              <tpc>13</tpc>
+              <velocity>31</velocity>
+              <headType>whole</headType>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <Spanner type="Tie">
+                <Tie>
+                  </Tie>
+                <next>
+                  <location>
+                    <fractions>1/2</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <pitch>85</pitch>
+              <tpc>21</tpc>
+              <headType>whole</headType>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>half</durationType>
+            <Stem>
+              <visible>0</visible>
+              </Stem>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/2</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>68</pitch>
+              <tpc>22</tpc>
+              <velocity>31</velocity>
+              <headType>whole</headType>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/2</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+              <velocity>31</velocity>
+              <headType>whole</headType>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/2</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>77</pitch>
+              <tpc>13</tpc>
+              <velocity>31</velocity>
+              <headType>whole</headType>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <Spanner type="Tie">
+                <prev>
+                  <location>
+                    <fractions>-1/2</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              <pitch>85</pitch>
+              <tpc>21</tpc>
+              <headType>whole</headType>
+              </Note>
+            </Chord>
+          <BarLine>
+            <visible>0</visible>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure len="2/4">
+        <voice>
+          <BarLine>
+            <visible>0</visible>
+            </BarLine>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <BarLine>
+            <visible>0</visible>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <durationType>whole</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>75</pitch>
+              <tpc>23</tpc>
+              <velocity>33</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              <velocity>33</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <pitch>77</pitch>
+              <tpc>13</tpc>
+              <velocity>33</velocity>
+              <veloType>user</veloType>
+              </Note>
+            <Note>
+              <pitch>79</pitch>
+              <tpc>15</tpc>
+              <velocity>23</velocity>
+              <veloType>user</veloType>
+              </Note>
+            </Chord>
+          <BarLine>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      </Staff>
+    <Staff id="3">
+      <Measure>
+        <voice>
+          <KeySig>
+            <accidental>0</accidental>
+            </KeySig>
+          <TimeSig>
+            <visible>0</visible>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          <BarLine>
+            <visible>0</visible>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          <BarLine>
+            <visible>0</visible>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          <BarLine>
+            <visible>0</visible>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          <BarLine>
+            <visible>0</visible>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure len="2/4">
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          <BarLine>
+            <visible>0</visible>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <Note>
+              <visible>0</visible>
+              <NoteDot>
+                <visible>0</visible>
+                </NoteDot>
+              <pitch>74</pitch>
+              <tpc>16</tpc>
+              <Spanner type="TextLine">
+                <TextLine>
+                  <lineWidth>0.5</lineWidth>
+                  <anchor>3</anchor>
+                  <Segment>
+                    <subtype>0</subtype>
+                    <offset x="-6.00946" y="0"/>
+                    <off2 x="9.2792" y="0"/>
+                    </Segment>
+                  </TextLine>
+                <next>
+                  <location>
+                    <fractions>3/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <visible>0</visible>
+              <pitch>77</pitch>
+              <tpc>13</tpc>
+              <Spanner type="TextLine">
+                <prev>
+                  <location>
+                    <fractions>-3/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              </Note>
+            </Chord>
+          <BarLine>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      </Staff>
+    </Score>
+  </museScore>
