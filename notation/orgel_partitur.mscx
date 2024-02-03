@@ -84,12 +84,11 @@
           <name>stdNormal</name>
           </StaffType>
         <hideWhenEmpty>1</hideWhenEmpty>
-        <bracket type="1" span="2" col="2"/>
+        <bracket type="2" span="3" col="0"/>
         <barLineSpan>1</barLineSpan>
         </Staff>
       <trackName>Orgel 3</trackName>
       <Instrument id="organ">
-        <longName>Manual III</longName>
         <shortName>III</shortName>
         <trackName>Orgel</trackName>
         <instrumentId>keyboard.organ</instrumentId>
@@ -149,7 +148,6 @@
           <name>stdNormal</name>
           </StaffType>
         <hideWhenEmpty>1</hideWhenEmpty>
-        <bracket type="1" span="2" col="2"/>
         <barLineSpan>1</barLineSpan>
         </Staff>
       <trackName>Orgel 2</trackName>
@@ -214,7 +212,6 @@
           <name>stdNormal</name>
           </StaffType>
         <hideWhenEmpty>1</hideWhenEmpty>
-        <bracket type="1" span="2" col="2"/>
         <barLineSpan>1</barLineSpan>
         </Staff>
       <trackName>Orgel 1</trackName>
@@ -279,7 +276,7 @@
           <name>stdNormal</name>
           </StaffType>
         <hideWhenEmpty>1</hideWhenEmpty>
-        <bracket type="1" span="2" col="2"/>
+        <bracket type="2" span="2" col="0"/>
         <barLineSpan>1</barLineSpan>
         </Staff>
       <trackName>Orgel Pedal</trackName>
@@ -433,15 +430,58 @@
     <Staff id="1">
       <VBox>
         <height>10</height>
+        <visible>0</visible>
         <Text>
           <style>Title</style>
-          <text>orgel</text>
+          <family>Leland</family>
+          <text>swëlst</text>
           </Text>
         <Text>
           <style>Composer</style>
+          <family>Leland</family>
           <text>Leon Focker</text>
           </Text>
         </VBox>
+      <Measure>
+        <LayoutBreak>
+          <visible>0</visible>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <voice>
+          <BarLine>
+            <visible>0</visible>
+            </BarLine>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+            <visible>0</visible>
+            </Clef>
+          <TimeSig>
+            <visible>0</visible>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <RehearsalMark>
+            <minDistance>0.416778</minDistance>
+            <textLineSpacing>0.7</textLineSpacing>
+            <offset x="-7.5" y="-3.5"/>
+            <frameType>0</frameType>
+            <text>1
+|
+</text>
+            </RehearsalMark>
+          <StaffText>
+            <style>Repeat Text Left</style>
+            <text>30''</text>
+            </StaffText>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          <BarLine>
+            </BarLine>
+          </voice>
+        </Measure>
       <Measure>
         <voice>
           <TimeSig>
@@ -451,7 +491,7 @@
           <Tempo>
             <tempo>1</tempo>
             <followText>1</followText>
-            <offset x="-5" y="-2"/>
+            <offset x="-5" y="-5"/>
             <text><sym>metNoteQuarterUp</sym> = 60</text>
             </Tempo>
           <StaffText>
@@ -882,7 +922,7 @@
                   <Segment>
                     <subtype>0</subtype>
                     <offset x="0.626997" y="0"/>
-                    <off2 x="4.51847" y="0"/>
+                    <off2 x="4.53092" y="0"/>
                     </Segment>
                   </TextLine>
                 <next>
@@ -904,7 +944,7 @@
                   <Segment>
                     <subtype>0</subtype>
                     <offset x="0.715169" y="0"/>
-                    <off2 x="4.4493" y="0"/>
+                    <off2 x="4.42715" y="0"/>
                     </Segment>
                   </TextLine>
                 <next>
@@ -956,7 +996,7 @@
                   <Segment>
                     <subtype>0</subtype>
                     <offset x="0.597607" y="0"/>
-                    <off2 x="4.51149" y="0"/>
+                    <off2 x="4.54575" y="0"/>
                     </Segment>
                   </TextLine>
                 <next>
@@ -1130,6 +1170,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
+          <visible>0</visible>
           <subtype>line</subtype>
           </LayoutBreak>
         <voice>
@@ -1268,7 +1309,7 @@
 </text>
             </RehearsalMark>
           <Chord>
-            <durationType>16th</durationType>
+            <durationType>32nd</durationType>
             <Note>
               <pitch>77</pitch>
               <tpc>13</tpc>
@@ -1281,7 +1322,7 @@
                   <Segment>
                     <subtype>0</subtype>
                     <offset x="0" y="0"/>
-                    <off2 x="4.16726" y="0"/>
+                    <off2 x="3.60465" y="0"/>
                     </Segment>
                   </TextLine>
                 <next>
@@ -1295,12 +1336,10 @@
               </Note>
             </Chord>
           <Chord>
-            <durationType>16th</durationType>
+            <durationType>32nd</durationType>
             <Note>
               <pitch>79</pitch>
               <tpc>15</tpc>
-              <velocity>33</velocity>
-              <veloType>user</veloType>
               <Spanner type="TextLine">
                 <TextLine>
                   <lineWidth>0.3</lineWidth>
@@ -1308,13 +1347,13 @@
                   <Segment>
                     <subtype>0</subtype>
                     <offset x="0" y="0"/>
-                    <off2 x="4.1098" y="0"/>
+                    <off2 x="3.59249" y="0"/>
                     </Segment>
                   </TextLine>
                 <next>
                   <location>
                     <measures>1</measures>
-                    <fractions>-5/16</fractions>
+                    <fractions>-9/32</fractions>
                     <notes>3</notes>
                     </location>
                   </next>
@@ -1322,7 +1361,7 @@
               </Note>
             </Chord>
           <Chord>
-            <durationType>16th</durationType>
+            <durationType>32nd</durationType>
             <Note>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
@@ -1335,16 +1374,11 @@
                 <TextLine>
                   <lineWidth>0.3</lineWidth>
                   <anchor>3</anchor>
-                  <Segment>
-                    <subtype>0</subtype>
-                    <offset x="0" y="0"/>
-                    <off2 x="1.18701" y="0"/>
-                    </Segment>
                   </TextLine>
                 <next>
                   <location>
                     <measures>2</measures>
-                    <fractions>-1/8</fractions>
+                    <fractions>-1/16</fractions>
                     <notes>1</notes>
                     </location>
                   </next>
@@ -1352,12 +1386,10 @@
               </Note>
             </Chord>
           <Chord>
-            <durationType>16th</durationType>
+            <durationType>32nd</durationType>
             <Note>
               <pitch>76</pitch>
               <tpc>18</tpc>
-              <velocity>33</velocity>
-              <veloType>user</veloType>
               <Spanner type="TextLine">
                 <TextLine>
                   <lineWidth>0.3</lineWidth>
@@ -1365,19 +1397,23 @@
                   <Segment>
                     <subtype>0</subtype>
                     <offset x="0" y="0"/>
-                    <off2 x="4.12091" y="0"/>
+                    <off2 x="3.47755" y="0"/>
                     </Segment>
                   </TextLine>
                 <next>
                   <location>
                     <measures>1</measures>
-                    <fractions>-7/16</fractions>
+                    <fractions>-11/32</fractions>
                     <notes>1</notes>
                     </location>
                   </next>
                 </Spanner>
               </Note>
             </Chord>
+          <Rest>
+            <visible>0</visible>
+            <durationType>eighth</durationType>
+            </Rest>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -1431,7 +1467,7 @@
                 <prev>
                   <location>
                     <measures>-1</measures>
-                    <fractions>7/16</fractions>
+                    <fractions>11/32</fractions>
                     <notes>-1</notes>
                     </location>
                   </prev>
@@ -1463,7 +1499,7 @@
                 <prev>
                   <location>
                     <measures>-1</measures>
-                    <fractions>5/16</fractions>
+                    <fractions>9/32</fractions>
                     <notes>-3</notes>
                     </location>
                   </prev>
@@ -1488,7 +1524,7 @@
                   <Segment>
                     <subtype>0</subtype>
                     <offset x="0.648798" y="0"/>
-                    <off2 x="0.39856" y="0"/>
+                    <off2 x="-0.620309" y="0"/>
                     </Segment>
                   </TextLine>
                 <next>
@@ -1530,7 +1566,7 @@
                 <prev>
                   <location>
                     <measures>-2</measures>
-                    <fractions>1/8</fractions>
+                    <fractions>1/16</fractions>
                     <notes>-1</notes>
                     </location>
                   </prev>
@@ -1548,7 +1584,7 @@
                   <Segment>
                     <subtype>0</subtype>
                     <offset x="0" y="0"/>
-                    <off2 x="1.34411" y="0"/>
+                    <off2 x="0.736707" y="0"/>
                     </Segment>
                   </TextLine>
                 <next>
@@ -1571,7 +1607,7 @@
                   <Segment>
                     <subtype>0</subtype>
                     <offset x="0" y="0"/>
-                    <off2 x="2.68822" y="0"/>
+                    <off2 x="2.00244" y="0"/>
                     </Segment>
                   </TextLine>
                 <next>
@@ -1597,7 +1633,7 @@
                   <Segment>
                     <subtype>0</subtype>
                     <offset x="0" y="0"/>
-                    <off2 x="2.50994" y="0"/>
+                    <off2 x="2.312" y="0"/>
                     </Segment>
                   </TextLine>
                 <next>
@@ -1622,7 +1658,7 @@
                   <Segment>
                     <subtype>0</subtype>
                     <offset x="0" y="0"/>
-                    <off2 x="2.53886" y="0"/>
+                    <off2 x="2.30793" y="0"/>
                     </Segment>
                   </TextLine>
                 <next>
@@ -1686,7 +1722,7 @@
                   <Segment>
                     <subtype>0</subtype>
                     <offset x="0" y="0"/>
-                    <off2 x="2.50379" y="0"/>
+                    <off2 x="2.61265" y="0"/>
                     </Segment>
                   </TextLine>
                 <next>
@@ -1717,7 +1753,7 @@
                   <Segment>
                     <subtype>0</subtype>
                     <offset x="0" y="0"/>
-                    <off2 x="2.7131" y="0"/>
+                    <off2 x="2.50417" y="0"/>
                     </Segment>
                   </TextLine>
                 <next>
@@ -1753,7 +1789,7 @@
                   <Segment>
                     <subtype>0</subtype>
                     <offset x="0" y="0"/>
-                    <off2 x="2.72124" y="0"/>
+                    <off2 x="2.51231" y="0"/>
                     </Segment>
                   </TextLine>
                 <next>
@@ -1896,7 +1932,7 @@
                   <Segment>
                     <subtype>0</subtype>
                     <offset x="0" y="0"/>
-                    <off2 x="2.32142" y="0"/>
+                    <off2 x="2.21033" y="0"/>
                     </Segment>
                   </TextLine>
                 <next>
@@ -1916,7 +1952,7 @@
                   <Segment>
                     <subtype>0</subtype>
                     <offset x="0" y="0"/>
-                    <off2 x="4.14918" y="0"/>
+                    <off2 x="3.51239" y="0"/>
                     </Segment>
                   </TextLine>
                 <next>
@@ -1937,7 +1973,7 @@
                   <Segment>
                     <subtype>0</subtype>
                     <offset x="0" y="0"/>
-                    <off2 x="2.37938" y="0"/>
+                    <off2 x="2.18189" y="0"/>
                     </Segment>
                   </TextLine>
                 <next>
@@ -2069,7 +2105,7 @@
                   <Segment>
                     <subtype>0</subtype>
                     <offset x="0" y="0"/>
-                    <off2 x="4.10004" y="0"/>
+                    <off2 x="3.45345" y="0"/>
                     </Segment>
                   </TextLine>
                 <next>
@@ -2091,7 +2127,7 @@
                   <Segment>
                     <subtype>0</subtype>
                     <offset x="0" y="0"/>
-                    <off2 x="4.15115" y="0"/>
+                    <off2 x="3.42619" y="0"/>
                     </Segment>
                   </TextLine>
                 <next>
@@ -2118,7 +2154,7 @@
                   <Segment>
                     <subtype>0</subtype>
                     <offset x="0" y="0"/>
-                    <off2 x="4.15808" y="0"/>
+                    <off2 x="3.52129" y="0"/>
                     </Segment>
                   </TextLine>
                 <next>
@@ -2197,13 +2233,20 @@
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <Segment>
+            <leadingSpace>0.628414</leadingSpace>
+            </Segment>
           </voice>
         </Measure>
       <Measure>
         <LayoutBreak>
+          <visible>0</visible>
           <subtype>line</subtype>
           </LayoutBreak>
         <voice>
+          <Fermata>
+            <subtype>fermataLongAbove</subtype>
+            </Fermata>
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
@@ -2239,7 +2282,7 @@
                   <Segment>
                     <subtype>0</subtype>
                     <offset x="0.623467" y="0"/>
-                    <off2 x="9.37927" y="0"/>
+                    <off2 x="9.07686" y="0"/>
                     </Segment>
                   </TextLine>
                 <next>
@@ -2261,7 +2304,7 @@
                   <Segment>
                     <subtype>0</subtype>
                     <offset x="0.77587" y="0"/>
-                    <off2 x="9.26234" y="0"/>
+                    <off2 x="8.94344" y="0"/>
                     </Segment>
                   </TextLine>
                 <next>
@@ -2283,7 +2326,7 @@
                   <Segment>
                     <subtype>0</subtype>
                     <offset x="0.77587" y="0"/>
-                    <off2 x="9.35633" y="0"/>
+                    <off2 x="9.05118" y="0"/>
                     </Segment>
                   </TextLine>
                 <next>
@@ -2305,7 +2348,7 @@
                   <Segment>
                     <subtype>0</subtype>
                     <offset x="0.692741" y="0"/>
-                    <off2 x="9.45809" y="0"/>
+                    <off2 x="9.1172" y="0"/>
                     </Segment>
                   </TextLine>
                 <next>
@@ -2646,7 +2689,7 @@
                   <Segment>
                     <subtype>0</subtype>
                     <offset x="0" y="0"/>
-                    <off2 x="3.61656" y="0"/>
+                    <off2 x="3.25888" y="0"/>
                     </Segment>
                   </TextLine>
                 <next>
@@ -2673,7 +2716,7 @@
                   <Segment>
                     <subtype>0</subtype>
                     <offset x="0" y="0"/>
-                    <off2 x="3.61656" y="0"/>
+                    <off2 x="3.26665" y="0"/>
                     </Segment>
                   </TextLine>
                 <next>
@@ -2698,7 +2741,7 @@
                   <Segment>
                     <subtype>0</subtype>
                     <offset x="0" y="0"/>
-                    <off2 x="3.66594" y="0"/>
+                    <off2 x="3.26938" y="0"/>
                     </Segment>
                   </TextLine>
                 <next>
@@ -2728,7 +2771,7 @@
                   <Segment>
                     <subtype>0</subtype>
                     <offset x="0.637321" y="0"/>
-                    <off2 x="2.89565" y="0"/>
+                    <off2 x="2.61572" y="0"/>
                     </Segment>
                   </TextLine>
                 <next>
@@ -2954,6 +2997,7 @@
       <Measure>
         <stretch>0.9</stretch>
         <LayoutBreak>
+          <visible>0</visible>
           <subtype>line</subtype>
           </LayoutBreak>
         <voice>
@@ -3038,7 +3082,7 @@
                   <Segment>
                     <subtype>0</subtype>
                     <offset x="0" y="0"/>
-                    <off2 x="4.03232" y="0"/>
+                    <off2 x="1.98997" y="0"/>
                     </Segment>
                   </TextLine>
                 <next>
@@ -3061,7 +3105,7 @@
                   <Segment>
                     <subtype>0</subtype>
                     <offset x="0" y="0"/>
-                    <off2 x="3.97996" y="0"/>
+                    <off2 x="1.98998" y="0"/>
                     </Segment>
                   </TextLine>
                 <next>
@@ -3086,7 +3130,7 @@
                   <Segment>
                     <subtype>0</subtype>
                     <offset x="0" y="0"/>
-                    <off2 x="3.98118" y="0"/>
+                    <off2 x="1.9912" y="0"/>
                     </Segment>
                   </TextLine>
                 <next>
@@ -3111,7 +3155,7 @@
                   <Segment>
                     <subtype>0</subtype>
                     <offset x="0" y="0"/>
-                    <off2 x="8.02456" y="0"/>
+                    <off2 x="4.15277" y="0"/>
                     </Segment>
                   </TextLine>
                 <next>
@@ -3163,7 +3207,7 @@
                   <Segment>
                     <subtype>0</subtype>
                     <offset x="0.656388" y="0"/>
-                    <off2 x="2.66458" y="0"/>
+                    <off2 x="1.04118" y="0"/>
                     </Segment>
                   </TextLine>
                 <next>
@@ -3201,7 +3245,7 @@
                   <Segment>
                     <subtype>0</subtype>
                     <offset x="0.656388" y="0"/>
-                    <off2 x="7.4926" y="0"/>
+                    <off2 x="3.47569" y="0"/>
                     </Segment>
                   </TextLine>
                 <next>
@@ -3306,7 +3350,7 @@
                   <Segment>
                     <subtype>0</subtype>
                     <offset x="0.663327" y="0"/>
-                    <off2 x="2.75661" y="0"/>
+                    <off2 x="0.993559" y="0"/>
                     </Segment>
                   </TextLine>
                 <next>
@@ -3390,7 +3434,7 @@
                   <Segment>
                     <subtype>0</subtype>
                     <offset x="0.644249" y="0"/>
-                    <off2 x="7.44253" y="0"/>
+                    <off2 x="3.36804" y="0"/>
                     </Segment>
                   </TextLine>
                 <next>
@@ -3416,7 +3460,7 @@
                   <Segment>
                     <subtype>0</subtype>
                     <offset x="0.651176" y="0"/>
-                    <off2 x="7.43561" y="0"/>
+                    <off2 x="3.49485" y="0"/>
                     </Segment>
                   </TextLine>
                 <next>
@@ -3508,9 +3552,6 @@
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Rest>
             <durationType>half</durationType>
@@ -3552,6 +3593,10 @@
         </Measure>
       <Measure>
         <stretch>0.9</stretch>
+        <LayoutBreak>
+          <visible>0</visible>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <TimeSig>
             <sigN>6</sigN>
@@ -6217,6 +6262,7 @@
         <stretch>1.2</stretch>
         <voice>
           <StaffText>
+            <visible>0</visible>
             <minDistance>0.296616</minDistance>
             <size>8</size>
             <offset x="-1.5" y="-3"/>
@@ -6225,13 +6271,17 @@
 frei wählbar, nicht gleichmäßig!
 </text>
             </StaffText>
+          <StaffText>
+            <style>Repeat Text Left</style>
+            <text>ca. 20'' - 50''</text>
+            </StaffText>
           <Rest>
             <visible>0</visible>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
           <BarLine>
-            <subtype>dashed</subtype>
+            <visible>0</visible>
             </BarLine>
           </voice>
         </Measure>
@@ -6242,12 +6292,12 @@ frei wählbar, nicht gleichmäßig!
             <durationType>whole</durationType>
             </Rest>
           <BarLine>
-            <subtype>dashed</subtype>
+            <visible>0</visible>
             </BarLine>
           </voice>
         </Measure>
       <Measure>
-        <stretch>0.4</stretch>
+        <stretch>1.7</stretch>
         <voice>
           <TimeSig>
             <visible>0</visible>
@@ -6266,12 +6316,12 @@ frei wählbar, nicht gleichmäßig!
             <duration>2/4</duration>
             </Rest>
           <BarLine>
-            <subtype>dashed</subtype>
+            <visible>0</visible>
             </BarLine>
           </voice>
         </Measure>
       <Measure>
-        <stretch>0.4</stretch>
+        <stretch>0.2</stretch>
         <voice>
           <TimeSig>
             <visible>0</visible>
@@ -6284,12 +6334,12 @@ frei wählbar, nicht gleichmäßig!
             <duration>1/4</duration>
             </Rest>
           <BarLine>
-            <subtype>dashed</subtype>
+            <visible>0</visible>
             </BarLine>
           </voice>
         </Measure>
       <Measure>
-        <stretch>0.4</stretch>
+        <stretch>2</stretch>
         <voice>
           <TimeSig>
             <visible>0</visible>
@@ -6308,12 +6358,12 @@ frei wählbar, nicht gleichmäßig!
             <duration>3/4</duration>
             </Rest>
           <BarLine>
-            <subtype>dashed</subtype>
+            <visible>0</visible>
             </BarLine>
           </voice>
         </Measure>
       <Measure>
-        <stretch>0.4</stretch>
+        <stretch>0.2</stretch>
         <voice>
           <TimeSig>
             <visible>0</visible>
@@ -6326,12 +6376,12 @@ frei wählbar, nicht gleichmäßig!
             <duration>1/4</duration>
             </Rest>
           <BarLine>
-            <subtype>dashed</subtype>
+            <visible>0</visible>
             </BarLine>
           </voice>
         </Measure>
       <Measure>
-        <stretch>0.4</stretch>
+        <stretch>1.6</stretch>
         <voice>
           <TimeSig>
             <visible>0</visible>
@@ -6344,12 +6394,12 @@ frei wählbar, nicht gleichmäßig!
             <duration>2/4</duration>
             </Rest>
           <BarLine>
-            <subtype>dashed</subtype>
+            <visible>0</visible>
             </BarLine>
           </voice>
         </Measure>
       <Measure>
-        <stretch>0.4</stretch>
+        <stretch>0.2</stretch>
         <voice>
           <TimeSig>
             <visible>0</visible>
@@ -6368,12 +6418,12 @@ frei wählbar, nicht gleichmäßig!
             <duration>1/4</duration>
             </Rest>
           <BarLine>
-            <subtype>dashed</subtype>
+            <visible>0</visible>
             </BarLine>
           </voice>
         </Measure>
       <Measure>
-        <stretch>0.4</stretch>
+        <stretch>0.2</stretch>
         <voice>
           <StaffText>
             <autoplace>0</autoplace>
@@ -6387,12 +6437,12 @@ frei wählbar, nicht gleichmäßig!
             <duration>1/4</duration>
             </Rest>
           <BarLine>
-            <subtype>dashed</subtype>
+            <visible>0</visible>
             </BarLine>
           </voice>
         </Measure>
       <Measure>
-        <stretch>0.4</stretch>
+        <stretch>0.2</stretch>
         <voice>
           <Rest>
             <visible>0</visible>
@@ -6400,12 +6450,12 @@ frei wählbar, nicht gleichmäßig!
             <duration>1/4</duration>
             </Rest>
           <BarLine>
-            <subtype>dashed</subtype>
+            <visible>0</visible>
             </BarLine>
           </voice>
         </Measure>
       <Measure>
-        <stretch>0.4</stretch>
+        <stretch>0.2</stretch>
         <voice>
           <StaffText>
             <autoplace>0</autoplace>
@@ -6419,12 +6469,12 @@ frei wählbar, nicht gleichmäßig!
             <duration>1/4</duration>
             </Rest>
           <BarLine>
-            <subtype>dashed</subtype>
+            <visible>0</visible>
             </BarLine>
           </voice>
         </Measure>
       <Measure>
-        <stretch>0</stretch>
+        <stretch>1.9</stretch>
         <voice>
           <TimeSig>
             <visible>0</visible>
@@ -6437,12 +6487,12 @@ frei wählbar, nicht gleichmäßig!
             <duration>6/4</duration>
             </Rest>
           <BarLine>
-            <subtype>dashed</subtype>
+            <visible>0</visible>
             </BarLine>
           </voice>
         </Measure>
       <Measure>
-        <stretch>0.4</stretch>
+        <stretch>1.5</stretch>
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
@@ -6464,7 +6514,6 @@ frei wählbar, nicht gleichmäßig!
             <duration>2/4</duration>
             </Rest>
           <BarLine>
-            <subtype>dashed</subtype>
             </BarLine>
           </voice>
         </Measure>
@@ -6844,6 +6893,9 @@ frei wählbar, nicht gleichmäßig!
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>dashed</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -6855,45 +6907,24 @@ frei wählbar, nicht gleichmäßig!
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
+          <BarLine>
+            <subtype>dashed</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
         <LayoutBreak>
+          <visible>0</visible>
           <subtype>line</subtype>
           </LayoutBreak>
         <voice>
+          <RehearsalMark>
+            <textLineSpacing>0.7</textLineSpacing>
+            <offset x="14.64" y="-3.5"/>
+            <frameType>0</frameType>
+            <text>32
+</text>
+            </RehearsalMark>
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
@@ -6902,13 +6933,6 @@ frei wählbar, nicht gleichmäßig!
         </Measure>
       <Measure>
         <voice>
-          <RehearsalMark>
-            <textLineSpacing>0.7</textLineSpacing>
-            <frameType>0</frameType>
-            <text>32
-|
-</text>
-            </RehearsalMark>
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
@@ -8717,6 +8741,21 @@ frei wählbar, nicht gleichmäßig!
       <Measure>
         <voice>
           <TimeSig>
+            <visible>0</visible>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>half</durationType>
+            </Rest>
+          <Rest>
+            <durationType>half</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -8785,8 +8824,10 @@ frei wählbar, nicht gleichmäßig!
       <Measure>
         <voice>
           <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <durationType>half</durationType>
+            </Rest>
+          <Rest>
+            <durationType>half</durationType>
             </Rest>
           </voice>
         </Measure>
@@ -11931,7 +11972,7 @@ frei wählbar, nicht gleichmäßig!
             <duration>4/4</duration>
             </Rest>
           <BarLine>
-            <subtype>dashed</subtype>
+            <visible>0</visible>
             </BarLine>
           </voice>
         </Measure>
@@ -12109,7 +12150,7 @@ frei wählbar, nicht gleichmäßig!
             <durationType>quarter</durationType>
             </Rest>
           <BarLine>
-            <subtype>dashed</subtype>
+            <visible>0</visible>
             </BarLine>
           </voice>
         </Measure>
@@ -12126,7 +12167,7 @@ frei wählbar, nicht gleichmäßig!
             <duration>2/4</duration>
             </Rest>
           <BarLine>
-            <subtype>dashed</subtype>
+            <visible>0</visible>
             </BarLine>
           </voice>
         </Measure>
@@ -12143,7 +12184,7 @@ frei wählbar, nicht gleichmäßig!
             <duration>1/4</duration>
             </Rest>
           <BarLine>
-            <subtype>dashed</subtype>
+            <visible>0</visible>
             </BarLine>
           </voice>
         </Measure>
@@ -12160,7 +12201,7 @@ frei wählbar, nicht gleichmäßig!
             <duration>3/4</duration>
             </Rest>
           <BarLine>
-            <subtype>dashed</subtype>
+            <visible>0</visible>
             </BarLine>
           </voice>
         </Measure>
@@ -12177,7 +12218,7 @@ frei wählbar, nicht gleichmäßig!
             <duration>1/4</duration>
             </Rest>
           <BarLine>
-            <subtype>dashed</subtype>
+            <visible>0</visible>
             </BarLine>
           </voice>
         </Measure>
@@ -12200,7 +12241,7 @@ frei wählbar, nicht gleichmäßig!
             <duration>2/4</duration>
             </Rest>
           <BarLine>
-            <subtype>dashed</subtype>
+            <visible>0</visible>
             </BarLine>
           </voice>
         </Measure>
@@ -12217,7 +12258,7 @@ frei wählbar, nicht gleichmäßig!
             <duration>1/4</duration>
             </Rest>
           <BarLine>
-            <subtype>dashed</subtype>
+            <visible>0</visible>
             </BarLine>
           </voice>
         </Measure>
@@ -12229,7 +12270,7 @@ frei wählbar, nicht gleichmäßig!
             <duration>1/4</duration>
             </Rest>
           <BarLine>
-            <subtype>dashed</subtype>
+            <visible>0</visible>
             </BarLine>
           </voice>
         </Measure>
@@ -12247,7 +12288,7 @@ frei wählbar, nicht gleichmäßig!
             <duration>1/4</duration>
             </Rest>
           <BarLine>
-            <subtype>dashed</subtype>
+            <visible>0</visible>
             </BarLine>
           </voice>
         </Measure>
@@ -12259,7 +12300,7 @@ frei wählbar, nicht gleichmäßig!
             <duration>1/4</duration>
             </Rest>
           <BarLine>
-            <subtype>dashed</subtype>
+            <visible>0</visible>
             </BarLine>
           </voice>
         </Measure>
@@ -12276,7 +12317,7 @@ frei wählbar, nicht gleichmäßig!
             <duration>6/4</duration>
             </Rest>
           <BarLine>
-            <subtype>dashed</subtype>
+            <visible>0</visible>
             </BarLine>
           </voice>
         </Measure>
@@ -12293,7 +12334,6 @@ frei wählbar, nicht gleichmäßig!
             <duration>2/4</duration>
             </Rest>
           <BarLine>
-            <subtype>dashed</subtype>
             </BarLine>
           </voice>
         </Measure>
@@ -13649,6 +13689,9 @@ frei wählbar, nicht gleichmäßig!
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>dashed</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -13660,38 +13703,9 @@ frei wählbar, nicht gleichmäßig!
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
+          <BarLine>
+            <subtype>dashed</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -14205,6 +14219,21 @@ frei wählbar, nicht gleichmäßig!
             <transposingClefType>G8va</transposingClefType>
             </Clef>
           <TimeSig>
+            <visible>0</visible>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>half</durationType>
+            </Rest>
+          <Rest>
+            <durationType>half</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <TimeSig>
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -14273,8 +14302,10 @@ frei wählbar, nicht gleichmäßig!
       <Measure>
         <voice>
           <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <durationType>half</durationType>
+            </Rest>
+          <Rest>
+            <durationType>half</durationType>
             </Rest>
           </voice>
         </Measure>
@@ -16656,7 +16687,7 @@ frei wählbar, nicht gleichmäßig!
             <durationType>half</durationType>
             </Rest>
           <BarLine>
-            <subtype>dashed</subtype>
+            <visible>0</visible>
             </BarLine>
           </voice>
         </Measure>
@@ -16667,7 +16698,7 @@ frei wählbar, nicht gleichmäßig!
             <durationType>whole</durationType>
             </Rest>
           <BarLine>
-            <subtype>dashed</subtype>
+            <visible>0</visible>
             </BarLine>
           </voice>
         </Measure>
@@ -16684,7 +16715,7 @@ frei wählbar, nicht gleichmäßig!
             <duration>2/4</duration>
             </Rest>
           <BarLine>
-            <subtype>dashed</subtype>
+            <visible>0</visible>
             </BarLine>
           </voice>
         </Measure>
@@ -16707,7 +16738,7 @@ frei wählbar, nicht gleichmäßig!
             <duration>1/4</duration>
             </Rest>
           <BarLine>
-            <subtype>dashed</subtype>
+            <visible>0</visible>
             </BarLine>
           </voice>
         </Measure>
@@ -16724,7 +16755,7 @@ frei wählbar, nicht gleichmäßig!
             <duration>3/4</duration>
             </Rest>
           <BarLine>
-            <subtype>dashed</subtype>
+            <visible>0</visible>
             </BarLine>
           </voice>
         </Measure>
@@ -16747,7 +16778,7 @@ frei wählbar, nicht gleichmäßig!
             <duration>1/4</duration>
             </Rest>
           <BarLine>
-            <subtype>dashed</subtype>
+            <visible>0</visible>
             </BarLine>
           </voice>
         </Measure>
@@ -16764,7 +16795,7 @@ frei wählbar, nicht gleichmäßig!
             <duration>2/4</duration>
             </Rest>
           <BarLine>
-            <subtype>dashed</subtype>
+            <visible>0</visible>
             </BarLine>
           </voice>
         </Measure>
@@ -16781,7 +16812,7 @@ frei wählbar, nicht gleichmäßig!
             <duration>1/4</duration>
             </Rest>
           <BarLine>
-            <subtype>dashed</subtype>
+            <visible>0</visible>
             </BarLine>
           </voice>
         </Measure>
@@ -16793,7 +16824,7 @@ frei wählbar, nicht gleichmäßig!
             <duration>1/4</duration>
             </Rest>
           <BarLine>
-            <subtype>dashed</subtype>
+            <visible>0</visible>
             </BarLine>
           </voice>
         </Measure>
@@ -16805,7 +16836,7 @@ frei wählbar, nicht gleichmäßig!
             <duration>1/4</duration>
             </Rest>
           <BarLine>
-            <subtype>dashed</subtype>
+            <visible>0</visible>
             </BarLine>
           </voice>
         </Measure>
@@ -16817,7 +16848,7 @@ frei wählbar, nicht gleichmäßig!
             <duration>1/4</duration>
             </Rest>
           <BarLine>
-            <subtype>dashed</subtype>
+            <visible>0</visible>
             </BarLine>
           </voice>
         </Measure>
@@ -16840,7 +16871,7 @@ frei wählbar, nicht gleichmäßig!
             <duration>6/4</duration>
             </Rest>
           <BarLine>
-            <subtype>dashed</subtype>
+            <visible>0</visible>
             </BarLine>
           </voice>
         </Measure>
@@ -16857,7 +16888,6 @@ frei wählbar, nicht gleichmäßig!
             <duration>2/4</duration>
             </Rest>
           <BarLine>
-            <subtype>dashed</subtype>
             </BarLine>
           </voice>
         </Measure>
@@ -17475,6 +17505,9 @@ frei wählbar, nicht gleichmäßig!
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>dashed</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -17483,41 +17516,9 @@ frei wählbar, nicht gleichmäßig!
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Fermata>
-            <subtype>fermataVeryLongAbove</subtype>
-            </Fermata>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
+          <BarLine>
+            <subtype>dashed</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -19564,9 +19565,22 @@ frei wählbar, nicht gleichmäßig!
       <Measure>
         <voice>
           <Clef>
-            <concertClefType>F8vb</concertClefType>
-            <transposingClefType>F8vb</transposingClefType>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>F</transposingClefType>
             </Clef>
+          <TimeSig>
+            <visible>0</visible>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
           <TimeSig>
             <sigN>4</sigN>
             <sigD>4</sigD>
@@ -19636,8 +19650,10 @@ frei wählbar, nicht gleichmäßig!
       <Measure>
         <voice>
           <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
+            <durationType>half</durationType>
+            </Rest>
+          <Rest>
+            <durationType>half</durationType>
             </Rest>
           </voice>
         </Measure>
@@ -19783,10 +19799,6 @@ frei wählbar, nicht gleichmäßig!
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
-          <Clef>
-            <concertClefType>F</concertClefType>
-            <transposingClefType>F</transposingClefType>
-            </Clef>
           </voice>
         </Measure>
       <Measure>
@@ -19820,7 +19832,7 @@ frei wählbar, nicht gleichmäßig!
                   <Segment>
                     <subtype>0</subtype>
                     <offset x="0.66503" y="0"/>
-                    <off2 x="-0.66503" y="0"/>
+                    <off2 x="-0.16513" y="0"/>
                     </Segment>
                   </TextLine>
                 <next>
@@ -19844,7 +19856,7 @@ frei wählbar, nicht gleichmäßig!
                   <Segment>
                     <subtype>0</subtype>
                     <offset x="0.637321" y="0"/>
-                    <off2 x="-0.637321" y="0"/>
+                    <off2 x="-0.14748" y="0"/>
                     </Segment>
                   </TextLine>
                 <next>
@@ -20913,9 +20925,6 @@ frei wählbar, nicht gleichmäßig!
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
-          <BarLine>
-            <subtype>dashed</subtype>
-            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -20924,9 +20933,6 @@ frei wählbar, nicht gleichmäßig!
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
-          <BarLine>
-            <subtype>dashed</subtype>
-            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -20940,9 +20946,6 @@ frei wählbar, nicht gleichmäßig!
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
-          <BarLine>
-            <subtype>dashed</subtype>
-            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -20956,9 +20959,6 @@ frei wählbar, nicht gleichmäßig!
             <durationType>measure</durationType>
             <duration>1/4</duration>
             </Rest>
-          <BarLine>
-            <subtype>dashed</subtype>
-            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -20972,9 +20972,6 @@ frei wählbar, nicht gleichmäßig!
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
-          <BarLine>
-            <subtype>dashed</subtype>
-            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -20988,9 +20985,6 @@ frei wählbar, nicht gleichmäßig!
             <durationType>measure</durationType>
             <duration>1/4</duration>
             </Rest>
-          <BarLine>
-            <subtype>dashed</subtype>
-            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -21004,9 +20998,6 @@ frei wählbar, nicht gleichmäßig!
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
-          <BarLine>
-            <subtype>dashed</subtype>
-            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -21020,9 +21011,6 @@ frei wählbar, nicht gleichmäßig!
             <durationType>measure</durationType>
             <duration>1/4</duration>
             </Rest>
-          <BarLine>
-            <subtype>dashed</subtype>
-            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -21031,9 +21019,6 @@ frei wählbar, nicht gleichmäßig!
             <durationType>measure</durationType>
             <duration>1/4</duration>
             </Rest>
-          <BarLine>
-            <subtype>dashed</subtype>
-            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -21042,9 +21027,6 @@ frei wählbar, nicht gleichmäßig!
             <durationType>measure</durationType>
             <duration>1/4</duration>
             </Rest>
-          <BarLine>
-            <subtype>dashed</subtype>
-            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -21053,9 +21035,6 @@ frei wählbar, nicht gleichmäßig!
             <durationType>measure</durationType>
             <duration>1/4</duration>
             </Rest>
-          <BarLine>
-            <subtype>dashed</subtype>
-            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -21069,9 +21048,6 @@ frei wählbar, nicht gleichmäßig!
             <durationType>measure</durationType>
             <duration>6/4</duration>
             </Rest>
-          <BarLine>
-            <subtype>dashed</subtype>
-            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -21085,9 +21061,6 @@ frei wählbar, nicht gleichmäßig!
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
-          <BarLine>
-            <subtype>dashed</subtype>
-            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -21423,6 +21396,10 @@ frei wählbar, nicht gleichmäßig!
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
+          <BarLine>
+            <subtype>dashed</subtype>
+            <visible>0</visible>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -21448,12 +21425,12 @@ frei wählbar, nicht gleichmäßig!
                   <Segment>
                     <subtype>0</subtype>
                     <offset x="0.626996" y="0"/>
-                    <off2 x="10.8147" y="0"/>
+                    <off2 x="27.6067" y="0"/>
                     </Segment>
                   </TextLine>
                 <next>
                   <location>
-                    <measures>5</measures>
+                    <measures>1</measures>
                     </location>
                   </next>
                 </Spanner>
@@ -21473,12 +21450,12 @@ frei wählbar, nicht gleichmäßig!
                   <Segment>
                     <subtype>0</subtype>
                     <offset x="0.626996" y="0"/>
-                    <off2 x="10.7707" y="0"/>
+                    <off2 x="27.7013" y="0"/>
                     </Segment>
                   </TextLine>
                 <next>
                   <location>
-                    <measures>5</measures>
+                    <measures>1</measures>
                     </location>
                   </next>
                 </Spanner>
@@ -21498,141 +21475,29 @@ frei wählbar, nicht gleichmäßig!
                   <Segment>
                     <subtype>0</subtype>
                     <offset x="0.705371" y="0"/>
-                    <off2 x="10.7796" y="0"/>
+                    <off2 x="27.5993" y="0"/>
                     </Segment>
                   </TextLine>
                 <next>
                   <location>
-                    <measures>5</measures>
+                    <measures>1</measures>
                     </location>
                   </next>
                 </Spanner>
               </Note>
             </Chord>
+          <BarLine>
+            <subtype>dashed</subtype>
+            <visible>0</visible>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
         <voice>
           <Fermata>
             <subtype>fermataVeryLongAbove</subtype>
+            <offset x="12.5" y="-0.5"/>
             </Fermata>
-          <Rest>
-            <visible>0</visible>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <durationType>whole</durationType>
-            <Note>
-              <visible>0</visible>
-              <pitch>38</pitch>
-              <tpc>16</tpc>
-              <velocity>88</velocity>
-              <veloType>user</veloType>
-              </Note>
-            <Note>
-              <visible>0</visible>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                <visible>0</visible>
-                </Accidental>
-              <pitch>39</pitch>
-              <tpc>11</tpc>
-              <velocity>88</velocity>
-              <veloType>user</veloType>
-              </Note>
-            <Note>
-              <visible>0</visible>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                <visible>0</visible>
-                </Accidental>
-              <pitch>40</pitch>
-              <tpc>6</tpc>
-              <velocity>88</velocity>
-              <veloType>user</veloType>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <durationType>whole</durationType>
-            <Note>
-              <visible>0</visible>
-              <pitch>38</pitch>
-              <tpc>16</tpc>
-              <velocity>88</velocity>
-              <veloType>user</veloType>
-              </Note>
-            <Note>
-              <visible>0</visible>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                <visible>0</visible>
-                </Accidental>
-              <pitch>39</pitch>
-              <tpc>11</tpc>
-              <velocity>88</velocity>
-              <veloType>user</veloType>
-              </Note>
-            <Note>
-              <visible>0</visible>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                <visible>0</visible>
-                </Accidental>
-              <pitch>40</pitch>
-              <tpc>6</tpc>
-              <velocity>88</velocity>
-              <veloType>user</veloType>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <durationType>whole</durationType>
-            <Note>
-              <visible>0</visible>
-              <pitch>38</pitch>
-              <tpc>16</tpc>
-              <velocity>88</velocity>
-              <veloType>user</veloType>
-              </Note>
-            <Note>
-              <visible>0</visible>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                <visible>0</visible>
-                </Accidental>
-              <pitch>39</pitch>
-              <tpc>11</tpc>
-              <velocity>88</velocity>
-              <veloType>user</veloType>
-              </Note>
-            <Note>
-              <visible>0</visible>
-              <Accidental>
-                <subtype>accidentalFlat</subtype>
-                <visible>0</visible>
-                </Accidental>
-              <pitch>40</pitch>
-              <tpc>6</tpc>
-              <velocity>88</velocity>
-              <veloType>user</veloType>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
           <Chord>
             <durationType>whole</durationType>
             <Note>
@@ -21644,7 +21509,7 @@ frei wählbar, nicht gleichmäßig!
               <Spanner type="TextLine">
                 <prev>
                   <location>
-                    <measures>-5</measures>
+                    <measures>-1</measures>
                     </location>
                   </prev>
                 </Spanner>
@@ -21662,7 +21527,7 @@ frei wählbar, nicht gleichmäßig!
               <Spanner type="TextLine">
                 <prev>
                   <location>
-                    <measures>-5</measures>
+                    <measures>-1</measures>
                     </location>
                   </prev>
                 </Spanner>
@@ -21680,7 +21545,7 @@ frei wählbar, nicht gleichmäßig!
               <Spanner type="TextLine">
                 <prev>
                   <location>
-                    <measures>-5</measures>
+                    <measures>-1</measures>
                     </location>
                   </prev>
                 </Spanner>
@@ -22805,6 +22670,7 @@ frei wählbar, nicht gleichmäßig!
       <Measure>
         <voice>
           <TimeSig>
+            <visible>0</visible>
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
@@ -22816,75 +22682,32 @@ frei wählbar, nicht gleichmäßig!
         </Measure>
       <Measure>
         <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <durationType>measure</durationType>
-            <duration>4/4</duration>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
+          <TimeSig>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
           <Chord>
             <durationType>whole</durationType>
             <Note>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
+              <visible>0</visible>
+              <pitch>41</pitch>
+              <tpc>13</tpc>
+              <Spanner type="TextLine">
+                <TextLine>
+                  <lineWidth>0.5</lineWidth>
+                  <anchor>3</anchor>
+                  <Segment>
+                    <subtype>0</subtype>
+                    <offset x="-11.5602" y="0"/>
+                    <off2 x="11.5602" y="0"/>
+                    </Segment>
+                  </TextLine>
+                <next>
+                  <location>
+                    <measures>6</measures>
+                    </location>
+                  </next>
+                </Spanner>
               </Note>
             </Chord>
           </voice>
@@ -22894,8 +22717,9 @@ frei wählbar, nicht gleichmäßig!
           <Chord>
             <durationType>whole</durationType>
             <Note>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
+              <visible>0</visible>
+              <pitch>41</pitch>
+              <tpc>13</tpc>
               </Note>
             </Chord>
           </voice>
@@ -22905,8 +22729,9 @@ frei wählbar, nicht gleichmäßig!
           <Chord>
             <durationType>whole</durationType>
             <Note>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
+              <visible>0</visible>
+              <pitch>41</pitch>
+              <tpc>13</tpc>
               </Note>
             </Chord>
           </voice>
@@ -22916,8 +22741,9 @@ frei wählbar, nicht gleichmäßig!
           <Chord>
             <durationType>whole</durationType>
             <Note>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
+              <visible>0</visible>
+              <pitch>41</pitch>
+              <tpc>13</tpc>
               </Note>
             </Chord>
           </voice>
@@ -22927,8 +22753,9 @@ frei wählbar, nicht gleichmäßig!
           <Chord>
             <durationType>whole</durationType>
             <Note>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
+              <visible>0</visible>
+              <pitch>41</pitch>
+              <tpc>13</tpc>
               </Note>
             </Chord>
           </voice>
@@ -22938,8 +22765,9 @@ frei wählbar, nicht gleichmäßig!
           <Chord>
             <durationType>whole</durationType>
             <Note>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
+              <visible>0</visible>
+              <pitch>41</pitch>
+              <tpc>13</tpc>
               </Note>
             </Chord>
           </voice>
@@ -22949,8 +22777,28 @@ frei wählbar, nicht gleichmäßig!
           <Chord>
             <durationType>whole</durationType>
             <Note>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
+              <visible>0</visible>
+              <pitch>41</pitch>
+              <tpc>13</tpc>
+              <Spanner type="TextLine">
+                <TextLine>
+                  <lineWidth>0.5</lineWidth>
+                  <anchor>3</anchor>
+                  </TextLine>
+                <next>
+                  <location>
+                    <measures>2</measures>
+                    <fractions>1/2</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="TextLine">
+                <prev>
+                  <location>
+                    <measures>-6</measures>
+                    </location>
+                  </prev>
+                </Spanner>
               </Note>
             </Chord>
           </voice>
@@ -22960,6 +22808,7 @@ frei wählbar, nicht gleichmäßig!
           <Chord>
             <durationType>whole</durationType>
             <Note>
+              <visible>0</visible>
               <pitch>43</pitch>
               <tpc>15</tpc>
               </Note>
@@ -22969,10 +22818,58 @@ frei wählbar, nicht gleichmäßig!
       <Measure>
         <voice>
           <Chord>
-            <durationType>whole</durationType>
+            <durationType>half</durationType>
             <Note>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
+              <visible>0</visible>
+              <pitch>45</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <visible>0</visible>
+              <pitch>45</pitch>
+              <tpc>17</tpc>
+              <Spanner type="TextLine">
+                <TextLine>
+                  <lineWidth>0.5</lineWidth>
+                  <anchor>3</anchor>
+                  <Segment>
+                    <subtype>0</subtype>
+                    <offset x="0" y="0"/>
+                    <off2 x="2.17721" y="0"/>
+                    </Segment>
+                  </TextLine>
+                <next>
+                  <location>
+                    <fractions>1/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="TextLine">
+                <prev>
+                  <location>
+                    <measures>-2</measures>
+                    <fractions>-1/2</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <visible>0</visible>
+              <pitch>41</pitch>
+              <tpc>13</tpc>
+              <Spanner type="TextLine">
+                <prev>
+                  <location>
+                    <fractions>-1/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
               </Note>
             </Chord>
           </voice>
@@ -22982,8 +22879,25 @@ frei wählbar, nicht gleichmäßig!
           <Chord>
             <durationType>whole</durationType>
             <Note>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
+              <visible>0</visible>
+              <pitch>41</pitch>
+              <tpc>13</tpc>
+              <Spanner type="TextLine">
+                <TextLine>
+                  <lineWidth>0.5</lineWidth>
+                  <anchor>3</anchor>
+                  <Segment>
+                    <subtype>0</subtype>
+                    <offset x="-6.54428" y="0"/>
+                    <off2 x="6.54428" y="0"/>
+                    </Segment>
+                  </TextLine>
+                <next>
+                  <location>
+                    <measures>4</measures>
+                    </location>
+                  </next>
+                </Spanner>
               </Note>
             </Chord>
           </voice>
@@ -22993,8 +22907,9 @@ frei wählbar, nicht gleichmäßig!
           <Chord>
             <durationType>whole</durationType>
             <Note>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
+              <visible>0</visible>
+              <pitch>41</pitch>
+              <tpc>13</tpc>
               </Note>
             </Chord>
           </voice>
@@ -23004,8 +22919,9 @@ frei wählbar, nicht gleichmäßig!
           <Chord>
             <durationType>whole</durationType>
             <Note>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
+              <visible>0</visible>
+              <pitch>41</pitch>
+              <tpc>13</tpc>
               </Note>
             </Chord>
           </voice>
@@ -23015,8 +22931,9 @@ frei wählbar, nicht gleichmäßig!
           <Chord>
             <durationType>whole</durationType>
             <Note>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
+              <visible>0</visible>
+              <pitch>41</pitch>
+              <tpc>13</tpc>
               </Note>
             </Chord>
           </voice>
@@ -23026,8 +22943,27 @@ frei wählbar, nicht gleichmäßig!
           <Chord>
             <durationType>whole</durationType>
             <Note>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
+              <visible>0</visible>
+              <pitch>41</pitch>
+              <tpc>13</tpc>
+              <Spanner type="TextLine">
+                <TextLine>
+                  <lineWidth>0.5</lineWidth>
+                  <anchor>3</anchor>
+                  </TextLine>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="TextLine">
+                <prev>
+                  <location>
+                    <measures>-4</measures>
+                    </location>
+                  </prev>
+                </Spanner>
               </Note>
             </Chord>
           </voice>
@@ -23037,8 +22973,27 @@ frei wählbar, nicht gleichmäßig!
           <Chord>
             <durationType>whole</durationType>
             <Note>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
+              <visible>0</visible>
+              <pitch>45</pitch>
+              <tpc>17</tpc>
+              <Spanner type="TextLine">
+                <TextLine>
+                  <lineWidth>0.5</lineWidth>
+                  <anchor>3</anchor>
+                  </TextLine>
+                <next>
+                  <location>
+                    <measures>2</measures>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="TextLine">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
               </Note>
             </Chord>
           </voice>
@@ -23048,8 +23003,9 @@ frei wählbar, nicht gleichmäßig!
           <Chord>
             <durationType>whole</durationType>
             <Note>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
+              <visible>0</visible>
+              <pitch>45</pitch>
+              <tpc>17</tpc>
               </Note>
             </Chord>
           </voice>
@@ -23059,8 +23015,32 @@ frei wählbar, nicht gleichmäßig!
           <Chord>
             <durationType>whole</durationType>
             <Note>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
+              <visible>0</visible>
+              <pitch>45</pitch>
+              <tpc>17</tpc>
+              <Spanner type="TextLine">
+                <TextLine>
+                  <lineWidth>0.5</lineWidth>
+                  <anchor>3</anchor>
+                  <Segment>
+                    <subtype>0</subtype>
+                    <offset x="0" y="0"/>
+                    <off2 x="3.54574" y="0"/>
+                    </Segment>
+                  </TextLine>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="TextLine">
+                <prev>
+                  <location>
+                    <measures>-2</measures>
+                    </location>
+                  </prev>
+                </Spanner>
               </Note>
             </Chord>
           </voice>
@@ -23070,8 +23050,322 @@ frei wählbar, nicht gleichmäßig!
           <Chord>
             <durationType>whole</durationType>
             <Note>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
+              <visible>0</visible>
+              <pitch>41</pitch>
+              <tpc>13</tpc>
+              <Spanner type="TextLine">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <durationType>half</durationType>
+            <Note>
+              <visible>0</visible>
+              <pitch>41</pitch>
+              <tpc>13</tpc>
+              <Spanner type="TextLine">
+                <TextLine>
+                  <lineWidth>0.5</lineWidth>
+                  <anchor>3</anchor>
+                  <Segment>
+                    <subtype>0</subtype>
+                    <offset x="-9.25165" y="0"/>
+                    <off2 x="9.25165" y="0"/>
+                    </Segment>
+                  </TextLine>
+                <next>
+                  <location>
+                    <fractions>1/2</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>half</durationType>
+            <Note>
+              <visible>0</visible>
+              <pitch>41</pitch>
+              <tpc>13</tpc>
+              <Spanner type="TextLine">
+                <TextLine>
+                  <lineWidth>0.5</lineWidth>
+                  <anchor>3</anchor>
+                  </TextLine>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    <fractions>-1/2</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="TextLine">
+                <prev>
+                  <location>
+                    <fractions>-1/2</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <durationType>half</durationType>
+            <Note>
+              <visible>0</visible>
+              <pitch>45</pitch>
+              <tpc>17</tpc>
+              <Spanner type="TextLine">
+                <TextLine>
+                  <lineWidth>0.5</lineWidth>
+                  <anchor>3</anchor>
+                  </TextLine>
+                <next>
+                  <location>
+                    <fractions>1/2</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="TextLine">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    <fractions>1/2</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>half</durationType>
+            <Note>
+              <visible>0</visible>
+              <pitch>41</pitch>
+              <tpc>13</tpc>
+              <Spanner type="TextLine">
+                <TextLine>
+                  <lineWidth>0.5</lineWidth>
+                  <anchor>3</anchor>
+                  </TextLine>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    <fractions>-1/2</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="TextLine">
+                <prev>
+                  <location>
+                    <fractions>-1/2</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <durationType>half</durationType>
+            <Note>
+              <visible>0</visible>
+              <pitch>41</pitch>
+              <tpc>13</tpc>
+              <Spanner type="TextLine">
+                <TextLine>
+                  <lineWidth>0.5</lineWidth>
+                  <anchor>3</anchor>
+                  </TextLine>
+                <next>
+                  <location>
+                    <fractions>1/2</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="TextLine">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    <fractions>1/2</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>half</durationType>
+            <Note>
+              <visible>0</visible>
+              <pitch>45</pitch>
+              <tpc>17</tpc>
+              <Spanner type="TextLine">
+                <TextLine>
+                  <lineWidth>0.5</lineWidth>
+                  <anchor>3</anchor>
+                  </TextLine>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    <fractions>-1/2</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="TextLine">
+                <prev>
+                  <location>
+                    <fractions>-1/2</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <Note>
+              <visible>0</visible>
+              <NoteDot>
+                <visible>0</visible>
+                </NoteDot>
+              <pitch>45</pitch>
+              <tpc>17</tpc>
+              <Spanner type="TextLine">
+                <TextLine>
+                  <lineWidth>0.5</lineWidth>
+                  <anchor>3</anchor>
+                  </TextLine>
+                <next>
+                  <location>
+                    <fractions>3/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="TextLine">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    <fractions>1/2</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <visible>0</visible>
+              <pitch>41</pitch>
+              <tpc>13</tpc>
+              <Spanner type="TextLine">
+                <TextLine>
+                  <lineWidth>0.5</lineWidth>
+                  <anchor>3</anchor>
+                  <Segment>
+                    <subtype>0</subtype>
+                    <offset x="0" y="0"/>
+                    <off2 x="5.62137" y="0"/>
+                    </Segment>
+                  </TextLine>
+                <next>
+                  <location>
+                    <measures>5</measures>
+                    <fractions>-3/4</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="TextLine">
+                <prev>
+                  <location>
+                    <fractions>-3/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <durationType>whole</durationType>
+            <Note>
+              <visible>0</visible>
+              <pitch>41</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <durationType>whole</durationType>
+            <Note>
+              <visible>0</visible>
+              <pitch>41</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <durationType>whole</durationType>
+            <Note>
+              <visible>0</visible>
+              <pitch>41</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <durationType>whole</durationType>
+            <Note>
+              <visible>0</visible>
+              <pitch>41</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <durationType>whole</durationType>
+            <Note>
+              <visible>0</visible>
+              <pitch>41</pitch>
+              <tpc>13</tpc>
+              <Spanner type="TextLine">
+                <prev>
+                  <location>
+                    <measures>-5</measures>
+                    <fractions>3/4</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
               </Note>
             </Chord>
           </voice>
@@ -23085,15 +23379,52 @@ frei wählbar, nicht gleichmäßig!
           <Chord>
             <durationType>whole</durationType>
             <Note>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
+              <visible>0</visible>
+              <pitch>41</pitch>
+              <tpc>13</tpc>
+              <Spanner type="TextLine">
+                <TextLine>
+                  <lineWidth>0.5</lineWidth>
+                  <anchor>3</anchor>
+                  <Segment>
+                    <subtype>0</subtype>
+                    <offset x="-10.4257" y="0"/>
+                    <off2 x="10.4257" y="0"/>
+                    </Segment>
+                  </TextLine>
+                <next>
+                  <location>
+                    <fractions>1/1</fractions>
+                    </location>
+                  </next>
+                </Spanner>
               </Note>
             </Chord>
           <Chord>
             <durationType>half</durationType>
             <Note>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
+              <visible>0</visible>
+              <pitch>41</pitch>
+              <tpc>13</tpc>
+              <Spanner type="TextLine">
+                <TextLine>
+                  <lineWidth>0.5</lineWidth>
+                  <anchor>3</anchor>
+                  </TextLine>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    <fractions>-1/1</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="TextLine">
+                <prev>
+                  <location>
+                    <fractions>-1/1</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
               </Note>
             </Chord>
           </voice>
@@ -23105,10 +23436,57 @@ frei wählbar, nicht gleichmäßig!
             <sigD>4</sigD>
             </TimeSig>
           <Chord>
-            <durationType>whole</durationType>
+            <durationType>half</durationType>
             <Note>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
+              <visible>0</visible>
+              <pitch>45</pitch>
+              <tpc>17</tpc>
+              <Spanner type="TextLine">
+                <TextLine>
+                  <lineWidth>0.5</lineWidth>
+                  <anchor>3</anchor>
+                  </TextLine>
+                <next>
+                  <location>
+                    <fractions>1/2</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="TextLine">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    <fractions>1/1</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>half</durationType>
+            <Note>
+              <visible>0</visible>
+              <pitch>41</pitch>
+              <tpc>13</tpc>
+              <Spanner type="TextLine">
+                <TextLine>
+                  <lineWidth>0.5</lineWidth>
+                  <anchor>3</anchor>
+                  </TextLine>
+                <next>
+                  <location>
+                    <measures>4</measures>
+                    <fractions>-1/2</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="TextLine">
+                <prev>
+                  <location>
+                    <fractions>-1/2</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
               </Note>
             </Chord>
           </voice>
@@ -23118,8 +23496,9 @@ frei wählbar, nicht gleichmäßig!
           <Chord>
             <durationType>whole</durationType>
             <Note>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
+              <visible>0</visible>
+              <pitch>41</pitch>
+              <tpc>13</tpc>
               </Note>
             </Chord>
           </voice>
@@ -23129,8 +23508,9 @@ frei wählbar, nicht gleichmäßig!
           <Chord>
             <durationType>whole</durationType>
             <Note>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
+              <visible>0</visible>
+              <pitch>41</pitch>
+              <tpc>13</tpc>
               </Note>
             </Chord>
           </voice>
@@ -23140,8 +23520,9 @@ frei wählbar, nicht gleichmäßig!
           <Chord>
             <durationType>whole</durationType>
             <Note>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
+              <visible>0</visible>
+              <pitch>41</pitch>
+              <tpc>13</tpc>
               </Note>
             </Chord>
           </voice>
@@ -23151,8 +23532,34 @@ frei wählbar, nicht gleichmäßig!
           <Chord>
             <durationType>whole</durationType>
             <Note>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
+              <visible>0</visible>
+              <pitch>41</pitch>
+              <tpc>13</tpc>
+              <Spanner type="TextLine">
+                <TextLine>
+                  <lineWidth>0.5</lineWidth>
+                  <anchor>3</anchor>
+                  <Segment>
+                    <subtype>0</subtype>
+                    <offset x="0" y="0"/>
+                    <off2 x="4.46735" y="0"/>
+                    </Segment>
+                  </TextLine>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    <fractions>1/1</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              <Spanner type="TextLine">
+                <prev>
+                  <location>
+                    <measures>-4</measures>
+                    <fractions>1/2</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
               </Note>
             </Chord>
           </voice>
@@ -23166,6 +23573,7 @@ frei wählbar, nicht gleichmäßig!
           <Chord>
             <durationType>whole</durationType>
             <Note>
+              <visible>0</visible>
               <pitch>43</pitch>
               <tpc>15</tpc>
               </Note>
@@ -23173,8 +23581,17 @@ frei wählbar, nicht gleichmäßig!
           <Chord>
             <durationType>half</durationType>
             <Note>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
+              <visible>0</visible>
+              <pitch>45</pitch>
+              <tpc>17</tpc>
+              <Spanner type="TextLine">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    <fractions>-1/1</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
               </Note>
             </Chord>
           </voice>
@@ -24666,9 +25083,6 @@ frei wählbar, nicht gleichmäßig!
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
-          <BarLine>
-            <subtype>dashed</subtype>
-            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -24677,9 +25091,6 @@ frei wählbar, nicht gleichmäßig!
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
-          <BarLine>
-            <subtype>dashed</subtype>
-            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -24693,9 +25104,6 @@ frei wählbar, nicht gleichmäßig!
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
-          <BarLine>
-            <subtype>dashed</subtype>
-            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -24709,9 +25117,6 @@ frei wählbar, nicht gleichmäßig!
             <durationType>measure</durationType>
             <duration>1/4</duration>
             </Rest>
-          <BarLine>
-            <subtype>dashed</subtype>
-            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -24725,9 +25130,6 @@ frei wählbar, nicht gleichmäßig!
             <durationType>measure</durationType>
             <duration>3/4</duration>
             </Rest>
-          <BarLine>
-            <subtype>dashed</subtype>
-            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -24741,9 +25143,6 @@ frei wählbar, nicht gleichmäßig!
             <durationType>measure</durationType>
             <duration>1/4</duration>
             </Rest>
-          <BarLine>
-            <subtype>dashed</subtype>
-            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -24757,9 +25156,6 @@ frei wählbar, nicht gleichmäßig!
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
-          <BarLine>
-            <subtype>dashed</subtype>
-            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -24773,9 +25169,6 @@ frei wählbar, nicht gleichmäßig!
             <durationType>measure</durationType>
             <duration>1/4</duration>
             </Rest>
-          <BarLine>
-            <subtype>dashed</subtype>
-            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -24784,9 +25177,6 @@ frei wählbar, nicht gleichmäßig!
             <durationType>measure</durationType>
             <duration>1/4</duration>
             </Rest>
-          <BarLine>
-            <subtype>dashed</subtype>
-            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -24795,9 +25185,6 @@ frei wählbar, nicht gleichmäßig!
             <durationType>measure</durationType>
             <duration>1/4</duration>
             </Rest>
-          <BarLine>
-            <subtype>dashed</subtype>
-            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -24806,9 +25193,6 @@ frei wählbar, nicht gleichmäßig!
             <durationType>measure</durationType>
             <duration>1/4</duration>
             </Rest>
-          <BarLine>
-            <subtype>dashed</subtype>
-            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -24822,9 +25206,6 @@ frei wählbar, nicht gleichmäßig!
             <durationType>measure</durationType>
             <duration>6/4</duration>
             </Rest>
-          <BarLine>
-            <subtype>dashed</subtype>
-            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -24838,9 +25219,6 @@ frei wählbar, nicht gleichmäßig!
             <durationType>measure</durationType>
             <duration>2/4</duration>
             </Rest>
-          <BarLine>
-            <subtype>dashed</subtype>
-            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -25198,6 +25576,13 @@ frei wählbar, nicht gleichmäßig!
               <Symbol>
                 <name>wiggleWavyWide</name>
                 <font>Bravura</font>
+                <Symbol>
+                  <name>wiggleWavyWide</name>
+                  <font>Bravura</font>
+                  <autoplace>0</autoplace>
+                  <offset x="484.467" y="0.137834"/>
+                  <z>499</z>
+                  </Symbol>
                 <autoplace>0</autoplace>
                 </Symbol>
               <Symbol>
@@ -25206,10 +25591,20 @@ frei wählbar, nicht gleichmäßig!
                 <autoplace>0</autoplace>
                 <offset x="-4" y="0"/>
                 </Symbol>
+              <Symbol>
+                <name>wiggleWavyWide</name>
+                <font>Bravura</font>
+                <autoplace>0</autoplace>
+                <offset x="80" y="0"/>
+                </Symbol>
               <pitch>43</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <subtype>dashed</subtype>
+            <visible>0</visible>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -25222,54 +25617,10 @@ frei wählbar, nicht gleichmäßig!
               <tpc>15</tpc>
               </Note>
             </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <durationType>whole</durationType>
-            <Note>
-              <visible>0</visible>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <durationType>whole</durationType>
-            <Note>
-              <visible>0</visible>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <durationType>whole</durationType>
-            <Note>
-              <visible>0</visible>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Chord>
-            <durationType>whole</durationType>
-            <Note>
-              <visible>0</visible>
-              <pitch>43</pitch>
-              <tpc>15</tpc>
-              </Note>
-            </Chord>
+          <BarLine>
+            <subtype>dashed</subtype>
+            <visible>0</visible>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -25286,8 +25637,8 @@ frei wählbar, nicht gleichmäßig!
                   <anchor>3</anchor>
                   <Segment>
                     <subtype>0</subtype>
-                    <offset x="1.50151" y="0.164345"/>
-                    <off2 x="3.91593" y="0"/>
+                    <offset x="22.2285" y="0.164345"/>
+                    <off2 x="-8.49771" y="0"/>
                     </Segment>
                   </TextLine>
                 <next>
