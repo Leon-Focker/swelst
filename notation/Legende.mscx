@@ -22,7 +22,7 @@
       <user1LineSpacing>0.3</user1LineSpacing>
       <Spatium>1.74978</Spatium>
       </Style>
-    <showInvisible>1</showInvisible>
+    <showInvisible>0</showInvisible>
     <showUnprintable>1</showUnprintable>
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
@@ -161,9 +161,17 @@
       <Staff id="2">
         <StaffType group="pitched">
           <name>stdNormal</name>
-          <clef>0</clef>
           <timesig>0</timesig>
           </StaffType>
+        <hideWhenEmpty>1</hideWhenEmpty>
+        <barLineSpan>1</barLineSpan>
+        </Staff>
+      <Staff id="3">
+        <StaffType group="pitched">
+          <name>stdNormal</name>
+          <timesig>0</timesig>
+          </StaffType>
+        <defaultClef>F</defaultClef>
         <hideWhenEmpty>1</hideWhenEmpty>
         <barLineSpan>1</barLineSpan>
         </Staff>
@@ -224,7 +232,7 @@
         </Instrument>
       </Part>
     <Part>
-      <Staff id="3">
+      <Staff id="4">
         <StaffType group="pitched">
           <name>stdNormal</name>
           <lines>2</lines>
@@ -290,6 +298,7 @@
           <gateTime>100</gateTime>
           </Articulation>
         <Channel>
+          <controller ctrl="0" value="0"/>
           <controller ctrl="32" value="17"/>
           <program value="73"/>
           <synti>Fluid</synti>
@@ -329,6 +338,7 @@
         <Text>
           <style>Frame</style>
           <family>Leland</family>
+          <textLineSpacing>0.3</textLineSpacing>
           <text>Alle Register, die für Manual III notiert sind (und auch nur diese Register) sollten Teil des Schwellwerks der Orgel 
 sein. Register Nr. 4 der Walcker-Orgel, also die Aeoline, zeichnet sich durch die sehr geringe Lautstärke aus. 
 Auf einer anderen Orgel sollte an den entsprechenden Stellen also auch unbedingt ein Register gewählt werden, 
@@ -489,7 +499,7 @@ Die Oktav der aktuellen Registrierung im ersten Manual hinzufügen.
         <visible>0</visible>
         </VBox>
       <Measure>
-        <stretch>0.1</stretch>
+        <stretch>0</stretch>
         <measureNumberMode>2</measureNumberMode>
         <voice>
           <Rest>
@@ -499,7 +509,7 @@ Die Oktav der aktuellen Registrierung im ersten Manual hinzufügen.
           </voice>
         </Measure>
       <Measure>
-        <stretch>0.1</stretch>
+        <stretch>0</stretch>
         <measureNumberMode>2</measureNumberMode>
         <voice>
           <Rest>
@@ -660,23 +670,25 @@ bedeutet, dass das Timing wichtig ist und deutet auf die entsprechende Zählzeit
         <visible>0</visible>
         <Text>
           <style>User-1</style>
-          <offset x="3" y="0"/>
+          <offset x="3" y="1"/>
           <text>Die durch &quot;Sw.&quot; gekennzeichnete Notenzeile zeigt, ob die Schweller geöffnet (oben im 
 System) oder geschlossen (unten im System) sein sollen. Hier ist also ein Crescendo 
 notiert.
 </text>
           </Text>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         </HBox>
-      <VBox>
-        <height>10</height>
-        </VBox>
       <TBox>
         <height>1</height>
+        <visible>0</visible>
         <Text>
           <style>Frame</style>
           <family>Leland</family>
-          <color r="255" g="0" b="0" a="255"/>
-          <text>IMPROVISATION</text>
+          <size>14</size>
+          <underline>1</underline>
+          <text>Improvisation</text>
           </Text>
         </TBox>
       <Measure>
@@ -688,13 +700,222 @@ notiert.
           </voice>
         </Measure>
       <HBox>
-        <width>80</width>
+        <width>60</width>
+        <visible>0</visible>
+        <Text>
+          <style>User-1</style>
+          <offset x="3" y="0"/>
+          <text>In der Zeile ab Takt 99 sollen nacheinander verschiedene 
+Register gezogen oder wieder raus genommen werden. 
+Insgesamt sollte diese Zeile zwischen 20 und 50 Sekunden
+dauern. Die Einsatzabstände zwischen den Aktionen sollten
+nicht gleichmäßig sein!
+</text>
+          </Text>
+        </HBox>
+      <VBox>
+        <height>4</height>
+        <topGap>0</topGap>
+        <bottomGap>0</bottomGap>
+        <boxAutoSize>0</boxAutoSize>
+        <visible>0</visible>
+        </VBox>
+      <Measure>
+        <stretch>0</stretch>
+        <measureNumberMode>2</measureNumberMode>
+        <voice>
+          <RehearsalMark>
+            <textLineSpacing>0.7</textLineSpacing>
+            <frameType>0</frameType>
+            <text>31
+|
+</text>
+            </RehearsalMark>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <stretch>0</stretch>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <stretch>0</stretch>
+        <voice>
+          <RehearsalMark>
+            <textLineSpacing>0.7</textLineSpacing>
+            <offset x="5.19" y="-3.46"/>
+            <frameType>0</frameType>
+            <text>32
+</text>
+            </RehearsalMark>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          <BarLine>
+            </BarLine>
+          </voice>
+        </Measure>
+      <HBox>
+        <width>60</width>
         <visible>0</visible>
         <LayoutBreak>
           <visible>0</visible>
           <subtype>line</subtype>
           </LayoutBreak>
+        <Text>
+          <style>User-1</style>
+          <offset x="3" y="-7.5"/>
+          <text>Durch die doppelte viereckige Fermate sind Stellen gekenn-
+zeichnet, deren Länge der Interpret völlig frei entscheiden darf. 
+Das heißt, sie dürfen praktische übersprungen werden, nur 
+wenige Sekunden oder einige Minuten andauern. 
+
+Konkret bedeutet die Stelle ab Takt 135, dass die Elektronik zu
+Cue 31 geschalten werden soll, dann darf frei improvisiert 
+werden. Dann sollen die entsprechenden Pedaltöne gehalten 
+und weiter improvisiert werden. Nach einer Weile kann Cue 32 
+geschalten und ggf. weiter improvisiert werden. Alternativ kann 
+Cue 32 auch mit der ersten Zählzeit von Takt 138 zusammen-
+kommen. 
+</text>
+          </Text>
         </HBox>
+      <TBox>
+        <height>1</height>
+        <topGap>15.5</topGap>
+        <visible>0</visible>
+        <Text>
+          <style>Frame</style>
+          <family>Leland</family>
+          <textLineSpacing>0.3</textLineSpacing>
+          <text>Im Vordergrund der Improvisation soll das Öffnen und Schließen der Schweller stehen. Es darf/soll untersucht 
+werden, wie sich die Rückkopplung im Raum verhält und beeinflussen lässt. Da das in jedem Raum unterschiedlich
+sein kann, sollte sich der Interpret frei fühlen sich viel oder wenig Zeit zu nehmen, falls es entsprechend viel oder
+wenig zu entdecken gibt. Die Orgel selbst darf aber auch gespielt werden. Mit der Ästhetik bis zu dieser Stelle im 
+Stück sollte aber nicht gebrochen werden. 
+Während Cue 31 bieten sich gehaltene und sich verändernde Clusterklänge an. Während Cue 32 eher einzelne 
+Noten oder schnelle Wechsel zwischen nur kurz angespielten Clustern. Das Folgende sind zwei entsprechende 
+Vorschläge, die als Anregung dienen können:
+</text>
+          </Text>
+        </TBox>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <LayoutBreak>
+          <visible>0</visible>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          <BarLine>
+            <subtype>end</subtype>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <measureNumberMode>2</measureNumberMode>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <LayoutBreak>
+          <visible>0</visible>
+          <subtype>page</subtype>
+          </LayoutBreak>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
       <TBox>
         <height>1</height>
         <bottomGap>4</bottomGap>
@@ -715,19 +936,19 @@ notiert.
           <style>Frame</style>
           <family>Leland</family>
           <color r="255" g="0" b="0" a="255"/>
-          <text>Für die Aufführung sollte ein Lautsprecher hinter den Schwellern, also in der Orgel aufgestellt werden. Gegebenen-
-falls können auch mehrere Lautsprecher das gleiche Signal bekommen, falls ein Lautsprecher nicht laut genug ist.
-Ein Mikrofron sollte vor den Schwellern aufgestellt werden, so dass also durch Öffnen und Schließen der Schweller
-beeinflusst werden kann, wie viel das Mikrofron vom Lautsprecher aufnimmt.
+          <text>Für die Aufführung sollte ein Lautsprecher hinter den Schwellern, also in der Orgel aufgestellt werden. Falls ein 
+Lautsprecher nicht ausreicht, können auch mehrere Lautsprecher benutzt werden und das gleiche Signal 
+bekommen. Ein Mikrofron sollte vor den Schwellern aufgestellt werden, so dass also durch Öffnen und Schließen 
+der Schweller beeinflusst werden kann, wie viel das Mikrofron vom Lautsprecher aufnimmt.
 
 Das Mikrofron sollte mit der lautesten Stelle des Stücks gepegelt werden. Dann sollte im Pure Data Patch der große
 Knopf &quot;auto-level: MIC&quot; gedrückt werden, während die Orgel wieder die lauteste Stelle spielt. Dann sollte der Knopf
 darunter &quot;auto-level: OUT&quot; gedrückt werden, während es leise ist. Dadurch werden Ein- und Ausgangspegel im 
 Patch automatisch eingestellt. Dabei sollte der Mikrofon-Pegel (Anzeige neben dem entsprechenden Knopf) nicht
 höher als 2 sein. Falls doch, sollte die Vorverstärkung des Mikros noch einmal angepasst werden. Gleiches gilt für 
-den Audio-Ausgang. Ist dieser deutlich größer als 1, sollte die Lautstärke des Lautsprechers etc angepasst werden.
+den Audio-Ausgang. Ist dieser deutlich größer als 1, sollte die Lautstärke des Lautsprechers usw. angepasst werden.
 
-Falls die Pegel außerhalb des Patches (also Vorverstärkung etc.) verändert haben, sollte der &quot;auto-level: reset&quot; 
+Falls sich die Pegel außerhalb des Patches (also Vorverstärkung etc.) verändert haben, sollte der &quot;auto-level: reset&quot; 
 Knopf gedrückt und der eben beschriebene Vorgang wiederholt werden.
 
 Damit beim Proben nicht immer das ganze Stück von vorn gespielt werden muss, kann alternativ auch zu diesen
@@ -742,6 +963,11 @@ Cues begonnen werden: !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
           <BarLine>
             <visible>0</visible>
             </BarLine>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+            <visible>0</visible>
+            </Clef>
           <TimeSig>
             <visible>0</visible>
             <sigN>4</sigN>
@@ -809,6 +1035,11 @@ Cues begonnen werden: !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
           <BarLine>
             <visible>0</visible>
             </BarLine>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+            <visible>0</visible>
+            </Clef>
           <Chord>
             <durationType>whole</durationType>
             <Note>
@@ -972,6 +1203,11 @@ Cues begonnen werden: !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
           <BarLine>
             <visible>0</visible>
             </BarLine>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+            <visible>0</visible>
+            </Clef>
           <StaffText>
             <autoplace>0</autoplace>
             <size>22</size>
@@ -1129,6 +1365,11 @@ Cues begonnen werden: !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
           <BarLine>
             <visible>0</visible>
             </BarLine>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+            <visible>0</visible>
+            </Clef>
           <Chord>
             <durationType>half</durationType>
             <Stem>
@@ -1277,6 +1518,11 @@ Cues begonnen werden: !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
           <BarLine>
             <visible>0</visible>
             </BarLine>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+            <visible>0</visible>
+            </Clef>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -1298,6 +1544,13 @@ Cues begonnen werden: !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
         </Measure>
       <Measure>
         <voice>
+          <BarLine>
+            </BarLine>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+            <visible>0</visible>
+            </Clef>
           <Chord>
             <durationType>whole</durationType>
             <Note>
@@ -1328,6 +1581,753 @@ Cues begonnen werden: !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
               <veloType>user</veloType>
               </Note>
             </Chord>
+          <Clef>
+            <concertClefType>F8vb</concertClefType>
+            <transposingClefType>F8vb</transposingClefType>
+            </Clef>
+          <BarLine>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <MeasureNumber>
+          <visible>0</visible>
+          <text>8</text>
+          </MeasureNumber>
+        <voice>
+          <BarLine>
+            </BarLine>
+          <Clef>
+            <concertClefType>F8vb</concertClefType>
+            <transposingClefType>F8vb</transposingClefType>
+            <visible>0</visible>
+            </Clef>
+          <StaffText>
+            <style>Measure Number</style>
+            <offset x="-2.63075" y="-0.465189"/>
+            <text>99</text>
+            </StaffText>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Stem>
+              <visible>0</visible>
+              </Stem>
+            <Note>
+              <visible>0</visible>
+              <pitch>38</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <StaffText>
+            <autoplace>0</autoplace>
+            <size>8</size>
+            <frameType>1</frameType>
+            <text>3+5</text>
+            </StaffText>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Stem>
+              <visible>0</visible>
+              </Stem>
+            <Note>
+              <visible>0</visible>
+              <pitch>38</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Stem>
+              <visible>0</visible>
+              </Stem>
+            <Note>
+              <visible>0</visible>
+              <pitch>38</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <StaffText>
+            <autoplace>0</autoplace>
+            <size>22</size>
+            <frameType>1</frameType>
+            <text>-</text>
+            </StaffText>
+          <StaffText>
+            <autoplace>0</autoplace>
+            <size>8</size>
+            <offset x="4" y="-1"/>
+            <frameType>1</frameType>
+            <text>3+5</text>
+            </StaffText>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Stem>
+              <visible>0</visible>
+              </Stem>
+            <Note>
+              <visible>0</visible>
+              <pitch>38</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <BarLine>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Clef>
+            <concertClefType>F8vb</concertClefType>
+            <transposingClefType>F8vb</transposingClefType>
+            </Clef>
+          <Fermata>
+            <subtype>fermataVeryLongAbove</subtype>
+            </Fermata>
+          <StaffText>
+            <style>Measure Number</style>
+            <offset x="-4.60324" y="-0.813979"/>
+            <text>135</text>
+            </StaffText>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          <BarLine>
+            <visible>0</visible>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <StaffText>
+            <autoplace>0</autoplace>
+            <size>8</size>
+            <offset x="-1" y="-1"/>
+            <frameType>1</frameType>
+            <text>38</text>
+            </StaffText>
+          <Chord>
+            <durationType>half</durationType>
+            <Stem>
+              <visible>0</visible>
+              </Stem>
+            <Note>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>39</pitch>
+              <tpc>23</tpc>
+              <velocity>88</velocity>
+              <headType>whole</headType>
+              <veloType>user</veloType>
+              <Spanner type="TextLine">
+                <TextLine>
+                  <lineWidth>0.3</lineWidth>
+                  <anchor>3</anchor>
+                  <Segment>
+                    <subtype>0</subtype>
+                    <offset x="0.593814" y="0"/>
+                    <off2 x="13.3664" y="0"/>
+                    </Segment>
+                  </TextLine>
+                <next>
+                  <location>
+                    <fractions>1/2</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              </Note>
+            <Note>
+              <pitch>40</pitch>
+              <tpc>18</tpc>
+              <velocity>88</velocity>
+              <headType>whole</headType>
+              <veloType>user</veloType>
+              <Spanner type="TextLine">
+                <TextLine>
+                  <lineWidth>0.3</lineWidth>
+                  <anchor>3</anchor>
+                  <Segment>
+                    <subtype>0</subtype>
+                    <offset x="0.571821" y="0"/>
+                    <off2 x="13.3637" y="0"/>
+                    </Segment>
+                  </TextLine>
+                <next>
+                  <location>
+                    <fractions>1/2</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              </Note>
+            <Note>
+              <pitch>41</pitch>
+              <tpc>13</tpc>
+              <velocity>88</velocity>
+              <headType>whole</headType>
+              <veloType>user</veloType>
+              <Spanner type="TextLine">
+                <TextLine>
+                  <lineWidth>0.3</lineWidth>
+                  <anchor>3</anchor>
+                  <Segment>
+                    <subtype>0</subtype>
+                    <offset x="0.6378" y="0"/>
+                    <off2 x="13.3326" y="0"/>
+                    </Segment>
+                  </TextLine>
+                <next>
+                  <location>
+                    <fractions>1/2</fractions>
+                    </location>
+                  </next>
+                </Spanner>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>half</durationType>
+            <Stem>
+              <visible>0</visible>
+              </Stem>
+            <Note>
+              <visible>0</visible>
+              <pitch>39</pitch>
+              <tpc>23</tpc>
+              <velocity>88</velocity>
+              <veloType>user</veloType>
+              <Spanner type="TextLine">
+                <prev>
+                  <location>
+                    <fractions>-1/2</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>40</pitch>
+              <tpc>18</tpc>
+              <velocity>88</velocity>
+              <veloType>user</veloType>
+              <Spanner type="TextLine">
+                <prev>
+                  <location>
+                    <fractions>-1/2</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>41</pitch>
+              <tpc>13</tpc>
+              <velocity>88</velocity>
+              <veloType>user</veloType>
+              <Spanner type="TextLine">
+                <prev>
+                  <location>
+                    <fractions>-1/2</fractions>
+                    </location>
+                  </prev>
+                </Spanner>
+              </Note>
+            </Chord>
+          <BarLine>
+            <visible>0</visible>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Fermata>
+            <subtype>fermataVeryLongAbove</subtype>
+            </Fermata>
+          <Rest>
+            <visible>0</visible>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+            <visible>0</visible>
+            </Clef>
+          <BarLine>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <MeasureNumber>
+          <visible>0</visible>
+          <text>12</text>
+          </MeasureNumber>
+        <voice>
+          <StaffText>
+            <autoplace>0</autoplace>
+            <size>8</size>
+            <offset x="-1" y="-1"/>
+            <frameType>1</frameType>
+            <text>4</text>
+            </StaffText>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <durationType>whole</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>68</pitch>
+              <tpc>22</tpc>
+              </Note>
+            <Note>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>70</pitch>
+              <tpc>24</tpc>
+              </Note>
+            <Note>
+              <pitch>71</pitch>
+              <tpc>19</tpc>
+              </Note>
+            <Note>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <location>
+            <fractions>3/4</fractions>
+            </location>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Fermata>
+            <subtype>fermataLongAbove</subtype>
+            </Fermata>
+          <Chord>
+            <durationType>whole</durationType>
+            <Note>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              <Spanner type="TextLine">
+                <TextLine>
+                  <lineWidth>0.3</lineWidth>
+                  <anchor>3</anchor>
+                  <Segment>
+                    <subtype>0</subtype>
+                    <offset x="0.593502" y="0"/>
+                    <off2 x="21.7441" y="0"/>
+                    </Segment>
+                  </TextLine>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
+              </Note>
+            <Note>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              <Spanner type="TextLine">
+                <TextLine>
+                  <lineWidth>0.3</lineWidth>
+                  <anchor>3</anchor>
+                  <Segment>
+                    <subtype>0</subtype>
+                    <offset x="0.55859" y="0"/>
+                    <off2 x="21.7345" y="0"/>
+                    </Segment>
+                  </TextLine>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
+              </Note>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              <Spanner type="TextLine">
+                <TextLine>
+                  <lineWidth>0.3</lineWidth>
+                  <anchor>3</anchor>
+                  <Segment>
+                    <subtype>0</subtype>
+                    <offset x="0.663326" y="0"/>
+                    <off2 x="21.6945" y="0"/>
+                    </Segment>
+                  </TextLine>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <StaffText>
+            <autoplace>0</autoplace>
+            <size>8</size>
+            <offset x="-1" y="-1"/>
+            <frameType>1</frameType>
+            <text>+3 +5</text>
+            </StaffText>
+          <Chord>
+            <durationType>whole</durationType>
+            <Note>
+              <visible>0</visible>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              <Spanner type="TextLine">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                <visible>0</visible>
+                </Accidental>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              <Spanner type="TextLine">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              <Spanner type="TextLine">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Fermata>
+            <subtype>fermataLongAbove</subtype>
+            </Fermata>
+          <Chord>
+            <durationType>whole</durationType>
+            <Note>
+              <visible>0</visible>
+              <pitch>60</pitch>
+              <tpc>14</tpc>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                <visible>0</visible>
+                </Accidental>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>F</transposingClefType>
+            </Clef>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <durationType>whole</durationType>
+            <Note>
+              <pitch>45</pitch>
+              <tpc>17</tpc>
+              </Note>
+            <Note>
+              <pitch>50</pitch>
+              <tpc>16</tpc>
+              </Note>
+            <Note>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
+              <pitch>51</pitch>
+              <tpc>11</tpc>
+              </Note>
+            </Chord>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+            <visible>0</visible>
+            </Clef>
+          <BarLine>
+            <subtype>end</subtype>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Fermata>
+            <subtype>fermataAbove</subtype>
+            </Fermata>
+          <StaffText>
+            <autoplace>0</autoplace>
+            <size>8</size>
+            <offset x="-1" y="-1"/>
+            <frameType>1</frameType>
+            <text>24</text>
+            </StaffText>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Fermata>
+            <subtype>fermataLongAbove</subtype>
+            </Fermata>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <durationType>whole</durationType>
+            <Note>
+              <pitch>71</pitch>
+              <tpc>19</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        <voice>
+          <Rest>
+            <durationType>half</durationType>
+            </Rest>
+          <Chord>
+            <durationType>half</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>63</pitch>
+              <tpc>23</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      </Staff>
+    <Staff id="3">
+      <Measure>
+        <voice>
+          <KeySig>
+            <accidental>0</accidental>
+            </KeySig>
+          <TimeSig>
+            <visible>0</visible>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          <BarLine>
+            <visible>0</visible>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          <BarLine>
+            <visible>0</visible>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          <BarLine>
+            <visible>0</visible>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          <BarLine>
+            <visible>0</visible>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure len="2/4">
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>2/4</duration>
+            </Rest>
+          <BarLine>
+            <visible>0</visible>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          <BarLine>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <BarLine>
+            </BarLine>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>F</transposingClefType>
+            <visible>0</visible>
+            </Clef>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Stem>
+              <visible>0</visible>
+              </Stem>
+            <Note>
+              <visible>0</visible>
+              <pitch>52</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Stem>
+              <visible>0</visible>
+              </Stem>
+            <Note>
+              <visible>0</visible>
+              <pitch>52</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <StaffText>
+            <autoplace>0</autoplace>
+            <size>22</size>
+            <offset x="-0.5" y="-1"/>
+            <frameType>1</frameType>
+            <text>-</text>
+            </StaffText>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Stem>
+              <visible>0</visible>
+              </Stem>
+            <Note>
+              <visible>0</visible>
+              <pitch>52</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Stem>
+              <visible>0</visible>
+              </Stem>
+            <Note>
+              <visible>0</visible>
+              <pitch>52</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
           <BarLine>
             </BarLine>
           </voice>
@@ -1340,13 +2340,318 @@ Cues begonnen werden: !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
             </Rest>
           </voice>
         </Measure>
-      </Staff>
-    <Staff id="3">
       <Measure>
         <voice>
-          <KeySig>
-            <accidental>0</accidental>
-            </KeySig>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          <BarLine>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Fermata>
+            <subtype>fermataLongAbove</subtype>
+            <offset x="2.5" y="-0.5"/>
+            </Fermata>
+          <StaffText>
+            <autoplace>0</autoplace>
+            <size>8</size>
+            <offset x="-1" y="-1"/>
+            <frameType>1</frameType>
+            <text>24</text>
+            </StaffText>
+          <Chord>
+            <durationType>whole</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>44</pitch>
+              <tpc>22</tpc>
+              </Note>
+            <Note>
+              <pitch>47</pitch>
+              <tpc>19</tpc>
+              </Note>
+            <Note>
+              <pitch>48</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+            </Clef>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>half</durationType>
+            </Rest>
+          <Chord>
+            <durationType>half</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>68</pitch>
+              <tpc>22</tpc>
+              </Note>
+            <Note>
+              <pitch>71</pitch>
+              <tpc>19</tpc>
+              </Note>
+            <Note>
+              <pitch>72</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>half</durationType>
+            </Rest>
+          <Chord>
+            <durationType>half</durationType>
+            <Note>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
+              </Note>
+            <Note>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              </Note>
+            <Note>
+              <pitch>67</pitch>
+              <tpc>15</tpc>
+              </Note>
+            </Chord>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>F</transposingClefType>
+            </Clef>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Fermata>
+            <subtype>fermataLongAbove</subtype>
+            </Fermata>
+          <Chord>
+            <durationType>whole</durationType>
+            <Note>
+              <pitch>50</pitch>
+              <tpc>16</tpc>
+              </Note>
+            <Note>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
+              <pitch>51</pitch>
+              <tpc>11</tpc>
+              </Note>
+            <Note>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>52</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
+              <pitch>51</pitch>
+              <tpc>11</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>51</pitch>
+              <tpc>11</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <pitch>51</pitch>
+              <tpc>11</tpc>
+              </Note>
+            </Chord>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+            <visible>0</visible>
+            </Clef>
+          <BarLine>
+            <subtype>end</subtype>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <StaffText>
+            <autoplace>0</autoplace>
+            <size>8</size>
+            <offset x="-1" y="-1"/>
+            <frameType>1</frameType>
+            <text>32</text>
+            </StaffText>
+          <Chord>
+            <durationType>half</durationType>
+            <Note>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>66</pitch>
+              <tpc>20</tpc>
+              </Note>
+            </Chord>
+          <Fermata>
+            <subtype>fermataAbove</subtype>
+            </Fermata>
+          <Rest>
+            <durationType>half</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Tuplet>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>eighth</baseNote>
+            <Number>
+              <style>Tuplet</style>
+              <text>3</text>
+              </Number>
+            </Tuplet>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articStaccatoBelow</subtype>
+              </Articulation>
+            <Note>
+              <Symbol>
+                <name>noteheadClusterRoundBlack</name>
+                <font>Bravura</font>
+                </Symbol>
+              <pitch>77</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articStaccatoBelow</subtype>
+              </Articulation>
+            <Note>
+              <Symbol>
+                <name>noteheadClusterRoundBlack</name>
+                <font>Bravura</font>
+                </Symbol>
+              <pitch>65</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articStaccatoBelow</subtype>
+              </Articulation>
+            <Note>
+              <Symbol>
+                <name>noteheadClusterRoundBlack</name>
+                <font>Bravura</font>
+                </Symbol>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          <Rest>
+            <durationType>quarter</durationType>
+            </Rest>
+          <Rest>
+            <durationType>half</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Fermata>
+            <subtype>fermataLongAbove</subtype>
+            </Fermata>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      </Staff>
+    <Staff id="4">
+      <Measure>
+        <voice>
           <TimeSig>
             <visible>0</visible>
             <sigN>4</sigN>
@@ -1431,8 +2736,8 @@ Cues begonnen werden: !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
                   <anchor>3</anchor>
                   <Segment>
                     <subtype>0</subtype>
-                    <offset x="-6.00946" y="0"/>
-                    <off2 x="9.2792" y="0"/>
+                    <offset x="-6.49331" y="0"/>
+                    <off2 x="9.76305" y="0"/>
                     </Segment>
                   </TextLine>
                 <next>
@@ -1460,6 +2765,211 @@ Cues begonnen werden: !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
             </Chord>
           <BarLine>
             </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <durationType>whole</durationType>
+            <Note>
+              <visible>0</visible>
+              <Symbol>
+                <name>wiggleWavyWide</name>
+                <font>Bravura</font>
+                <autoplace>0</autoplace>
+                <offset x="4" y="0"/>
+                </Symbol>
+              <Symbol>
+                <name>wiggleWavyWide</name>
+                <font>Bravura</font>
+                <autoplace>0</autoplace>
+                <offset x="8" y="0"/>
+                </Symbol>
+              <Symbol>
+                <name>wiggleWavyWide</name>
+                <font>Bravura</font>
+                <autoplace>0</autoplace>
+                <offset x="12" y="0"/>
+                </Symbol>
+              <Symbol>
+                <name>wiggleWavyWide</name>
+                <font>Bravura</font>
+                <autoplace>0</autoplace>
+                <offset x="24" y="0"/>
+                </Symbol>
+              <Symbol>
+                <name>wiggleWavyWide</name>
+                <font>Bravura</font>
+                <autoplace>0</autoplace>
+                <offset x="20" y="0"/>
+                </Symbol>
+              <Symbol>
+                <name>wiggleWavyWide</name>
+                <font>Bravura</font>
+                <autoplace>0</autoplace>
+                <offset x="16" y="0"/>
+                </Symbol>
+              <Symbol>
+                <name>wiggleWavyWide</name>
+                <font>Bravura</font>
+                <Symbol>
+                  <name>wiggleWavyWide</name>
+                  <font>Bravura</font>
+                  <autoplace>0</autoplace>
+                  <track>8</track>
+                  <offset x="484.467" y="0.137834"/>
+                  <z>499</z>
+                  </Symbol>
+                <autoplace>0</autoplace>
+                </Symbol>
+              <Symbol>
+                <name>wiggleWavyWide</name>
+                <font>Bravura</font>
+                <autoplace>0</autoplace>
+                <offset x="-4" y="0"/>
+                </Symbol>
+              <Symbol>
+                <name>wiggleWavyWide</name>
+                <font>Bravura</font>
+                <autoplace>0</autoplace>
+                <offset x="28" y="0"/>
+                <visible>0</visible>
+                </Symbol>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <BarLine>
+            <visible>0</visible>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <durationType>whole</durationType>
+            <Note>
+              <visible>0</visible>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <BarLine>
+            <visible>0</visible>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <durationType>whole</durationType>
+            <Note>
+              <visible>0</visible>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <BarLine>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          <BarLine>
+            <subtype>end</subtype>
+            </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
           </voice>
         </Measure>
       <Measure>
