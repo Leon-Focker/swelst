@@ -6900,20 +6900,18 @@ frei wählbar, nicht gleichmäßig!
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
-          <location>
-            <fractions>-1/2</fractions>
-            </location>
-          <RehearsalMark>
-            <textLineSpacing>0.7</textLineSpacing>
-            <offset x="-7.5" y="-3"/>
-            <frameType>0</frameType>
-            <text>29
-</text>
-            </RehearsalMark>
           </voice>
         </Measure>
       <Measure>
         <voice>
+          <RehearsalMark>
+            <textLineSpacing>0.7</textLineSpacing>
+            <offset x="2" y="-3"/>
+            <frameType>0</frameType>
+            <text>29
+|
+</text>
+            </RehearsalMark>
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
@@ -14481,13 +14479,6 @@ frei wählbar, nicht gleichmäßig!
         </Measure>
       <Measure>
         <voice>
-          <StaffText>
-            <autoplace>0</autoplace>
-            <size>22</size>
-            <offset x="-2.5" y="-1"/>
-            <frameType>1</frameType>
-            <text>-</text>
-            </StaffText>
           <Chord>
             <durationType>half</durationType>
             <Stem>
@@ -14529,6 +14520,13 @@ frei wählbar, nicht gleichmäßig!
               <veloType>user</veloType>
               </Note>
             </Chord>
+          <StaffText>
+            <autoplace>0</autoplace>
+            <size>22</size>
+            <offset x="3.5" y="-1"/>
+            <frameType>1</frameType>
+            <text>-</text>
+            </StaffText>
           <Chord>
             <durationType>half</durationType>
             <Stem>

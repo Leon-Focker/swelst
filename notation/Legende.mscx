@@ -705,7 +705,7 @@ notiert.
         <Text>
           <style>User-1</style>
           <offset x="3" y="0"/>
-          <text>In der Zeile ab Takt 99 sollen nacheinander verschiedene 
+          <text>In der Zeile ab Takt 100 sollen nacheinander verschiedene 
 Register gezogen oder wieder raus genommen werden. 
 Insgesamt sollte diese Zeile zwischen 20 und 50 Sekunden
 dauern. Die Einsatzabstände zwischen den Aktionen sollten
@@ -726,8 +726,9 @@ nicht gleichmäßig sein!
         <voice>
           <RehearsalMark>
             <textLineSpacing>0.7</textLineSpacing>
+            <offset x="-1" y="-3"/>
             <frameType>0</frameType>
-            <text>31
+            <text>29
 |
 </text>
             </RehearsalMark>
@@ -753,7 +754,7 @@ nicht gleichmäßig sein!
             <textLineSpacing>0.7</textLineSpacing>
             <offset x="5.19" y="-3.46"/>
             <frameType>0</frameType>
-            <text>32
+            <text>30
 </text>
             </RehearsalMark>
           <Rest>
@@ -779,12 +780,12 @@ zeichnet, deren Länge der Interpret völlig frei entscheiden darf.
 Das heißt, sie dürfen praktische übersprungen werden, nur 
 wenige Sekunden oder einige Minuten andauern. 
 
-Konkret bedeutet die Stelle ab Takt 135, dass die Elektronik zu
-Cue 31 geschalten werden soll, dann darf frei improvisiert 
+Konkret bedeutet die Stelle ab Takt 130, dass die Elektronik zu
+Cue 29 geschalten werden soll, dann darf frei improvisiert 
 werden. Dann sollen die entsprechenden Pedaltöne gehalten 
-und weiter improvisiert werden. Nach einer Weile kann Cue 32 
+und weiter improvisiert werden. Nach einer Weile kann Cue 30 
 geschalten und ggf. weiter improvisiert werden. Alternativ kann 
-Cue 32 auch mit der ersten Zählzeit von Takt 138 zusammen-
+Cue 30 auch mit der ersten Zählzeit von Takt 133 zusammen-
 kommen. 
 </text>
           </Text>
@@ -802,7 +803,7 @@ werden, wie sich die Rückkopplung im Raum verhält und beeinflussen lässt. Da 
 sein kann, sollte sich der Interpret frei fühlen sich viel oder wenig Zeit zu nehmen, falls es entsprechend viel oder
 wenig zu entdecken gibt. Die Orgel selbst darf aber auch gespielt werden. Mit der Ästhetik bis zu dieser Stelle im 
 Stück sollte aber nicht gebrochen werden. 
-Während Cue 31 bieten sich gehaltene und sich verändernde Clusterklänge an. Während Cue 32 eher einzelne 
+Während Cue 29 bieten sich gehaltene und sich verändernde Clusterklänge an. Während Cue 30 eher einzelne 
 Noten oder schnelle Wechsel zwischen nur kurz angespielten Clustern. Das Folgende sind zwei entsprechende 
 Vorschläge, die als Anregung dienen können:
 </text>
@@ -963,16 +964,16 @@ Cues begonnen werden: !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
           <BarLine>
             <visible>0</visible>
             </BarLine>
-          <Clef>
-            <concertClefType>G</concertClefType>
-            <transposingClefType>G</transposingClefType>
-            <visible>0</visible>
-            </Clef>
           <TimeSig>
             <visible>0</visible>
             <sigN>4</sigN>
             <sigD>4</sigD>
             </TimeSig>
+          <Clef>
+            <concertClefType>G</concertClefType>
+            <transposingClefType>G</transposingClefType>
+            <visible>0</visible>
+            </Clef>
           <StaffText>
             <autoplace>0</autoplace>
             <size>22</size>
@@ -1604,8 +1605,8 @@ Cues begonnen werden: !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
             </Clef>
           <StaffText>
             <style>Measure Number</style>
-            <offset x="-2.63075" y="-0.465189"/>
-            <text>99</text>
+            <offset x="-1.50347" y="-0.265856"/>
+            <text>100</text>
             </StaffText>
           <Chord>
             <durationType>quarter</durationType>
@@ -1680,14 +1681,14 @@ Cues begonnen werden: !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
             <concertClefType>F8vb</concertClefType>
             <transposingClefType>F8vb</transposingClefType>
             </Clef>
+          <StaffText>
+            <style>Measure Number</style>
+            <offset x="-5.63" y="-0.47"/>
+            <text>130</text>
+            </StaffText>
           <Fermata>
             <subtype>fermataVeryLongAbove</subtype>
             </Fermata>
-          <StaffText>
-            <style>Measure Number</style>
-            <offset x="-4.60324" y="-0.813979"/>
-            <text>135</text>
-            </StaffText>
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
@@ -2124,9 +2125,6 @@ Cues begonnen werden: !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
         </Measure>
       <Measure>
         <voice>
-          <Fermata>
-            <subtype>fermataAbove</subtype>
-            </Fermata>
           <StaffText>
             <autoplace>0</autoplace>
             <size>8</size>
@@ -2134,6 +2132,9 @@ Cues begonnen werden: !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
             <frameType>1</frameType>
             <text>24</text>
             </StaffText>
+          <Fermata>
+            <subtype>fermataAbove</subtype>
+            </Fermata>
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
@@ -2189,9 +2190,6 @@ Cues begonnen werden: !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
     <Staff id="3">
       <Measure>
         <voice>
-          <KeySig>
-            <accidental>0</accidental>
-            </KeySig>
           <TimeSig>
             <visible>0</visible>
             <sigN>4</sigN>
@@ -2360,10 +2358,6 @@ Cues begonnen werden: !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
         </Measure>
       <Measure>
         <voice>
-          <Fermata>
-            <subtype>fermataLongAbove</subtype>
-            <offset x="2.5" y="-0.5"/>
-            </Fermata>
           <StaffText>
             <autoplace>0</autoplace>
             <size>8</size>
@@ -2371,6 +2365,10 @@ Cues begonnen werden: !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
             <frameType>1</frameType>
             <text>24</text>
             </StaffText>
+          <Fermata>
+            <subtype>fermataLongAbove</subtype>
+            <offset x="2.5" y="-0.5"/>
+            </Fermata>
           <Chord>
             <durationType>whole</durationType>
             <Note>
@@ -2824,7 +2822,6 @@ Cues begonnen werden: !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
                   <name>wiggleWavyWide</name>
                   <font>Bravura</font>
                   <autoplace>0</autoplace>
-                  <track>8</track>
                   <offset x="484.467" y="0.137834"/>
                   <z>499</z>
                   </Symbol>
