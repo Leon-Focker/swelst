@@ -936,7 +936,6 @@ Vorschläge, die als Anregung dienen können:
         <Text>
           <style>Frame</style>
           <family>Leland</family>
-          <color r="255" g="0" b="0" a="255"/>
           <text>Für die Aufführung sollte ein Lautsprecher hinter den Schwellern, also in der Orgel aufgestellt werden. Falls ein 
 Lautsprecher nicht ausreicht, können auch mehrere Lautsprecher benutzt werden und das gleiche Signal 
 bekommen. Ein Mikrofron sollte vor den Schwellern aufgestellt werden, so dass also durch Öffnen und Schließen 
@@ -952,8 +951,8 @@ den Audio-Ausgang. Ist dieser deutlich größer als 1, sollte die Lautstärke de
 Falls sich die Pegel außerhalb des Patches (also Vorverstärkung etc.) verändert haben, sollte der &quot;auto-level: reset&quot; 
 Knopf gedrückt und der eben beschriebene Vorgang wiederholt werden.
 
-Damit beim Proben nicht immer das ganze Stück von vorn gespielt werden muss, kann alternativ auch zu diesen
-Cues begonnen werden: !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Damit beim Proben nicht immer das ganze Stück von vorn gespielt werden muss, kann alternativ zu diesen Cues 
+gestartet werden: 1, 8, 23, 29.
 </text>
           </Text>
         </TBox>
@@ -1605,7 +1604,7 @@ Cues begonnen werden: !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
             </Clef>
           <StaffText>
             <style>Measure Number</style>
-            <offset x="-0.859234" y="-0.151937"/>
+            <offset x="-0.491053" y="-0.0868321"/>
             <text>100</text>
             </StaffText>
           <Chord>
@@ -1683,8 +1682,7 @@ Cues begonnen werden: !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
             </Clef>
           <StaffText>
             <style>Measure Number</style>
-            <minDistance>0.174677</minDistance>
-            <offset x="-5.72" y="-0.27"/>
+            <offset x="-5.77" y="-0.65"/>
             <text>123</text>
             </StaffText>
           <Fermata>

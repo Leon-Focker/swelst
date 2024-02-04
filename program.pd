@@ -1,4 +1,4 @@
-#N canvas -218 -24 1920 997 12;
+#N canvas 24 -24 1920 997 12;
 #X obj 7 6 r current-trigger;
 #X msg 7 54 \; reset bang \;;
 #X obj 30 145 r intro-noise;
@@ -222,7 +222,7 @@ analyse-in 1 \; sweller-2 line 0 \, line 1 7000 \, osc-amp 1 \, osc-amp
 #X text 1823 309 \; \; \; \; \; \; \; \; \; \; \; \; \; \; \; \; \;
 \; \; \; \; \; \; \; \; \; \; \; \; \; \; \; \; \; \; \; \; \; \; \;
 \; \; \; \; \; \; \; \; \; \; \; \; \;, f 2;
-#X obj 1838 310 cnv 19 1 1 empty empty 31 20 12 0 30 #e0e0e0 #404040
+#X obj 1838 310 cnv 19 1 1 empty empty 29 20 12 0 30 #e0e0e0 #404040
 0;
 #X obj 1234 1214 r grizzle-fdb;
 #X obj 1608 103 s grizzle-fdb;
