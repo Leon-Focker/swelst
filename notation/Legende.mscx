@@ -780,12 +780,12 @@ zeichnet, deren Länge der Interpret völlig frei entscheiden darf.
 Das heißt, sie dürfen praktische übersprungen werden, nur 
 wenige Sekunden oder einige Minuten andauern. 
 
-Konkret bedeutet die Stelle ab Takt 130, dass die Elektronik zu
+Konkret bedeutet die Stelle ab Takt 123, dass die Elektronik zu
 Cue 29 geschalten werden soll, dann darf frei improvisiert 
 werden. Dann sollen die entsprechenden Pedaltöne gehalten 
 und weiter improvisiert werden. Nach einer Weile kann Cue 30 
 geschalten und ggf. weiter improvisiert werden. Alternativ kann 
-Cue 30 auch mit der ersten Zählzeit von Takt 133 zusammen-
+Cue 30 auch mit der ersten Zählzeit von Takt 126 zusammen-
 kommen. 
 </text>
           </Text>
@@ -1605,7 +1605,7 @@ Cues begonnen werden: !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
             </Clef>
           <StaffText>
             <style>Measure Number</style>
-            <offset x="-1.50347" y="-0.265856"/>
+            <offset x="-0.859234" y="-0.151937"/>
             <text>100</text>
             </StaffText>
           <Chord>
@@ -1683,8 +1683,9 @@ Cues begonnen werden: !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
             </Clef>
           <StaffText>
             <style>Measure Number</style>
-            <offset x="-5.63" y="-0.47"/>
-            <text>130</text>
+            <minDistance>0.174677</minDistance>
+            <offset x="-5.72" y="-0.27"/>
+            <text>123</text>
             </StaffText>
           <Fermata>
             <subtype>fermataVeryLongAbove</subtype>
