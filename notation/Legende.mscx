@@ -945,6 +945,7 @@ Vorschläge, die als Anregung dienen können:
         <height>1</height>
         <topGap>0</topGap>
         <bottomGap>3</bottomGap>
+        <visible>0</visible>
         <Text>
           <style>Frame</style>
           <family>Leland</family>
@@ -965,6 +966,11 @@ Knopf gedrückt und der eben beschriebene Vorgang wiederholt werden.
 
 Damit beim Proben nicht immer das ganze Stück von vorn gespielt werden muss, kann alternativ zu diesen Cues 
 gestartet werden: 1, 8, 23, 29.
+
+Unter &quot;trigger parts&quot; kann im Patch durch die Cues navigiert werden. In der Aufführung können die Cues dann
+entweder über ein Midi-Fußpedal weiter geschalten werden, oder direkt am Patch durch eine zweite Person. Diese
+könnte bei einer Aufführung zusätzlich den Pegel der Elektronik kontrollieren unpassen. Dies sollte aber nicht nötig
+sein.
 </text>
           </Text>
         </TBox>
@@ -1555,6 +1561,10 @@ gestartet werden: 1, 8, 23, 29.
           </voice>
         </Measure>
       <Measure>
+        <MeasureNumber>
+          <visible>0</visible>
+          <text>7</text>
+          </MeasureNumber>
         <voice>
           <Chord>
             <durationType>whole</durationType>
@@ -1573,7 +1583,7 @@ gestartet werden: 1, 8, 23, 29.
                   <Segment>
                     <subtype>0</subtype>
                     <offset x="0.549828" y="0"/>
-                    <off2 x="10.5384" y="0"/>
+                    <off2 x="13.0433" y="0"/>
                     </Segment>
                   </TextLine>
                 <next>
@@ -1595,7 +1605,7 @@ gestartet werden: 1, 8, 23, 29.
                   <Segment>
                     <subtype>0</subtype>
                     <offset x="0.769759" y="0"/>
-                    <off2 x="10.2718" y="0"/>
+                    <off2 x="12.8989" y="0"/>
                     </Segment>
                   </TextLine>
                 <next>
@@ -1617,7 +1627,7 @@ gestartet werden: 1, 8, 23, 29.
                   <Segment>
                     <subtype>0</subtype>
                     <offset x="0.604811" y="0"/>
-                    <off2 x="10.5456" y="0"/>
+                    <off2 x="13.1378" y="0"/>
                     </Segment>
                   </TextLine>
                 <next>
@@ -1639,7 +1649,7 @@ gestartet werden: 1, 8, 23, 29.
                   <Segment>
                     <subtype>0</subtype>
                     <offset x="0.538831" y="0"/>
-                    <off2 x="10.6116" y="0"/>
+                    <off2 x="13.1776" y="0"/>
                     </Segment>
                   </TextLine>
                 <next>
@@ -1741,7 +1751,7 @@ gestartet werden: 1, 8, 23, 29.
             </Clef>
           <StaffText>
             <style>Measure Number</style>
-            <offset x="-0.280637" y="-0.0496246"/>
+            <offset x="-0.0916595" y="-0.016208"/>
             <text>100</text>
             </StaffText>
           <Chord>
@@ -1819,7 +1829,7 @@ gestartet werden: 1, 8, 23, 29.
             </Clef>
           <StaffText>
             <style>Measure Number</style>
-            <offset x="-3.29756" y="-0.371475"/>
+            <offset x="-1.07703" y="-0.121328"/>
             <text>123</text>
             </StaffText>
           <Fermata>
@@ -2913,7 +2923,7 @@ gestartet werden: 1, 8, 23, 29.
             <dots>1</dots>
             <durationType>half</durationType>
             <Note>
-              <offset x="-0.5" y="0"/>
+              <offset x="2.5" y="0"/>
               <visible>0</visible>
               <Symbol>
                 <name>wiggleWavyWide</name>
