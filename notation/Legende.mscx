@@ -655,6 +655,14 @@ bedeutet, dass das Timing wichtig ist und deutet auf die entsprechende Zählzeit
           </Text>
         </HBox>
       <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
         <measureNumberMode>2</measureNumberMode>
         <voice>
           <Rest>
@@ -666,17 +674,21 @@ bedeutet, dass das Timing wichtig ist und deutet auf die entsprechende Zählzeit
           </voice>
         </Measure>
       <HBox>
-        <width>80</width>
+        <width>60</width>
         <visible>0</visible>
         <Text>
           <style>User-1</style>
-          <offset x="3" y="1"/>
-          <text>Die durch &quot;Sw.&quot; gekennzeichnete Notenzeile zeigt, ob die Schweller geöffnet (oben im 
-System) oder geschlossen (unten im System) sein sollen. Hier ist also ein Crescendo 
-notiert.
+          <offset x="3" y="-2.5"/>
+          <text>Die durch &quot;Sw.&quot; gekennzeichnete Notenzeile zeigt, ob die 
+Schweller geöffnet (oben im System) oder geschlossen (unten 
+im System) sein sollen. Hier ist im ersten Takt also ein 
+Crescendo notiert. Die Wellenlinien im zweiten Takt zeigen,
+dass mit den Schwellern an ensprechenden Stellen improvisiert 
+werden soll.
 </text>
           </Text>
         <LayoutBreak>
+          <visible>0</visible>
           <subtype>line</subtype>
           </LayoutBreak>
         </HBox>
@@ -1544,13 +1556,6 @@ gestartet werden: 1, 8, 23, 29.
         </Measure>
       <Measure>
         <voice>
-          <BarLine>
-            </BarLine>
-          <Clef>
-            <concertClefType>G</concertClefType>
-            <transposingClefType>G</transposingClefType>
-            <visible>0</visible>
-            </Clef>
           <Chord>
             <durationType>whole</durationType>
             <Note>
@@ -1561,29 +1566,161 @@ gestartet werden: 1, 8, 23, 29.
               <tpc>23</tpc>
               <velocity>33</velocity>
               <veloType>user</veloType>
+              <Spanner type="TextLine">
+                <TextLine>
+                  <lineWidth>0.3</lineWidth>
+                  <anchor>3</anchor>
+                  <Segment>
+                    <subtype>0</subtype>
+                    <offset x="0.549828" y="0"/>
+                    <off2 x="10.5384" y="0"/>
+                    </Segment>
+                  </TextLine>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
               </Note>
             <Note>
               <pitch>76</pitch>
               <tpc>18</tpc>
               <velocity>33</velocity>
               <veloType>user</veloType>
+              <Spanner type="TextLine">
+                <TextLine>
+                  <lineWidth>0.3</lineWidth>
+                  <anchor>3</anchor>
+                  <Segment>
+                    <subtype>0</subtype>
+                    <offset x="0.769759" y="0"/>
+                    <off2 x="10.2718" y="0"/>
+                    </Segment>
+                  </TextLine>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
               </Note>
             <Note>
               <pitch>77</pitch>
               <tpc>13</tpc>
               <velocity>33</velocity>
               <veloType>user</veloType>
+              <Spanner type="TextLine">
+                <TextLine>
+                  <lineWidth>0.3</lineWidth>
+                  <anchor>3</anchor>
+                  <Segment>
+                    <subtype>0</subtype>
+                    <offset x="0.604811" y="0"/>
+                    <off2 x="10.5456" y="0"/>
+                    </Segment>
+                  </TextLine>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
               </Note>
             <Note>
               <pitch>79</pitch>
               <tpc>15</tpc>
               <velocity>23</velocity>
               <veloType>user</veloType>
+              <Spanner type="TextLine">
+                <TextLine>
+                  <lineWidth>0.3</lineWidth>
+                  <anchor>3</anchor>
+                  <Segment>
+                    <subtype>0</subtype>
+                    <offset x="0.538831" y="0"/>
+                    <off2 x="10.6116" y="0"/>
+                    </Segment>
+                  </TextLine>
+                <next>
+                  <location>
+                    <measures>1</measures>
+                    </location>
+                  </next>
+                </Spanner>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <durationType>whole</durationType>
+            <Note>
+              <visible>0</visible>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                <visible>0</visible>
+                </Accidental>
+              <pitch>75</pitch>
+              <tpc>23</tpc>
+              <velocity>33</velocity>
+              <veloType>user</veloType>
+              <Spanner type="TextLine">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              <velocity>33</velocity>
+              <veloType>user</veloType>
+              <Spanner type="TextLine">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>77</pitch>
+              <tpc>13</tpc>
+              <velocity>33</velocity>
+              <veloType>user</veloType>
+              <Spanner type="TextLine">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
+              </Note>
+            <Note>
+              <visible>0</visible>
+              <pitch>79</pitch>
+              <tpc>15</tpc>
+              <velocity>23</velocity>
+              <veloType>user</veloType>
+              <Spanner type="TextLine">
+                <prev>
+                  <location>
+                    <measures>-1</measures>
+                    </location>
+                  </prev>
+                </Spanner>
               </Note>
             </Chord>
           <Clef>
             <concertClefType>F8vb</concertClefType>
             <transposingClefType>F8vb</transposingClefType>
+            <visible>0</visible>
             </Clef>
           <BarLine>
             </BarLine>
@@ -1592,7 +1729,7 @@ gestartet werden: 1, 8, 23, 29.
       <Measure>
         <MeasureNumber>
           <visible>0</visible>
-          <text>8</text>
+          <text>9</text>
           </MeasureNumber>
         <voice>
           <BarLine>
@@ -1604,7 +1741,7 @@ gestartet werden: 1, 8, 23, 29.
             </Clef>
           <StaffText>
             <style>Measure Number</style>
-            <offset x="-0.491053" y="-0.0868321"/>
+            <offset x="-0.280637" y="-0.0496246"/>
             <text>100</text>
             </StaffText>
           <Chord>
@@ -1682,7 +1819,7 @@ gestartet werden: 1, 8, 23, 29.
             </Clef>
           <StaffText>
             <style>Measure Number</style>
-            <offset x="-5.77" y="-0.65"/>
+            <offset x="-3.29756" y="-0.371475"/>
             <text>123</text>
             </StaffText>
           <Fermata>
@@ -1859,7 +1996,7 @@ gestartet werden: 1, 8, 23, 29.
       <Measure>
         <MeasureNumber>
           <visible>0</visible>
-          <text>12</text>
+          <text>13</text>
           </MeasureNumber>
         <voice>
           <StaffText>
@@ -2253,6 +2390,14 @@ gestartet werden: 1, 8, 23, 29.
           <BarLine>
             <visible>0</visible>
             </BarLine>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
           </voice>
         </Measure>
       <Measure>
@@ -2733,8 +2878,8 @@ gestartet werden: 1, 8, 23, 29.
                   <anchor>3</anchor>
                   <Segment>
                     <subtype>0</subtype>
-                    <offset x="-6.49331" y="0"/>
-                    <off2 x="9.76305" y="0"/>
+                    <offset x="-9.25135" y="0"/>
+                    <off2 x="12.9654" y="0"/>
                     </Segment>
                   </TextLine>
                 <next>
@@ -2758,6 +2903,61 @@ gestartet werden: 1, 8, 23, 29.
                     </location>
                   </prev>
                 </Spanner>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Chord>
+            <dots>1</dots>
+            <durationType>half</durationType>
+            <Note>
+              <offset x="-0.5" y="0"/>
+              <visible>0</visible>
+              <Symbol>
+                <name>wiggleWavyWide</name>
+                <font>Bravura</font>
+                <autoplace>0</autoplace>
+                <offset x="4" y="0"/>
+                </Symbol>
+              <Symbol>
+                <name>wiggleWavyWide</name>
+                <font>Bravura</font>
+                <autoplace>0</autoplace>
+                <offset x="8" y="0"/>
+                </Symbol>
+              <Symbol>
+                <name>wiggleWavyWide</name>
+                <font>Bravura</font>
+                <Symbol>
+                  <name>wiggleWavyWide</name>
+                  <font>Bravura</font>
+                  <autoplace>0</autoplace>
+                  <offset x="484.467" y="0.137834"/>
+                  <z>499</z>
+                  </Symbol>
+                <autoplace>0</autoplace>
+                </Symbol>
+              <Symbol>
+                <name>wiggleWavyWide</name>
+                <font>Bravura</font>
+                <autoplace>0</autoplace>
+                <offset x="-4" y="0"/>
+                </Symbol>
+              <NoteDot>
+                <visible>0</visible>
+                </NoteDot>
+              <pitch>76</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>quarter</durationType>
+            <Note>
+              <visible>0</visible>
+              <pitch>77</pitch>
+              <tpc>13</tpc>
               </Note>
             </Chord>
           <BarLine>
