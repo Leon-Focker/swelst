@@ -1,4 +1,4 @@
-#N canvas -175 -23 1920 997 12;
+#N canvas -20 -23 1920 997 12;
 #X obj 8 6 inputs;
 #X obj 8 222 outputs;
 #X obj 8 78 delays;
@@ -8,7 +8,6 @@
 #X text 621 114 Patch einrichten \; 1) Mikro mit Orgel Pegeln \; 2)
 auto-level MIC (während Orgel laut ist) \; 3) auto-level OUT (während
 es ruhig ist) \;;
-#X obj 125 6 trigger-parts;
 #X obj 519 271 rauschen;
 #X obj 519 292 analyse;
 #X obj 125 78 vocoder;
@@ -77,22 +76,22 @@ empty -2 -10 0 12 #fcfcfc #000000 #000000 0 1;
 #X obj 519 334 patchbay;
 #X obj 519 376 grizzles;
 #X obj 242 150 blur;
-#X obj 442 29 init;
-#X msg 754 644 \; replay-1 2 0 20 \;;
+#X obj 531 237 init;
+#X msg 1478 637 \; replay-1 2 0 20 \;;
 #X obj 519 397 filter;
-#X obj 693 631 vsl 15 128 0 1 0 0 empty empty empty 0 -9 0 10 #fcfcfc
+#X obj 1417 624 vsl 15 128 0 1 0 0 empty empty empty 0 -9 0 10 #fcfcfc
 #000000 #000000 0 1;
-#X obj 655 692 vsl 15 128 2 8 0 0 empty empty empty 0 -9 0 10 #fcfcfc
+#X obj 1379 685 vsl 15 128 2 8 0 0 empty empty empty 0 -9 0 10 #fcfcfc
 #000000 #000000 0 1;
-#X msg 474 735 \; pulse-1 bang \;;
-#X obj 440 701 vsl 15 128 0 1 0 0 empty empty empty 0 -9 0 10 #fcfcfc
+#X msg 1198 728 \; pulse-1 bang \;;
+#X obj 1164 694 vsl 15 128 0 1 0 0 empty empty empty 0 -9 0 10 #fcfcfc
 #000000 #000000 0 1;
-#X msg 440 837 \; duty-cycle-1 \$1 \; duty-cycle-2 \$1 \;;
-#X msg 693 767 \; width-1 \$1 \; width-2 \$1 \;;
+#X msg 1164 830 \; duty-cycle-1 \$1 \; duty-cycle-2 \$1 \;;
+#X msg 1417 760 \; width-1 \$1 \; width-2 \$1 \;;
 #X obj 519 313 swellers;
-#X msg 1145 665 \; replay-1 1005 0 29 0.25 \;, f 47;
-#X msg 655 828 \; freq-1 \$1 \; freq-2 \$1 \;;
-#X msg 957 787 \; pulse-1 bang \; pulse-2 bang \;;
-#X connect 20 0 25 0;
-#X connect 21 0 28 0;
-#X connect 23 0 24 0;
+#X msg 1379 821 \; freq-1 \$1 \; freq-2 \$1 \;;
+#X msg 1641 764 \; pulse-1 bang \; pulse-2 bang \;;
+#X obj 125 6 triggers;
+#X connect 19 0 24 0;
+#X connect 20 0 26 0;
+#X connect 22 0 23 0;
