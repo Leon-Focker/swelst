@@ -1,4 +1,4 @@
-#N canvas -1 -26 1920 997 12;
+#N canvas 379 -26 1920 997 12;
 #X obj 141 7 r current-trigger;
 #X msg 141 55 \; reset bang \;;
 #X obj 164 146 r intro-noise;
@@ -330,7 +330,7 @@ f 39;
 #X obj 2007 973 line_send 1 0 4000 fader-2 2 1;
 #X obj 2007 1021 line_send 0 1 500 fader-2 1 1;
 #X obj 171 167 line_send 0 0.2 20000 fader-2;
-#X floatatom 40 52 7 0 0 2 done\ in program-countdown - 0;
+#X floatatom 40 45 7 0 0 2 done\ in program-countdown - 0;
 #X obj 5 117 metro 1000;
 #X obj 5 94 loadbang;
 #X obj 5 145 r set-pcd;
@@ -396,6 +396,7 @@ line 0 \, osc-amp 1 \, osc-freq 0.02 \; auto-hipass 1 \; set-pcd 10
 \;, f 52;
 #X msg 2295 803 \; set-pcd 60 \;;
 #X obj 33 167 - 1;
+#X text 36 62 (ignore);
 #X connect 0 0 95 0;
 #X connect 2 0 231 0;
 #X connect 2 0 242 0;
