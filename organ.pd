@@ -1,4 +1,4 @@
-#N canvas -20 -23 1920 997 12;
+#N canvas 2101 -21 1920 997 12;
 #X obj 8 6 inputs;
 #X obj 8 222 outputs;
 #X obj 8 78 delays;
@@ -92,6 +92,8 @@ empty -2 -10 0 12 #fcfcfc #000000 #000000 0 1;
 #X msg 1379 821 \; freq-1 \$1 \; freq-2 \$1 \;;
 #X msg 1641 764 \; pulse-1 bang \; pulse-2 bang \;;
 #X obj 125 6 triggers;
+#X text 621 23 Der Patch kann zum üben auch zu \; diesen Cues gestartet
+werden: 1 \, 8 \, 23 \, 29 \;;
 #X connect 19 0 24 0;
 #X connect 20 0 26 0;
 #X connect 22 0 23 0;

@@ -1,4 +1,4 @@
-#N canvas 287 368 1111 428 12;
+#N canvas 273 360 1111 428 12;
 #X obj 88 258 f 0;
 #X obj 264 263 r next-trigger;
 #X obj 117 258 + 1;
@@ -23,7 +23,7 @@
 0 12 #fcfcfc #000000 #000000;
 #X obj 88 357 s current-trigger;
 #X floatatom 199 25 5 0 0 0 - - - 0;
-#N canvas 417 378 877 469 trigger-input 1;
+#N canvas 417 378 877 469 trigger-input 0;
 #X obj 4 48 bng 20 250 50 0 empty empty empty 17 7 0 10 #fcfcfc #000000
 #000000;
 #X text 1 30 set;
