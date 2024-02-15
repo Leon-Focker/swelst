@@ -1,39 +1,53 @@
-#N canvas 72 -23 1920 997 12;
+#N canvas -43 -23 1920 997 12;
 #X obj 8 6 inputs;
 #X obj 8 222 outputs;
 #X obj 8 78 delays;
 #X obj 8 150 record;
-#X obj 491 6 speaker-test;
-#X obj 491 78 auto-level;
-#X text 621 114 Patch einrichten \; 1) Mikro mit Orgel Pegeln \; 2)
-auto-level MIC (während Orgel laut ist) \; 3) auto-level OUT (während
-es ruhig ist) \;;
-#X obj 519 271 rauschen;
-#X obj 519 292 analyse;
+#X obj 476 6 speaker-test;
+#X obj 476 78 auto-level;
+#X obj 504 271 rauschen;
 #X obj 125 78 vocoder;
 #X obj 125 150 replay;
-#X obj 519 355 program;
-#X obj 519 334 patchbay;
-#X obj 519 376 grizzles;
+#X obj 359 78 program;
+#X obj 504 334 patchbay;
+#X obj 504 355 grizzles;
 #X obj 242 150 blur;
-#X obj 531 237 init;
-#X msg 1478 637 \; replay-1 2 0 20 \;;
-#X obj 519 397 filter;
-#X obj 1417 624 vsl 15 128 0 1 0 0 empty empty empty 0 -9 0 10 #fcfcfc
-#000000 #000000 0 1;
-#X obj 1379 685 vsl 15 128 2 8 0 0 empty empty empty 0 -9 0 10 #fcfcfc
-#000000 #000000 0 1;
-#X msg 1198 728 \; pulse-1 bang \;;
-#X obj 1164 694 vsl 15 128 0 1 0 0 empty empty empty 0 -9 0 10 #fcfcfc
-#000000 #000000 0 1;
-#X msg 1164 830 \; duty-cycle-1 \$1 \; duty-cycle-2 \$1 \;;
-#X msg 1417 760 \; width-1 \$1 \; width-2 \$1 \;;
-#X obj 519 313 swellers;
-#X msg 1379 821 \; freq-1 \$1 \; freq-2 \$1 \;;
-#X msg 1641 764 \; pulse-1 bang \; pulse-2 bang \;;
+#X obj 516 237 init;
+#X obj 359 150 filter;
+#X obj 504 313 swellers;
 #X obj 125 6 triggers;
-#X text 621 23 Der Patch kann zum üben auch zu \; diesen Cues gestartet
-werden: 1 \, 8 \, 23 \, 29 \;;
-#X connect 18 0 23 0;
-#X connect 19 0 25 0;
-#X connect 21 0 22 0;
+#X obj 504 292 analyse;
+#X text 605 98 Im "triggers" modul kann zwischen den Cues navigiert
+werden \; Im "trigger-input" modul kann ein Midi- oder Tastaturinput
+\; eingerichtet werden \, um zum nächsten Trigger zu schalten., f
+62;
+#X text 605 227 Über den Master Fader kann während den Proben die
+Lautstärke \; angepasst werden. Dieser wird zwischendurch aber automatisch
+gesetzt \; Der Initialwert kann im "outputs" modul angepasst werden.
+\; Das Pegeln des Patches passiert automatisch mit dem Wert 1 \;,
+f 70;
+#X text 602 305 ENGLISH;
+#X text 606 4 Der Patch kann zum Üben auch zu diesen Cues \; gestartet
+werden \, ohne anders zu klingen: 1 \, 8 \, 23 \, 29 \; \; Wann welcher
+Cue getriggert werden soll \, ist der Partitur \; zu entnehmen. Der
+Countdown im "program" modul zeigt \; lediglich im Hintergrund ablaufende
+Prozesse an.;
+#X text 602 329 For reheaersing \, this patch can also be started \;
+at these cues \, without sounding different: 1 \, 8 \, 23 \, 29 \;
+\; The times \, at which each cue is to be triggered are notatet \;
+in the score. The countdown in the "program" module only shows \; Some
+processes in the background., f 63;
+#X text 601 423 In the "triggers" module one can navigate between Cues
+\; A midi or keyboard input can be set in the "trigger-input" module
+\; to trigger the next Cue., f 66;
+#X text 606 158 Patch einrichten \; 1) Mikro mit Orgel(tutti) Pegeln
+\; 2) auto-level MIC (während Orgel laut ist) \; 3) auto-level OUT
+(während es ruhig ist) \;;
+#X text 602 483 Level the Patch: 1) level mic with organ (tutti) \;
+2) auto-level MIC (when organ is loud) \; 3) auto-level OUT (when everything
+is quiet) \;;
+#X text 601 552 During rehearsals the master fader can be used to adjust
+the volume \; It will be set automatically by the patch though \; The
+initial calue that is used for the reset can be changed in "outputs"
+\; When leveling the patch the value 1 is used for the master fader
+\;, f 74;

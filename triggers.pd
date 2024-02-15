@@ -1,28 +1,28 @@
 #N canvas 273 360 1111 428 12;
 #X obj 88 258 f 0;
-#X obj 264 263 r next-trigger;
+#X obj 249 263 r next-trigger;
 #X obj 117 258 + 1;
 #X floatatom 88 334 5 0 0 0 - - - 0;
 #X obj 17 54 bng 19 250 50 0 next-trigger next-trigger empty 0 -10
 0 12 #fcfcfc #000000 #000000;
 #X text 12 29 next;
-#X floatatom 94 55 5 0 0 0 - current-trigger - 0;
-#X obj 293 305 r last-trigger;
+#X floatatom 92 55 5 0 0 0 - current-trigger - 0;
+#X obj 278 305 r last-trigger;
 #X obj 171 258 - 1;
 #X msg 171 282 set \$1;
 #X msg 117 282 set \$1;
 #X msg 117 306 1;
 #X msg 171 306 -1;
-#X obj 261 204 r reset-trigger;
-#X msg 261 225 0;
-#X obj 153 54 bng 19 250 50 0 reset-trigger reset-trigger empty 0 -10
+#X obj 246 204 r reset-trigger;
+#X msg 246 225 0;
+#X obj 151 54 bng 19 250 50 0 reset-trigger reset-trigger empty 0 -10
 0 12 #ffc7c6 #000000 #000000;
-#X text 142 29 reset;
+#X text 140 29 reset;
 #X text 48 29 last;
 #X obj 56 54 bng 19 250 50 0 last-trigger last-trigger empty 0 -10
 0 12 #fcfcfc #000000 #000000;
 #X obj 88 357 s current-trigger;
-#X floatatom 199 25 5 0 0 0 - - - 0;
+#X floatatom 190 25 5 0 0 0 - - - 0;
 #N canvas 417 378 877 469 trigger-input 0;
 #X obj 4 48 bng 20 250 50 0 empty empty empty 17 7 0 10 #fcfcfc #000000
 #000000;
@@ -236,28 +236,28 @@ the input is used to go to the next trigger \; - in shows the input
 #X connect 43 0 33 0;
 #X connect 44 0 33 0;
 #X coords 0 -1 1 1 115 60 1 1 10;
-#X restore 253 15 pd trigger-input;
+#X restore 238 15 pd trigger-input;
 #X text 401 18 - press 'set' and then a midi-input or keyboard key
 to set this as the trigger for "next" \; - enable toggles \, wheter
 the input is used to go to the next trigger \; - in shows the input
 \, independant of enable \;, f 95;
-#X text 87 29 current;
-#X text 205 9 set;
+#X text 85 29 current;
+#X text 196 9 set;
 #X obj 88 149 f;
-#X obj 201 44 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#X obj 192 44 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc #000000
 #000000;
-#X obj 218 44 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#X obj 209 44 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc #000000
 #000000;
-#X obj 208 59 bng 20 250 50 0 empty empty empty 17 7 0 10 #fcfcfc #000000
+#X obj 199 59 bng 20 250 50 0 empty empty empty 17 7 0 10 #fcfcfc #000000
 #000000;
 #X obj 106 116 f;
 #X obj 133 116 + 1;
 #X obj 160 116 - 1;
-#X obj 253 287 bang;
+#X obj 238 287 bang;
 #X msg 186 138 set \$1;
 #X msg 132 138 set \$1;
-#X msg 132 159 16;
-#X msg 186 159 14;
+#X msg 132 159 30;
+#X msg 186 159 28;
 #X text 5 114 set current \; to a specific \; cue:;
 #X connect 0 0 2 0;
 #X connect 0 0 3 0;
@@ -291,4 +291,4 @@ the input is used to go to the next trigger \; - in shows the input
 #X connect 35 0 20 0;
 #X connect 36 0 29 0;
 #X connect 36 0 20 0;
-#X coords 0 -1 1 1 364 70 1 10 10;
+#X coords 0 -1 1 1 349 70 1 10 10;
