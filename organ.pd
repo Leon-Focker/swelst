@@ -1,4 +1,4 @@
-#N canvas 285 131 1300 674 12;
+#N canvas 202 83 1300 674 12;
 #X obj 8 6 inputs;
 #X obj 8 222 outputs;
 #X obj 8 78 delays;
@@ -37,17 +37,19 @@ at these cues \, without sounding different: 1 \, 8 \, 23 \, 29 \;
 \; The times \, at which each cue is to be triggered are notatet \;
 in the score. The countdown in the "program" module only shows \; Some
 processes in the background., f 63;
-#X text 601 423 In the "triggers" module one can navigate between Cues
+#X text 601 438 In the "triggers" module one can navigate between Cues
 \; A midi or keyboard input can be set in the "trigger-input" module
 \; to trigger the next Cue., f 66;
 #X text 606 158 Patch einrichten \; 1) Mikro mit Orgel(tutti) Pegeln
 \; 2) auto-level MIC (während Orgel laut ist) \; 3) auto-level OUT
 (während es ruhig ist) \;;
-#X text 602 483 Level the Patch: 1) level mic with organ (tutti) \;
+#X text 602 507 Level the Patch: 1) level mic with organ (tutti) \;
 2) auto-level MIC (when organ is loud) \; 3) auto-level OUT (when everything
 is quiet) \;;
-#X text 601 552 During rehearsals the master fader can be used to adjust
+#X text 601 567 During rehearsals the master fader can be used to adjust
 the volume \; It will be set automatically by the patch though \; The
 initial calue that is used for the reset can be changed in "outputs"
 \; When leveling the patch the value 1 is used for the master fader
 \;, f 74;
+#X text 117 504 ABHÄNGIGKEITEN: W. Brents convolve~ external;
+#X text 118 518 REQUIREMENTS: W. Brents convolve~ external;
