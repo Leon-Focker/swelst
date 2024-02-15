@@ -1,13 +1,13 @@
-#N canvas 687 255 931 504 12;
+#N canvas 598 254 931 504 12;
 #X obj 44 40 tgl 19 0 empty r1p empty 0 -10 0 12 #fcfcfc #000000 #000000
 0 1;
 #X obj 68 40 tgl 19 0 empty r2p empty 0 -10 0 12 #fcfcfc #000000 #000000
 0 1;
 #X text 183 34 send message to replay-$ with three floats: index \,
 start in seconds and duration in seconds;
-#X obj 102 135 r replay-1;
-#X obj 265 135 r replay-2;
-#X obj 149 332 dynamics~;
+#X obj 48 136 r replay-1;
+#X obj 178 135 r replay-2;
+#X obj 150 243 dynamics~;
 #A saved;
 #A saved;
 #A saved;
@@ -29,28 +29,26 @@ start in seconds and duration in seconds;
 #A saved;
 #A saved;
 #A saved;
-#X obj 353 270 loadbang;
-#X obj 280 423 s~ replay-out;
-#X obj 102 159 replay-buffer 1;
-#X obj 265 159 replay-buffer 2;
-#X obj 281 398 *~;
-#X obj 317 380 line~;
-#X obj 471 354 env~;
-#X obj 471 380 - 100;
-#X obj 829 311 vu 15 120 empty empty -1 -8 0 10 #404040 #000000 1 0
+#X obj 354 181 loadbang;
+#X obj 281 334 s~ replay-out;
+#X obj 48 160 replay-buffer 1;
+#X obj 178 159 replay-buffer 2;
+#X obj 282 309 *~;
+#X obj 318 291 line~;
+#X obj 472 265 env~;
+#X obj 472 291 - 100;
+#X obj 830 222 vu 15 120 empty empty -1 -8 0 10 #404040 #000000 1 0
 ;
-#X msg 353 293 threshold-compress -35 \, smooth 100 \, compression
+#X msg 354 204 threshold-compress -35 \, smooth 100 \, compression
 55 \, threshold-expand -44 \, expansion 50 \, lookahead 64 \, gain
 20 \;;
-#X msg 317 356 \$1 100;
+#X msg 318 267 \$1 100;
 #X connect 3 0 8 0;
 #X connect 4 0 9 0;
 #X connect 5 0 10 0;
 #X connect 6 0 15 0;
-#X connect 8 0 5 0;
-#X connect 8 1 16 0;
+#X connect 8 1 5 0;
 #X connect 9 0 5 0;
-#X connect 9 1 16 0;
 #X connect 10 0 7 0;
 #X connect 10 0 12 0;
 #X connect 11 0 10 1;
