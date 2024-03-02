@@ -1,4 +1,4 @@
-#N canvas 598 254 931 504 12;
+#N canvas 844 161 931 504 12;
 #X obj 44 40 tgl 19 0 empty r1p empty 0 -10 0 12 #fcfcfc #000000 #000000
 0 1;
 #X obj 68 40 tgl 19 0 empty r2p empty 0 -10 0 12 #fcfcfc #000000 #000000
@@ -47,8 +47,10 @@ start in seconds and duration in seconds;
 #X connect 4 0 9 0;
 #X connect 5 0 10 0;
 #X connect 6 0 15 0;
-#X connect 8 1 5 0;
+#X connect 8 0 5 0;
+#X connect 8 1 16 0;
 #X connect 9 0 5 0;
+#X connect 9 1 16 0;
 #X connect 10 0 7 0;
 #X connect 10 0 12 0;
 #X connect 11 0 10 1;
