@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="3.02">
-  <programVersion>3.6.0</programVersion>
-  <programRevision>1977cb3</programRevision>
+  <programVersion>3.6.2</programVersion>
+  <programRevision>3224f34</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -42,7 +42,7 @@
     <Order id="orchestral" customized="1">
       <name>Orchestral</name>
       <instrument id="flute">
-        <family id="flutes">Flutes</family>
+        <family id="flutes">Flöten</family>
         </instrument>
       <instrument id="piano">
         <family id="keyboards">Tasteninstrumente</family>
@@ -953,6 +953,10 @@ Vorschläge, die als Anregung dienen können:
 Lautsprecher nicht ausreicht, können auch mehrere Lautsprecher benutzt werden und das gleiche Signal 
 bekommen. Ein Mikrofron sollte vor den Schwellern aufgestellt werden, so dass also durch Öffnen und Schließen 
 der Schweller beeinflusst werden kann, wie viel das Mikrofron vom Lautsprecher aufnimmt.
+
+Alle wichtigen Dateien können unter &quot;https://github.com/Leon-Focker/swelst&quot; heruntergeladen werden. Um den 
+Pure Data Patch zu starten muss die Datei &quot;swelst.pd&quot; geladen werden. Das convolve~  external von W. Brents
+muss installiert sein. Alle folgenden Anweisungen sind auch noch einmal im Patch beschrieben:
 
 Das Mikrofron sollte mit der lautesten Stelle des Stücks gepegelt werden. Dann sollte im Pure Data Patch der große
 Knopf &quot;auto-level: MIC&quot; gedrückt werden, während die Orgel wieder die lauteste Stelle spielt. Dann sollte der Knopf
