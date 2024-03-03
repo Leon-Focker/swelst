@@ -1,13 +1,13 @@
-#N canvas 844 161 931 504 12;
+#N canvas 286 232 1391 511 12;
 #X obj 44 40 tgl 19 0 empty r1p empty 0 -10 0 12 #fcfcfc #000000 #000000
 0 1;
 #X obj 68 40 tgl 19 0 empty r2p empty 0 -10 0 12 #fcfcfc #000000 #000000
 0 1;
 #X text 183 34 send message to replay-$ with three floats: index \,
 start in seconds and duration in seconds;
-#X obj 48 136 r replay-1;
-#X obj 178 135 r replay-2;
-#X obj 150 243 dynamics~;
+#X obj 35 236 r replay-1;
+#X obj 165 235 r replay-2;
+#X obj 137 343 dynamics~;
 #A saved;
 #A saved;
 #A saved;
@@ -29,20 +29,72 @@ start in seconds and duration in seconds;
 #A saved;
 #A saved;
 #A saved;
-#X obj 354 181 loadbang;
-#X obj 281 334 s~ replay-out;
-#X obj 48 160 replay-buffer 1;
-#X obj 178 159 replay-buffer 2;
-#X obj 282 309 *~;
-#X obj 318 291 line~;
-#X obj 472 265 env~;
-#X obj 472 291 - 100;
-#X obj 830 222 vu 15 120 empty empty -1 -8 0 10 #404040 #000000 1 0
+#X obj 323 281 loadbang;
+#X obj 268 434 s~ replay-out;
+#X obj 35 260 replay-buffer 1;
+#X obj 165 259 replay-buffer 2;
+#X obj 269 409 *~;
+#X obj 305 391 line~;
+#X obj 459 365 env~;
+#X obj 459 391 - 100;
+#X obj 817 335 vu 15 120 empty empty -1 -8 0 10 #404040 #000000 1 0
 ;
-#X msg 354 204 threshold-compress -35 \, smooth 100 \, compression
+#X msg 323 304 threshold-compress -35 \, smooth 100 \, compression
 55 \, threshold-expand -44 \, expansion 50 \, lookahead 64 \, gain
 20 \;;
-#X msg 318 267 \$1 100;
+#X msg 305 367 \$1 100;
+#N canvas 156 156 872 383 buffertables 1;
+#X obj 21 102 array define buffertable-1003;
+#X obj 21 123 array define buffertable-1005;
+#X obj 21 144 array define buffertable-1006;
+#X obj 21 165 array define buffertable-1008;
+#X obj 257 136 soundfiler;
+#X msg 257 73 buffer1003.wav;
+#X msg 257 115 read -resize \$1 buffertable-1003;
+#X obj 336 202 soundfiler;
+#X obj 415 268 soundfiler;
+#X obj 494 334 soundfiler;
+#X msg 336 181 read -resize \$1 buffertable-1005;
+#X msg 336 139 buffer1005.wav;
+#X msg 415 247 read -resize \$1 buffertable-1006;
+#X msg 415 204 buffer1006.wav;
+#X msg 494 271 buffer1008.wav;
+#X msg 494 313 read -resize \$1 buffertable-1008;
+#X obj 257 94 symbol;
+#X obj 494 292 symbol;
+#X obj 415 225 symbol;
+#X obj 336 160 symbol;
+#X msg 575 119 \; buffertable-1003 normalize \; buffertable-1005 normalize
+\; buffertable-1006 normalize \; buffertable-1008 normalize \;;
+#X obj 575 94 del 1000;
+#X obj 494 54 r load-soundfiles;
+#X obj 657 70 s soundfiles-are-loaded;
+#X msg 657 40 1;
+#X obj 688 17 loadbang;
+#X msg 688 40 0;
+#X connect 5 0 16 0;
+#X connect 6 0 4 0;
+#X connect 10 0 7 0;
+#X connect 11 0 19 0;
+#X connect 12 0 8 0;
+#X connect 13 0 18 0;
+#X connect 14 0 17 0;
+#X connect 15 0 9 0;
+#X connect 16 0 6 0;
+#X connect 17 0 15 0;
+#X connect 18 0 12 0;
+#X connect 19 0 10 0;
+#X connect 21 0 20 0;
+#X connect 22 0 21 0;
+#X connect 22 0 14 0;
+#X connect 22 0 13 0;
+#X connect 22 0 11 0;
+#X connect 22 0 5 0;
+#X connect 22 0 24 0;
+#X connect 24 0 23 0;
+#X connect 25 0 26 0;
+#X connect 26 0 23 0;
+#X restore 97 164 pd buffertables;
 #X connect 3 0 8 0;
 #X connect 4 0 9 0;
 #X connect 5 0 10 0;
