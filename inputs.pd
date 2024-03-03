@@ -42,14 +42,14 @@
 #X obj 87 305 bng 15 250 50 0 empty empty empty 17 7 0 10 #fcfcfc #000000
 #000000;
 #X msg 99 248 minvel 15;
-#X obj 19 143 > 10;
 #X obj 363 143 hip~ 20;
 #X obj 159 13 ctlin;
 #X obj 159 37 s show-midi-in;
 #X obj 205 13 notein;
-#X connect 3 0 21 0;
+#X obj 19 143 > 30;
+#X connect 3 0 25 0;
 #X connect 7 0 14 0;
-#X connect 7 0 22 0;
+#X connect 7 0 21 0;
 #X connect 10 0 3 0;
 #X connect 11 0 12 0;
 #X connect 12 0 13 0;
@@ -64,8 +64,8 @@
 #X connect 17 1 15 0;
 #X connect 18 0 19 0;
 #X connect 20 0 18 0;
-#X connect 21 0 4 0;
-#X connect 22 0 8 0;
-#X connect 23 0 24 0;
-#X connect 25 0 24 0;
+#X connect 21 0 8 0;
+#X connect 22 0 23 0;
+#X connect 24 0 23 0;
+#X connect 25 0 4 0;
 #X coords 0 -1 1 1 115 70 1 300 10;

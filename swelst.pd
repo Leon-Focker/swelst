@@ -1,4 +1,4 @@
-#N canvas 275 217 1306 688 12;
+#N canvas 176 199 1306 688 12;
 #X obj 8 6 inputs;
 #X obj 8 222 outputs;
 #X obj 8 78 delays;
@@ -21,35 +21,37 @@
 werden \; Im "trigger-input" modul kann ein Midi- oder Tastaturinput
 \; eingerichtet werden \, um zum nächsten Trigger zu schalten., f
 62;
-#X text 605 227 Über den Master Fader kann während den Proben die
+#X text 605 245 Über den Master Fader kann während den Proben die
 Lautstärke \; angepasst werden. Dieser wird zwischendurch aber automatisch
 gesetzt \; Der Initialwert kann im "outputs" modul angepasst werden.
 \; Das Pegeln des Patches passiert automatisch mit dem Wert 1 \;,
 f 70;
-#X text 602 305 ENGLISH;
+#X text 602 333 ENGLISH;
 #X text 606 4 Der Patch kann zum Üben auch zu diesen Cues \; gestartet
 werden \, ohne anders zu klingen: 1 \, 8 \, 23 \, 29 \; \; Wann welcher
 Cue getriggert werden soll \, ist der Partitur \; zu entnehmen. Der
 Countdown im "program" modul zeigt \; lediglich im Hintergrund ablaufende
 Prozesse an.;
-#X text 601 438 In the "triggers" module one can navigate between Cues
+#X text 601 466 In the "triggers" module one can navigate between Cues
 \; A midi or keyboard input can be set in the "trigger-input" module
 \; to trigger the next Cue., f 69;
-#X text 606 158 Patch einrichten \; 1) Mikro mit Orgel(tutti) Pegeln
-\; 2) auto-level MIC (während Orgel laut ist) \; 3) auto-level OUT
-(während es ruhig ist) \;;
-#X text 602 507 Level the Patch: 1) level mic with organ (tutti) \;
-2) auto-level MIC (when organ is loud) \; 3) auto-level OUT (when everything
-is quiet) \;;
-#X text 602 565 During rehearsals the master fader can be used to adjust
-the volume \; It will be set automatically by the patch though \; The
-initial calue that is used for the reset can be changed in "outputs"
-\; When leveling the patch the value 1 is used for the master fader
-\;, f 74;
 #X text 117 504 ABHÄNGIGKEITEN: W. Brents convolve~ external;
 #X text 118 518 REQUIREMENTS: W. Brents convolve~ external;
-#X text 602 329 For reheaersing \, this patch can also be started \;
+#X text 602 357 For reheaersing \, this patch can also be started \;
 at these cues \, without sounding different: 1 \, 8 \, 23 \, 29 \;
 \; The times \, at which each cue is to be triggered are notatet \;
 in the score. The countdown in the "program" module only shows \; some
 processes in the background., f 67;
+#X text 602 610 During rehearsals the master fader can be used to adjust
+the volume \; It will be set automatically by the patch though \; The
+initial value that is used for the reset can be changed in "outputs"
+\; When leveling the patch the value 1 is used for the master fader
+\;, f 74;
+#X text 606 158 Patch einrichten \; 1) Mikro richtig einrichten (ist
+input 1 \, adc~ object in "inputs") \; 2) Mikro mit Orgel (tutti) Pegeln
+\; 3) auto-level MIC (während Orgel laut ist) \; 4) auto-level OUT
+(während es ruhig ist) \;, f 68;
+#X text 602 525 Level the Patch \; 1) correctly connect the mic (is
+input 1 \, adc~ object in "inputs"): 2) level mic with organ (tutti)
+\; 3) auto-level MIC (when organ is loud) \; 4) auto-level OUT (when
+everything is quiet) \;, f 69;
