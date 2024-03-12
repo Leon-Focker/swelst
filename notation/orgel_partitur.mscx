@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="3.02">
-  <programVersion>3.6.0</programVersion>
-  <programRevision>1977cb3</programRevision>
+  <programVersion>3.6.2</programVersion>
+  <programRevision>3224f34</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -32,10 +32,10 @@
     <Order id="orchestral" customized="1">
       <name>Orchestral</name>
       <instrument id="contrabass">
-        <family id="orchestral-strings">Orchestral Strings</family>
+        <family id="orchestral-strings">Orchestrale Streicher</family>
         </instrument>
       <instrument id="organ">
-        <family id="organs">Organs</family>
+        <family id="organs">Orgeln</family>
         </instrument>
       <section id="woodwind" brackets="true" showSystemMarkings="true" barLineSpan="true" thinBrackets="true">
         <family>flutes</family>
@@ -49,6 +49,7 @@
         <family>horns</family>
         <family>trumpets</family>
         <family>cornets</family>
+        <family>flugelhorns</family>
         <family>trombones</family>
         <family>tubas</family>
         </section>
@@ -2104,8 +2105,8 @@
                   <anchor>3</anchor>
                   <Segment>
                     <subtype>0</subtype>
-                    <offset x="0" y="0"/>
-                    <off2 x="3.45345" y="0"/>
+                    <offset x="0.540337" y="0"/>
+                    <off2 x="2.91311" y="0"/>
                     </Segment>
                   </TextLine>
                 <next>
@@ -2126,8 +2127,8 @@
                   <anchor>3</anchor>
                   <Segment>
                     <subtype>0</subtype>
-                    <offset x="0" y="0"/>
-                    <off2 x="3.42619" y="0"/>
+                    <offset x="0.651175" y="0"/>
+                    <off2 x="2.77501" y="0"/>
                     </Segment>
                   </TextLine>
                 <next>
@@ -2153,8 +2154,8 @@
                   <anchor>3</anchor>
                   <Segment>
                     <subtype>0</subtype>
-                    <offset x="0" y="0"/>
-                    <off2 x="3.52129" y="0"/>
+                    <offset x="0.623466" y="0"/>
+                    <off2 x="2.89782" y="0"/>
                     </Segment>
                   </TextLine>
                 <next>
@@ -3594,6 +3595,7 @@
       <Measure>
         <stretch>0.9</stretch>
         <LayoutBreak>
+          <visible>0</visible>
           <subtype>page</subtype>
           </LayoutBreak>
         <voice>
@@ -5333,8 +5335,7 @@
             <Note>
               <visible>0</visible>
               <Accidental>
-                <subtype>accidentalFlat</subtype>
-                <visible>0</visible>
+                <subtype>accidentalSharp</subtype>
                 </Accidental>
               <Spanner type="Tie">
                 <Tie>
@@ -5346,7 +5347,7 @@
                   </next>
                 </Spanner>
               <pitch>87</pitch>
-              <tpc>11</tpc>
+              <tpc>23</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -5360,7 +5361,7 @@
                   </prev>
                 </Spanner>
               <pitch>87</pitch>
-              <tpc>11</tpc>
+              <tpc>23</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -6540,7 +6541,7 @@ frei wählbar, nicht gleichmäßig!
           </voice>
         </Measure>
       <Measure>
-        <stretch>1.9</stretch>
+        <stretch>1.8</stretch>
         <voice>
           <TimeSig>
             <visible>0</visible>
@@ -7278,6 +7279,7 @@ frei wählbar, nicht gleichmäßig!
             <Note>
               <Spanner type="Tie">
                 <Tie>
+                  <up>up</up>
                   </Tie>
                 <next>
                   <location>
@@ -7537,6 +7539,7 @@ frei wählbar, nicht gleichmäßig!
             <Note>
               <Spanner type="Tie">
                 <Tie>
+                  <up>up</up>
                   </Tie>
                 <next>
                   <location>
@@ -11074,6 +11077,11 @@ frei wählbar, nicht gleichmäßig!
             </TimeSig>
           <Chord>
             <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>articTenutoAbove</subtype>
+              <anchor>3</anchor>
+              </Articulation>
+            <StemDirection>down</StemDirection>
             <Note>
               <Spanner type="Tie">
                 <Tie>
@@ -11143,6 +11151,9 @@ frei wählbar, nicht gleichmäßig!
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>articTenutoAbove</subtype>
+              </Articulation>
             <Note>
               <pitch>91</pitch>
               <tpc>15</tpc>
@@ -11311,8 +11322,7 @@ frei wählbar, nicht gleichmäßig!
             <autoplace>0</autoplace>
             <size>8</size>
             <frameType>1</frameType>
-            <text>18+19+20+21
-</text>
+            <text>18+19+20+21</text>
             </StaffText>
           <Chord>
             <dots>1</dots>
@@ -11938,9 +11948,9 @@ frei wählbar, nicht gleichmäßig!
           <StaffText>
             <autoplace>0</autoplace>
             <size>8</size>
-            <offset x="-1" y="-2"/>
+            <offset x="0" y="-2"/>
             <frameType>1</frameType>
-            <text>19 oder 20</text>
+            <text>19 </text>
             </StaffText>
           <Rest>
             <visible>0</visible>
@@ -12405,9 +12415,9 @@ frei wählbar, nicht gleichmäßig!
           <StaffText>
             <autoplace>0</autoplace>
             <size>8</size>
-            <offset x="-1.99529" y="-1.12912"/>
+            <offset x="-1.5" y="-1.13"/>
             <frameType>1</frameType>
-            <text>19 oder 20</text>
+            <text>19</text>
             </StaffText>
           <Chord>
             <durationType>quarter</durationType>
@@ -12620,7 +12630,7 @@ frei wählbar, nicht gleichmäßig!
             <autoplace>0</autoplace>
             <size>8</size>
             <frameType>1</frameType>
-            <text>19 oder 20</text>
+            <text>19</text>
             </StaffText>
           <Rest>
             <visible>0</visible>
@@ -14761,10 +14771,9 @@ frei wählbar, nicht gleichmäßig!
           <StaffText>
             <autoplace>0</autoplace>
             <size>8</size>
-            <offset x="0" y="-1.5"/>
+            <offset x="0" y="-2"/>
             <frameType>1</frameType>
-            <text>tutti
-</text>
+            <text>tutti</text>
             </StaffText>
           <Rest>
             <durationType>half</durationType>
@@ -15471,7 +15480,7 @@ frei wählbar, nicht gleichmäßig!
           <Chord>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articTenutoAbove</subtype>
               </Articulation>
             <Note>
               <pitch>91</pitch>
@@ -15486,7 +15495,7 @@ frei wählbar, nicht gleichmäßig!
           <Chord>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articTenutoAbove</subtype>
               </Articulation>
             <Note>
               <pitch>91</pitch>
@@ -15501,7 +15510,7 @@ frei wählbar, nicht gleichmäßig!
           <Chord>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articTenutoAbove</subtype>
               </Articulation>
             <Note>
               <pitch>91</pitch>
@@ -15516,7 +15525,7 @@ frei wählbar, nicht gleichmäßig!
           <Chord>
             <durationType>quarter</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articTenutoAbove</subtype>
               </Articulation>
             <Note>
               <pitch>91</pitch>
@@ -15535,6 +15544,9 @@ frei wählbar, nicht gleichmäßig!
             </TimeSig>
           <Chord>
             <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>articTenutoAbove</subtype>
+              </Articulation>
             <Note>
               <pitch>91</pitch>
               <tpc>15</tpc>
@@ -15649,6 +15661,9 @@ frei wählbar, nicht gleichmäßig!
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>articTenutoAbove</subtype>
+              </Articulation>
             <Note>
               <visible>0</visible>
               <pitch>87</pitch>
@@ -15705,6 +15720,9 @@ frei wählbar, nicht gleichmäßig!
         <voice>
           <Chord>
             <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>articTenutoAbove</subtype>
+              </Articulation>
             <Note>
               <visible>0</visible>
               <Accidental>
@@ -15761,6 +15779,9 @@ frei wählbar, nicht gleichmäßig!
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>articTenutoAbove</subtype>
+              </Articulation>
             <Note>
               <visible>0</visible>
               <pitch>87</pitch>
@@ -15826,6 +15847,9 @@ frei wählbar, nicht gleichmäßig!
         <voice>
           <Chord>
             <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>articTenutoAbove</subtype>
+              </Articulation>
             <Note>
               <visible>0</visible>
               <pitch>86</pitch>
@@ -16148,6 +16172,9 @@ frei wählbar, nicht gleichmäßig!
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>articTenutoAbove</subtype>
+              </Articulation>
             <Note>
               <pitch>79</pitch>
               <tpc>15</tpc>
@@ -16178,6 +16205,9 @@ frei wählbar, nicht gleichmäßig!
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>articTenutoAbove</subtype>
+              </Articulation>
             <Note>
               <pitch>79</pitch>
               <tpc>15</tpc>
@@ -16216,6 +16246,9 @@ frei wählbar, nicht gleichmäßig!
             </TimeSig>
           <Chord>
             <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>articTenutoAbove</subtype>
+              </Articulation>
             <Note>
               <pitch>79</pitch>
               <tpc>15</tpc>
@@ -16249,6 +16282,9 @@ frei wählbar, nicht gleichmäßig!
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>articTenutoAbove</subtype>
+              </Articulation>
             <Note>
               <pitch>79</pitch>
               <tpc>15</tpc>
@@ -16279,6 +16315,9 @@ frei wählbar, nicht gleichmäßig!
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>articTenutoAbove</subtype>
+              </Articulation>
             <Note>
               <pitch>79</pitch>
               <tpc>15</tpc>
@@ -16380,6 +16419,9 @@ frei wählbar, nicht gleichmäßig!
         <voice>
           <Chord>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articTenutoAbove</subtype>
+              </Articulation>
             <Note>
               <pitch>84</pitch>
               <tpc>14</tpc>
@@ -16438,6 +16480,9 @@ frei wählbar, nicht gleichmäßig!
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articTenutoAbove</subtype>
+              </Articulation>
             <Note>
               <visible>0</visible>
               <pitch>84</pitch>
@@ -16461,6 +16506,9 @@ frei wählbar, nicht gleichmäßig!
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articTenutoAbove</subtype>
+              </Articulation>
             <Note>
               <visible>0</visible>
               <pitch>84</pitch>
@@ -16501,6 +16549,9 @@ frei wählbar, nicht gleichmäßig!
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articTenutoAbove</subtype>
+              </Articulation>
             <Note>
               <visible>0</visible>
               <pitch>84</pitch>
@@ -16531,6 +16582,9 @@ frei wählbar, nicht gleichmäßig!
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articTenutoAbove</subtype>
+              </Articulation>
             <Note>
               <visible>0</visible>
               <pitch>84</pitch>
@@ -16568,6 +16622,9 @@ frei wählbar, nicht gleichmäßig!
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articTenutoAbove</subtype>
+              </Articulation>
             <Note>
               <visible>0</visible>
               <pitch>84</pitch>
@@ -16675,6 +16732,9 @@ frei wählbar, nicht gleichmäßig!
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articTenutoAbove</subtype>
+              </Articulation>
             <Note>
               <Accidental>
                 <subtype>accidentalFlat</subtype>
@@ -16708,6 +16768,9 @@ frei wählbar, nicht gleichmäßig!
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articTenutoAbove</subtype>
+              </Articulation>
             <Note>
               <pitch>75</pitch>
               <tpc>11</tpc>
@@ -16746,6 +16809,9 @@ frei wählbar, nicht gleichmäßig!
             </TimeSig>
           <Chord>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articTenutoAbove</subtype>
+              </Articulation>
             <Note>
               <Accidental>
                 <subtype>accidentalFlat</subtype>
@@ -16783,6 +16849,9 @@ frei wählbar, nicht gleichmäßig!
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articTenutoAbove</subtype>
+              </Articulation>
             <Note>
               <pitch>75</pitch>
               <tpc>11</tpc>
@@ -16813,6 +16882,9 @@ frei wählbar, nicht gleichmäßig!
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articTenutoAbove</subtype>
+              </Articulation>
             <Note>
               <pitch>75</pitch>
               <tpc>11</tpc>
@@ -16843,6 +16915,9 @@ frei wählbar, nicht gleichmäßig!
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articTenutoAbove</subtype>
+              </Articulation>
             <Note>
               <pitch>75</pitch>
               <tpc>11</tpc>
@@ -16873,6 +16948,9 @@ frei wählbar, nicht gleichmäßig!
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articTenutoAbove</subtype>
+              </Articulation>
             <Note>
               <pitch>75</pitch>
               <tpc>11</tpc>
@@ -16903,6 +16981,9 @@ frei wählbar, nicht gleichmäßig!
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articTenutoAbove</subtype>
+              </Articulation>
             <Note>
               <pitch>75</pitch>
               <tpc>11</tpc>
@@ -16933,6 +17014,9 @@ frei wählbar, nicht gleichmäßig!
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articTenutoAbove</subtype>
+              </Articulation>
             <Note>
               <pitch>75</pitch>
               <tpc>11</tpc>
@@ -16963,6 +17047,9 @@ frei wählbar, nicht gleichmäßig!
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articTenutoAbove</subtype>
+              </Articulation>
             <Note>
               <pitch>75</pitch>
               <tpc>11</tpc>
@@ -17936,7 +18023,7 @@ frei wählbar, nicht gleichmäßig!
             <autoplace>0</autoplace>
             <size>8</size>
             <frameType>1</frameType>
-            <text>24</text>
+            <text>26</text>
             </StaffText>
           <Rest>
             <visible>0</visible>
@@ -18824,11 +18911,10 @@ frei wählbar, nicht gleichmäßig!
           <StaffText>
             <autoplace>0</autoplace>
             <size>8</size>
-            <offset x="0" y="-3"/>
+            <offset x="0" y="-2.5"/>
             <frameType>1</frameType>
             <text>+29
-+30
-</text>
++30</text>
             </StaffText>
           <Rest>
             <durationType>quarter</durationType>
@@ -19383,6 +19469,14 @@ frei wählbar, nicht gleichmäßig!
         </Measure>
       <Measure>
         <voice>
+          <StaffText>
+            <autoplace>0</autoplace>
+            <size>8</size>
+            <offset x="0" y="-2.5"/>
+            <frameType>1</frameType>
+            <text>+26
++27</text>
+            </StaffText>
           <Rest>
             <durationType>measure</durationType>
             <duration>4/4</duration>
@@ -19391,15 +19485,6 @@ frei wählbar, nicht gleichmäßig!
         </Measure>
       <Measure>
         <voice>
-          <StaffText>
-            <autoplace>0</autoplace>
-            <size>8</size>
-            <offset x="-0.5" y="-3"/>
-            <frameType>1</frameType>
-            <text>+26
-+27
-</text>
-            </StaffText>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -19673,8 +19758,7 @@ frei wählbar, nicht gleichmäßig!
             <size>8</size>
             <offset x="0" y="-1.5"/>
             <frameType>1</frameType>
-            <text>tutti
-</text>
+            <text>tutti</text>
             </StaffText>
           <Chord>
             <durationType>half</durationType>
@@ -20803,6 +20887,7 @@ frei wählbar, nicht gleichmäßig!
           <Chord>
             <durationType>whole</durationType>
             <Note>
+              <visible>0</visible>
               <Spanner type="Tie">
                 <Tie>
                   <visible>0</visible>
@@ -21892,12 +21977,6 @@ frei wählbar, nicht gleichmäßig!
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
-          <StaffText>
-            <autoplace>0</autoplace>
-            <size>8</size>
-            <frameType>1</frameType>
-            <text>+34</text>
-            </StaffText>
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
@@ -21940,6 +22019,12 @@ frei wählbar, nicht gleichmäßig!
               <tpc>7</tpc>
               </Note>
             </Chord>
+          <StaffText>
+            <autoplace>0</autoplace>
+            <size>8</size>
+            <frameType>1</frameType>
+            <text>36-39</text>
+            </StaffText>
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
@@ -22878,7 +22963,7 @@ frei wählbar, nicht gleichmäßig!
                   <Segment>
                     <subtype>0</subtype>
                     <offset x="0" y="0"/>
-                    <off2 x="9.9914" y="0"/>
+                    <off2 x="9.16717" y="0"/>
                     </Segment>
                   </TextLine>
                 <next>
@@ -23953,7 +24038,7 @@ frei wählbar, nicht gleichmäßig!
                   <Segment>
                     <subtype>0</subtype>
                     <offset x="0" y="0"/>
-                    <off2 x="5.62137" y="0"/>
+                    <off2 x="5.60178" y="0"/>
                     </Segment>
                   </TextLine>
                 <next>
@@ -24214,7 +24299,7 @@ frei wählbar, nicht gleichmäßig!
                   <Segment>
                     <subtype>0</subtype>
                     <offset x="0" y="0"/>
-                    <off2 x="4.46735" y="0"/>
+                    <off2 x="7.04054" y="0"/>
                     </Segment>
                   </TextLine>
                 <next>
@@ -24429,7 +24514,7 @@ frei wählbar, nicht gleichmäßig!
                   <Segment>
                     <subtype>0</subtype>
                     <offset x="0" y="0"/>
-                    <off2 x="4.97647" y="0"/>
+                    <off2 x="7.39574" y="0"/>
                     </Segment>
                   </TextLine>
                 <next>
@@ -24861,7 +24946,7 @@ frei wählbar, nicht gleichmäßig!
                   <Segment>
                     <subtype>0</subtype>
                     <offset x="0" y="0"/>
-                    <off2 x="9.17807" y="0"/>
+                    <off2 x="9.01522" y="0"/>
                     </Segment>
                   </TextLine>
                 <next>
