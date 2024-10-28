@@ -952,7 +952,15 @@ Vorschläge, die als Anregung dienen können:
           <text>Für die Aufführung sollte ein Lautsprecher hinter den Schwellern, also in der Orgel aufgestellt werden. Falls ein 
 Lautsprecher nicht ausreicht, können auch mehrere Lautsprecher benutzt werden und das gleiche Signal 
 bekommen. Ein Mikrofron sollte vor den Schwellern aufgestellt werden, so dass also durch Öffnen und Schließen 
-der Schweller beeinflusst werden kann, wie viel das Mikrofron vom Lautsprecher aufnimmt.
+der Schweller beeinflusst werden kann, wie viel das Mikrofron vom Lautsprecher aufnimmt. Das ist besonders 
+wichtig für den Improvisationsteil des Stücks. Durch Lautsprecher und Mikrofon soll ein Rückkopplungsvorgang
+entstehen, allerdings nicht nur mit statischer Tonhöhe. Durch das Öffnen und Schließen der Schweller, ebenso 
+wie durch das Spielen von Tönen sollten viele verschiedene Obertöne in dieser Rückkopplung zum Vorschein 
+kommen. Am besten sollte also mit der Position des Mikrofrons und den relativen Pegeln experimentiert werden, 
+bis es für den Organisten möglich ist, allein über die Schweller Einfluss auf den Klang zu nehmen und möglichst 
+interessante Situationen zu schaffen. Die unten beschriebene Auto-level Funktion im Patch garantiert das nicht 
+unbedingt, da sie limitiert ist und nicht nur die Signalpegel entscheidend für das Ergebnis sind. Sie dient eher
+als Hilfestellung.
 
 Alle wichtigen Dateien können unter &quot;https://github.com/Leon-Focker/swelst&quot; heruntergeladen werden. Um den 
 Pure Data Patch zu starten muss die Datei &quot;swelst.pd&quot; geladen werden. Das convolve~  external von W. Brents
